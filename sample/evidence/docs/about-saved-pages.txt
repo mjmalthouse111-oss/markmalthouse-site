@@ -1,0 +1,1 @@
+Saved copies of the Moodle web pages that were scanned are kept privately (they are Moodle's own pages) and are available on request. The scan results for each page are in the .axe.json files here.

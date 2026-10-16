@@ -1,0 +1,3122 @@
+{
+  "file": "moodle-com-accessibility.html",
+  "facts": {
+    "title": "Moodle Accessibility | WCAG 2.2 AA Compliant LMS - Moodle",
+    "lang": "en-GB",
+    "h1": [
+      "Moodle accessibility"
+    ],
+    "headings": 10,
+    "landmarks": 8,
+    "skipLink": true,
+    "imgsNoAlt": 0
+  },
+  "violations": [
+    {
+      "id": "target-size",
+      "impact": "serious",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag22aa",
+        "wcag258"
+      ],
+      "description": "Ensure touch targets have sufficient size and space",
+      "help": "All touch targets must be 24px large, or leave sufficient space",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 606.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (606.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/workplace/\"><span class=\"title\">Moodle Workplace</span><span class=\"description\">Streamline training, onboarding, and compliance management while driving learning outcomes that you can measure.</span></a>",
+                  "target": [
+                    "#menu-item-277636 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/lms/\"><span class=\"title\">Moodle LMS</span><span class=\"description\">Engage your learners with flexible, secure, and accessible online learning spaces.</span></a>",
+          "target": [
+            "#menu-item-277638 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (606.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 875.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (875.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/lms/\"><span class=\"title\">Moodle LMS</span><span class=\"description\">Engage your learners with flexible, secure, and accessible online learning spaces.</span></a>",
+                  "target": [
+                    "#menu-item-277638 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodlecloud/\"><span class=\"title\">MoodleCloud</span><span class=\"description\">For individuals who sell courses, or small organisations with basic training and onboarding needs.</span></a>",
+                  "target": [
+                    "#menu-item-277635 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/workplace/\"><span class=\"title\">Moodle Workplace</span><span class=\"description\">Streamline training, onboarding, and compliance management while driving learning outcomes that you can measure.</span></a>",
+          "target": [
+            "#menu-item-277636 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (875.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 716.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (716.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/workplace/\"><span class=\"title\">Moodle Workplace</span><span class=\"description\">Streamline training, onboarding, and compliance management while driving learning outcomes that you can measure.</span></a>",
+                  "target": [
+                    "#menu-item-277636 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodle-app/\"><span class=\"title\">Moodle App</span><span class=\"description\">Access Moodle from anywhere, on any device online and offline.</span></a>",
+                  "target": [
+                    "#menu-item-277637 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/moodlecloud/\"><span class=\"title\">MoodleCloud</span><span class=\"description\">For individuals who sell courses, or small organisations with basic training and onboarding needs.</span></a>",
+          "target": [
+            "#menu-item-277635 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (716.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 499.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (499.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodlecloud/\"><span class=\"title\">MoodleCloud</span><span class=\"description\">For individuals who sell courses, or small organisations with basic training and onboarding needs.</span></a>",
+                  "target": [
+                    "#menu-item-277635 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/certified-integrations/\"><span class=\"title\">Certified Integrations</span><span class=\"description\">Extend your online learning ecosystem with powerful and trusted add-ons.</span></a>",
+                  "target": [
+                    "#menu-item-274894 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/moodle-app/\"><span class=\"title\">Moodle App</span><span class=\"description\">Access Moodle from anywhere, on any device online and offline.</span></a>",
+          "target": [
+            "#menu-item-277637 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (499.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 614.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (614.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodle-app/\"><span class=\"title\">Moodle App</span><span class=\"description\">Access Moodle from anywhere, on any device online and offline.</span></a>",
+                  "target": [
+                    "#menu-item-277637 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/become-moodle-partner/apply-certified-integration/\"><span class=\"title\">Become a Certified Integration Partner</span></a>",
+                  "target": [
+                    "#menu-item-281816 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/certified-integrations/\"><span class=\"title\">Certified Integrations</span><span class=\"description\">Extend your online learning ecosystem with powerful and trusted add-ons.</span></a>",
+          "target": [
+            "#menu-item-274894 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (614.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 248.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (248.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/certified-integrations/\"><span class=\"title\">Certified Integrations</span><span class=\"description\">Extend your online learning ecosystem with powerful and trusted add-ons.</span></a>",
+                  "target": [
+                    "#menu-item-274894 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/become-moodle-partner/apply-certified-integration/\"><span class=\"title\">Become a Certified Integration Partner</span></a>",
+          "target": [
+            "#menu-item-281816 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (248.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 949.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (949.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Find your Partner</span><span class=\"description\">Our network of Moodle Certified Partners will transform Moodle into a solution that meets your unique needs.</span></a>",
+                  "target": [
+                    "#menu-item-275007 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Certified Partners</span><span class=\"description\">Get managed services and expertise in customisation, learning design, hosting, support, and training for your unique requirements.</span></a>",
+          "target": [
+            "#menu-item-274958 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (949.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 821.6,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (821.6px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 14.2,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Certified Partners</span><span class=\"description\">Get managed services and expertise in customisation, learning design, hosting, support, and training for your unique requirements.</span></a>",
+                  "target": [
+                    "#menu-item-274958 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/become-moodle-partner/\"><span class=\"title\">Become a Moodle Partner</span><span class=\"description\">Showcase your expertise and grow your business with the world’s most customisable and trusted online learning solution.</span></a>",
+                  "target": [
+                    "#menu-item-274945 > a[href$=\"become-moodle-partner/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.2px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Find your Partner</span><span class=\"description\">Our network of Moodle Certified Partners will transform Moodle into a solution that meets your unique needs.</span></a>",
+          "target": [
+            "#menu-item-275007 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (821.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.2px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 947.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (947.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Find your Partner</span><span class=\"description\">Our network of Moodle Certified Partners will transform Moodle into a solution that meets your unique needs.</span></a>",
+                  "target": [
+                    "#menu-item-275007 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/services/\"><span class=\"title\">All Services</span><span class=\"description\">At Moodle, we offer a wide range of services to support both new and existing Moodle installations. Read more here.</span></a>",
+                  "target": [
+                    "#menu-item-279361 > a[href$=\"services/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/become-moodle-partner/\"><span class=\"title\">Become a Moodle Partner</span><span class=\"description\">Showcase your expertise and grow your business with the world’s most customisable and trusted online learning solution.</span></a>",
+          "target": [
+            "#menu-item-274945 > a[href$=\"become-moodle-partner/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (947.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 830.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (830.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/become-moodle-partner/\"><span class=\"title\">Become a Moodle Partner</span><span class=\"description\">Showcase your expertise and grow your business with the world’s most customisable and trusted online learning solution.</span></a>",
+                  "target": [
+                    "#menu-item-274945 > a[href$=\"become-moodle-partner/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/services/\"><span class=\"title\">All Services</span><span class=\"description\">At Moodle, we offer a wide range of services to support both new and existing Moodle installations. Read more here.</span></a>",
+          "target": [
+            "#menu-item-279361 > a[href$=\"services/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (830.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 910.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (910.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.2,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/workplace-learning/\"><span class=\"title\">Workplace Learning</span><span class=\"description\">Train and upskill your workforce with a suite of automation, reporting, and virtual learning tools that save time and drive results.</span></a>",
+                  "target": [
+                    "#menu-item-277651 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.2px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/education/\"><span class=\"title\">Education</span><span class=\"description\">Support every type of learner, undergraduate, continuing education, non-degree, and professional development, all within one LMS.</span></a>",
+          "target": [
+            "#menu-item-277653 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (910.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.2px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 955.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (955.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/education/\"><span class=\"title\">Education</span><span class=\"description\">Support every type of learner, undergraduate, continuing education, non-degree, and professional development, all within one LMS.</span></a>",
+                  "target": [
+                    "#menu-item-277653 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/government/\"><span class=\"title\">Government</span><span class=\"description\">Meet regulatory and compliance standards with a scalable and secure LMS for public sector and government agencies.</span></a>",
+                  "target": [
+                    "#menu-item-277620 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/workplace-learning/\"><span class=\"title\">Workplace Learning</span><span class=\"description\">Train and upskill your workforce with a suite of automation, reporting, and virtual learning tools that save time and drive results.</span></a>",
+          "target": [
+            "#menu-item-277651 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (955.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 839.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (839.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/workplace-learning/\"><span class=\"title\">Workplace Learning</span><span class=\"description\">Train and upskill your workforce with a suite of automation, reporting, and virtual learning tools that save time and drive results.</span></a>",
+                  "target": [
+                    "#menu-item-277651 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/vocational-training/\"><span class=\"title\">Vocational Training</span><span class=\"description\">Bring your vocational education and training courses online with Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-item-277652 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/government/\"><span class=\"title\">Government</span><span class=\"description\">Meet regulatory and compliance standards with a scalable and secure LMS for public sector and government agencies.</span></a>",
+          "target": [
+            "#menu-item-277620 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (839.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 637,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (637px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/government/\"><span class=\"title\">Government</span><span class=\"description\">Meet regulatory and compliance standards with a scalable and secure LMS for public sector and government agencies.</span></a>",
+                  "target": [
+                    "#menu-item-277620 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/moodle-and-ai/\"><span class=\"title\">Moodle and AI</span><span class=\"description\">Learn about Moodle’s human-centred approach to AI and our commitment to transparency, equality, and ethical practice.</span></a>",
+                  "target": [
+                    "#menu-item-280315 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/vocational-training/\"><span class=\"title\">Vocational Training</span><span class=\"description\">Bring your vocational education and training courses online with Moodle LMS.</span></a>",
+          "target": [
+            "#menu-item-277652 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (637px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 870.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (870.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/vocational-training/\"><span class=\"title\">Vocational Training</span><span class=\"description\">Bring your vocational education and training courses online with Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-item-277652 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/moodle-and-ai/\"><span class=\"title\">Moodle and AI</span><span class=\"description\">Learn about Moodle’s human-centred approach to AI and our commitment to transparency, equality, and ethical practice.</span></a>",
+          "target": [
+            "#menu-item-280315 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (870.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 603.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (603.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/the-moodle-story/\"><span class=\"title\">The Moodle story</span><span class=\"description\">Explore Moodle’s history and learn about our commitment to support equity of access to quality eLearning experiences.</span></a>",
+                  "target": [
+                    "#menu-item-274955 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/\"><span class=\"title\">About Us</span><span class=\"description\">Learn more about Moodle’s story, mission, and the people behind our global project.</span></a>",
+          "target": [
+            "#menu-item-177262 > a[href$=\"about/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (603.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 882.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (882.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/\"><span class=\"title\">About Us</span><span class=\"description\">Learn more about Moodle’s story, mission, and the people behind our global project.</span></a>",
+                  "target": [
+                    "#menu-item-177262 > a[href$=\"about/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/about/open-source/\"><span class=\"title\">Open Source</span><span class=\"description\">Find out how open source supports a more equitable world and ensures sustainability, security, flexibility and customisability.</span></a>",
+                  "target": [
+                    "#menu-item-274953 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/the-moodle-story/\"><span class=\"title\">The Moodle story</span><span class=\"description\">Explore Moodle’s history and learn about our commitment to support equity of access to quality eLearning experiences.</span></a>",
+          "target": [
+            "#menu-item-274955 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (882.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 887.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (887.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/the-moodle-story/\"><span class=\"title\">The Moodle story</span><span class=\"description\">Explore Moodle’s history and learn about our commitment to support equity of access to quality eLearning experiences.</span></a>",
+                  "target": [
+                    "#menu-item-274955 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/bcorp/\"><span class=\"title\">Official Certified B Corporation</span><span class=\"description\">Read Moodle’s commitment to educators, learners, employees, customers, and society through achieving B-Corp certification.</span></a>",
+                  "target": [
+                    "#menu-item-274956 > a[href$=\"bcorp/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/open-source/\"><span class=\"title\">Open Source</span><span class=\"description\">Find out how open source supports a more equitable world and ensures sustainability, security, flexibility and customisability.</span></a>",
+          "target": [
+            "#menu-item-274953 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (887.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 1015.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (1015.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/open-source/\"><span class=\"title\">Open Source</span><span class=\"description\">Find out how open source supports a more equitable world and ensures sustainability, security, flexibility and customisability.</span></a>",
+                  "target": [
+                    "#menu-item-274953 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/about/leadership/\"><span class=\"title\">Our Leadership Team</span><span class=\"description\">Learn about Moodle’s board and senior leadership team.</span></a>",
+                  "target": [
+                    "#menu-item-278458 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/bcorp/\"><span class=\"title\">Official Certified B Corporation</span><span class=\"description\">Read Moodle’s commitment to educators, learners, employees, customers, and society through achieving B-Corp certification.</span></a>",
+          "target": [
+            "#menu-item-274956 > a[href$=\"bcorp/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (1015.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 499.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (499.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/bcorp/\"><span class=\"title\">Official Certified B Corporation</span><span class=\"description\">Read Moodle’s commitment to educators, learners, employees, customers, and society through achieving B-Corp certification.</span></a>",
+                  "target": [
+                    "#menu-item-274956 > a[href$=\"bcorp/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/events/\"><span class=\"title\">Events</span><span class=\"description\">See upcoming events and dates for our worldwide MoodleMoot conferences, training, and webinars.</span></a>",
+                  "target": [
+                    "#menu-item-46209 > a[href$=\"events/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/leadership/\"><span class=\"title\">Our Leadership Team</span><span class=\"description\">Learn about Moodle’s board and senior leadership team.</span></a>",
+          "target": [
+            "#menu-item-278458 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (499.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 687.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (687.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/leadership/\"><span class=\"title\">Our Leadership Team</span><span class=\"description\">Learn about Moodle’s board and senior leadership team.</span></a>",
+                  "target": [
+                    "#menu-item-278458 > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/community/\"><span class=\"title\">Community</span><span class=\"description\">The place to get support, ask and answer questions and contribute to the open source learning platform, Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-item-27180 > a[href$=\"community/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/events/\"><span class=\"title\">Events</span><span class=\"description\">See upcoming events and dates for our worldwide MoodleMoot conferences, training, and webinars.</span></a>",
+          "target": [
+            "#menu-item-46209 > a[href$=\"events/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (687.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 832.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (832.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/events/\"><span class=\"title\">Events</span><span class=\"description\">See upcoming events and dates for our worldwide MoodleMoot conferences, training, and webinars.</span></a>",
+                  "target": [
+                    "#menu-item-46209 > a[href$=\"events/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/careers/\"><span class=\"title\">Careers</span><span class=\"description\">Join our mission to empower educators to improve our world. Browse career opportunities at Moodle.</span></a>",
+                  "target": [
+                    "#menu-item-270313 > a[href$=\"careers/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/community/\"><span class=\"title\">Community</span><span class=\"description\">The place to get support, ask and answer questions and contribute to the open source learning platform, Moodle LMS.</span></a>",
+          "target": [
+            "#menu-item-27180 > a[href$=\"community/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (832.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 702.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (702.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/community/\"><span class=\"title\">Community</span><span class=\"description\">The place to get support, ask and answer questions and contribute to the open source learning platform, Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-item-27180 > a[href$=\"community/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/about/awards/\"><span class=\"title\">Awards</span><span class=\"description\">Discover our global awards and rankings that are a testament to Moodle’s 20+ years of expertise in education technology.</span></a>",
+                  "target": [
+                    "#menu-item-274952 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/careers/\"><span class=\"title\">Careers</span><span class=\"description\">Join our mission to empower educators to improve our world. Browse career opportunities at Moodle.</span></a>",
+          "target": [
+            "#menu-item-270313 > a[href$=\"careers/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (702.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 826.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (826.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/careers/\"><span class=\"title\">Careers</span><span class=\"description\">Join our mission to empower educators to improve our world. Browse career opportunities at Moodle.</span></a>",
+                  "target": [
+                    "#menu-item-270313 > a[href$=\"careers/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/accessibility/\"><span class=\"title\">Accessibility</span></a>",
+                  "target": [
+                    "#menu-item-277450 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/awards/\"><span class=\"title\">Awards</span><span class=\"description\">Discover our global awards and rankings that are a testament to Moodle’s 20+ years of expertise in education technology.</span></a>",
+          "target": [
+            "#menu-item-274952 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (826.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 83.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (83.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/awards/\"><span class=\"title\">Awards</span><span class=\"description\">Discover our global awards and rankings that are a testament to Moodle’s 20+ years of expertise in education technology.</span></a>",
+                  "target": [
+                    "#menu-item-274952 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/accessibility/\"><span class=\"title\">Accessibility</span></a>",
+          "target": [
+            "#menu-item-277450 > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (83.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 65.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (65.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 23.8,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/accessibility/\"><span class=\"title\">Accessibility</span></a>",
+                  "target": [
+                    "#menu-item-277450 > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/news/\">Resources</a>",
+          "target": [
+            "#menu-item-274893 > a[href$=\"news/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (65.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 47.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (47.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"button\" href=\"/rfp/\"><span>Submit an RFP</span></a>",
+                  "target": [
+                    ".button[href$=\"rfp/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/de/barrierefreiheit/\" title=\"Deutsch\">\n\t\t\t\t\t\t\t\t\t\t\t<img class=\"flag\" src=\"https://moodle.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/de_DE.png\" width=\"18\" height=\"12\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\tDE\t\t\t\t</a>",
+          "target": [
+            "#mobile-extras > .language-switcher[data-no-translation=\"\"] > .language-switcher-list > a[title=\"Deutsch\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (47.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 44.7,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (44.7px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"button\" href=\"/rfp/\"><span>Submit an RFP</span></a>",
+                  "target": [
+                    ".button[href$=\"rfp/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/es/accesibilidad/\" title=\"Español\">\n\t\t\t\t\t\t\t\t\t\t\t<img class=\"flag\" src=\"https://moodle.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png\" width=\"18\" height=\"12\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\tES\t\t\t\t</a>",
+          "target": [
+            "#mobile-extras > .language-switcher[data-no-translation=\"\"] > .language-switcher-list > a[title=\"Español\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (44.7px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 97.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (97.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.6,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/de/barrierefreiheit/\" title=\"Deutsch\">\n\t\t\t\t\t\t\t\t\t\t\t<img class=\"flag\" src=\"https://moodle.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/de_DE.png\" width=\"18\" height=\"12\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\tDE\t\t\t\t</a>",
+                  "target": [
+                    "#mobile-extras > .language-switcher[data-no-translation=\"\"] > .language-switcher-list > a[title=\"Deutsch\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/es/accesibilidad/\" title=\"Español\">\n\t\t\t\t\t\t\t\t\t\t\t<img class=\"flag\" src=\"https://moodle.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png\" width=\"18\" height=\"12\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\tES\t\t\t\t</a>",
+                  "target": [
+                    "#mobile-extras > .language-switcher[data-no-translation=\"\"] > .language-switcher-list > a[title=\"Español\"]"
+                  ]
+                },
+                {
+                  "html": "<a class=\"button\" href=\"/get-moodle/\"><span>Get Moodle</span></a>",
+                  "target": [
+                    ".button-block:nth-child(3) > .button[href$=\"get-moodle/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.6px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"button\" href=\"/rfp/\"><span>Submit an RFP</span></a>",
+          "target": [
+            ".button[href$=\"rfp/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (97.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.6px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 76.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (76.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.6,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"button\" href=\"/rfp/\"><span>Submit an RFP</span></a>",
+                  "target": [
+                    ".button[href$=\"rfp/\"]"
+                  ]
+                },
+                {
+                  "html": "<a class=\"button outline\" href=\"https://moodle.com/login/\"><span>Log In</span></a>",
+                  "target": [
+                    ".outline.button[href$=\"login/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.6px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"button\" href=\"/get-moodle/\"><span>Get Moodle</span></a>",
+          "target": [
+            ".button-block:nth-child(3) > .button[href$=\"get-moodle/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (76.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.6px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 43.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (43.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"button\" href=\"/get-moodle/\"><span>Get Moodle</span></a>",
+                  "target": [
+                    ".button-block:nth-child(3) > .button[href$=\"get-moodle/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"button outline\" href=\"https://moodle.com/login/\"><span>Log In</span></a>",
+          "target": [
+            ".outline.button[href$=\"login/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (43.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 74.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (74.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12.4,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"link\" href=\"/login/\"><span>Login help</span></a>",
+                  "target": [
+                    ".link[href$=\"login/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"link\" href=\"https://moodle.org/\"><span>Moodle.org</span></a>",
+          "target": [
+            "li:nth-child(1) > a[href$=\"moodle.org/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (74.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 69.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (69.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12.4,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"link\" href=\"https://moodle.org/\"><span>Moodle.org</span></a>",
+                  "target": [
+                    "li:nth-child(1) > a[href$=\"moodle.org/\"]"
+                  ]
+                },
+                {
+                  "html": "<a class=\"link\" href=\"/rfp/\"><span>Submit an RFP</span></a>",
+                  "target": [
+                    ".link[href$=\"rfp/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"link\" href=\"/login/\"><span>Login help</span></a>",
+          "target": [
+            ".link[href$=\"login/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (69.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.4px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 97.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (97.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"link\" href=\"/login/\"><span>Login help</span></a>",
+                  "target": [
+                    ".link[href$=\"login/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"link\" href=\"/rfp/\"><span>Submit an RFP</span></a>",
+          "target": [
+            ".link[href$=\"rfp/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (97.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 178.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (178.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/accessibility/workplace-vpat/\">– View Moodle Workplace VPAT</a>",
+                  "target": [
+                    "a[href$=\"workplace-vpat/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/accessibility/lms-vpat/\">– View Moodle LMS VPAT</a>",
+          "target": [
+            "a[href$=\"lms-vpat/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (178.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 214,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (214px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/accessibility/lms-vpat/\">– View Moodle LMS VPAT</a>",
+                  "target": [
+                    "a[href$=\"lms-vpat/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/accessibility/app-vpat/\" rel=\"noopener\">– View Moodle App VPAT</a>",
+                  "target": [
+                    "a[href$=\"app-vpat/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/accessibility/workplace-vpat/\">– View Moodle Workplace VPAT</a>",
+          "target": [
+            "a[href$=\"workplace-vpat/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (214px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 172.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (172.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/accessibility/workplace-vpat/\">– View Moodle Workplace VPAT</a>",
+                  "target": [
+                    "a[href$=\"workplace-vpat/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/accessibility/app-vpat/\" rel=\"noopener\">– View Moodle App VPAT</a>",
+          "target": [
+            "a[href$=\"app-vpat/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (172.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 74.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (74.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/wp-content/uploads/2024/11/accessibility-developers.jpg\" class=\"fancybox\" aria-label=\"Open  image in lightbox\">",
+                  "target": [
+                    "#block-TW9vZGxl > .image-right.two-col-image.wp-block-row-rowlayout > .kt-row-layout-inner > .kt-m-colapse-right-to-left.kt-row-column-wrap.kt-has-2-columns > .inner-column-2.wp-block-rows-column > .kt-inside-inner-col > figure > .fancybox[aria-label=\"Open  image in lightbox\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"button arrow outline\" href=\"https://moodledev.io/general/development/policies/accessibility\"><span>Learn more</span></a>",
+          "target": [
+            ".kt-inside-inner-col > .button-block > .arrow.outline.button"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (74.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 606.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (606.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/workplace/\"><span class=\"title\">Moodle Workplace</span><span class=\"description\">Streamline training, onboarding, and compliance management while driving learning outcomes that you can measure.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277636.menu-item-object-moodle-product.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/lms/\"><span class=\"title\">Moodle LMS</span><span class=\"description\">Engage your learners with flexible, secure, and accessible online learning spaces.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277638.menu-item-object-moodle-product.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (606.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 875.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (875.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/lms/\"><span class=\"title\">Moodle LMS</span><span class=\"description\">Engage your learners with flexible, secure, and accessible online learning spaces.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277638.menu-item-object-moodle-product.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodlecloud/\"><span class=\"title\">MoodleCloud</span><span class=\"description\">For individuals who sell courses, or small organisations with basic training and onboarding needs.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277635.menu-item-object-moodle-product.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/workplace/\"><span class=\"title\">Moodle Workplace</span><span class=\"description\">Streamline training, onboarding, and compliance management while driving learning outcomes that you can measure.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277636.menu-item-object-moodle-product.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (875.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 716.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (716.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/workplace/\"><span class=\"title\">Moodle Workplace</span><span class=\"description\">Streamline training, onboarding, and compliance management while driving learning outcomes that you can measure.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277636.menu-item-object-moodle-product.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodle-app/\"><span class=\"title\">Moodle App</span><span class=\"description\">Access Moodle from anywhere, on any device online and offline.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277637.menu-item-object-moodle-product.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/moodlecloud/\"><span class=\"title\">MoodleCloud</span><span class=\"description\">For individuals who sell courses, or small organisations with basic training and onboarding needs.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277635.menu-item-object-moodle-product.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (716.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 499.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (499.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodlecloud/\"><span class=\"title\">MoodleCloud</span><span class=\"description\">For individuals who sell courses, or small organisations with basic training and onboarding needs.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277635.menu-item-object-moodle-product.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/certified-integrations/\"><span class=\"title\">Certified Integrations</span><span class=\"description\">Extend your online learning ecosystem with powerful and trusted add-ons.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274894.menu-item-has-children.menu-item-object-page > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/products/moodle-app/\"><span class=\"title\">Moodle App</span><span class=\"description\">Access Moodle from anywhere, on any device online and offline.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277637.menu-item-object-moodle-product.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (499.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 614.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (614.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/products/moodle-app/\"><span class=\"title\">Moodle App</span><span class=\"description\">Access Moodle from anywhere, on any device online and offline.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277637.menu-item-object-moodle-product.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/become-moodle-partner/apply-certified-integration/\"><span class=\"title\">Become a Certified Integration Partner</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274894.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-281816.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/certified-integrations/\"><span class=\"title\">Certified Integrations</span><span class=\"description\">Extend your online learning ecosystem with powerful and trusted add-ons.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274894.menu-item-has-children.menu-item-object-page > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (614.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 248.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (248.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/certified-integrations/\"><span class=\"title\">Certified Integrations</span><span class=\"description\">Extend your online learning ecosystem with powerful and trusted add-ons.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274894.menu-item-has-children.menu-item-object-page > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/become-moodle-partner/apply-certified-integration/\"><span class=\"title\">Become a Certified Integration Partner</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224672.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274894.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-281816.menu-item-object-page.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (248.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 949.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (949.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Find your Partner</span><span class=\"description\">Our network of Moodle Certified Partners will transform Moodle into a solution that meets your unique needs.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > .sub-menu > .menu-item-275007.menu-item-object-service.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Certified Partners</span><span class=\"description\">Get managed services and expertise in customisation, learning design, hosting, support, and training for your unique requirements.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (949.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 821.6,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (821.6px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 14.2,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Certified Partners</span><span class=\"description\">Get managed services and expertise in customisation, learning design, hosting, support, and training for your unique requirements.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/become-moodle-partner/\"><span class=\"title\">Become a Moodle Partner</span><span class=\"description\">Showcase your expertise and grow your business with the world’s most customisable and trusted online learning solution.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > .sub-menu > .menu-item-274945.menu-item-type-custom.menu-item-object-custom > a[href$=\"become-moodle-partner/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.2px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Find your Partner</span><span class=\"description\">Our network of Moodle Certified Partners will transform Moodle into a solution that meets your unique needs.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > .sub-menu > .menu-item-275007.menu-item-object-service.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (821.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.2px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 947.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (947.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/services/certified-service-providers/\"><span class=\"title\">Find your Partner</span><span class=\"description\">Our network of Moodle Certified Partners will transform Moodle into a solution that meets your unique needs.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > .sub-menu > .menu-item-275007.menu-item-object-service.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/services/\"><span class=\"title\">All Services</span><span class=\"description\">At Moodle, we offer a wide range of services to support both new and existing Moodle installations. Read more here.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-279361.menu-item-object-page.menu-item-type-post_type > a[href$=\"services/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/become-moodle-partner/\"><span class=\"title\">Become a Moodle Partner</span><span class=\"description\">Showcase your expertise and grow your business with the world’s most customisable and trusted online learning solution.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > .sub-menu > .menu-item-274945.menu-item-type-custom.menu-item-object-custom > a[href$=\"become-moodle-partner/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (947.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 830.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (830.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/become-moodle-partner/\"><span class=\"title\">Become a Moodle Partner</span><span class=\"description\">Showcase your expertise and grow your business with the world’s most customisable and trusted online learning solution.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-274958.menu-item-object-service.menu-item-has-children > .sub-menu > .menu-item-274945.menu-item-type-custom.menu-item-object-custom > a[href$=\"become-moodle-partner/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/services/\"><span class=\"title\">All Services</span><span class=\"description\">At Moodle, we offer a wide range of services to support both new and existing Moodle installations. Read more here.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-274936.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-279361.menu-item-object-page.menu-item-type-post_type > a[href$=\"services/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (830.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 910.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (910.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.2,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/workplace-learning/\"><span class=\"title\">Workplace Learning</span><span class=\"description\">Train and upskill your workforce with a suite of automation, reporting, and virtual learning tools that save time and drive results.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277651.menu-item-object-solution.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.2px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/education/\"><span class=\"title\">Education</span><span class=\"description\">Support every type of learner, undergraduate, continuing education, non-degree, and professional development, all within one LMS.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277653.menu-item-object-solution.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (910.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.2px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 955.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (955.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/education/\"><span class=\"title\">Education</span><span class=\"description\">Support every type of learner, undergraduate, continuing education, non-degree, and professional development, all within one LMS.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277653.menu-item-object-solution.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/government/\"><span class=\"title\">Government</span><span class=\"description\">Meet regulatory and compliance standards with a scalable and secure LMS for public sector and government agencies.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277620.menu-item-type-custom.menu-item-object-custom > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/workplace-learning/\"><span class=\"title\">Workplace Learning</span><span class=\"description\">Train and upskill your workforce with a suite of automation, reporting, and virtual learning tools that save time and drive results.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277651.menu-item-object-solution.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (955.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 839.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (839.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/workplace-learning/\"><span class=\"title\">Workplace Learning</span><span class=\"description\">Train and upskill your workforce with a suite of automation, reporting, and virtual learning tools that save time and drive results.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277651.menu-item-object-solution.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/vocational-training/\"><span class=\"title\">Vocational Training</span><span class=\"description\">Bring your vocational education and training courses online with Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277652.menu-item-object-solution.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/government/\"><span class=\"title\">Government</span><span class=\"description\">Meet regulatory and compliance standards with a scalable and secure LMS for public sector and government agencies.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277620.menu-item-type-custom.menu-item-object-custom > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (839.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 637,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (637px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/government/\"><span class=\"title\">Government</span><span class=\"description\">Meet regulatory and compliance standards with a scalable and secure LMS for public sector and government agencies.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277620.menu-item-type-custom.menu-item-object-custom > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/moodle-and-ai/\"><span class=\"title\">Moodle and AI</span><span class=\"description\">Learn about Moodle’s human-centred approach to AI and our commitment to transparency, equality, and ethical practice.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-280315.menu-item-object-solution.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/vocational-training/\"><span class=\"title\">Vocational Training</span><span class=\"description\">Bring your vocational education and training courses online with Moodle LMS.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277652.menu-item-object-solution.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (637px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 870.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (870.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/solutions/vocational-training/\"><span class=\"title\">Vocational Training</span><span class=\"description\">Bring your vocational education and training courses online with Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-277652.menu-item-object-solution.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/solutions/moodle-and-ai/\"><span class=\"title\">Moodle and AI</span><span class=\"description\">Learn about Moodle’s human-centred approach to AI and our commitment to transparency, equality, and ethical practice.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-224673.no-link.menu-item-type-custom > .mega-menu.not-processed.sub-menu > .menu-item-280315.menu-item-object-solution.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (870.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 603.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (603.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/the-moodle-story/\"><span class=\"title\">The Moodle story</span><span class=\"description\">Explore Moodle’s history and learn about our commitment to support equity of access to quality eLearning experiences.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274955.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/\"><span class=\"title\">About Us</span><span class=\"description\">Learn more about Moodle’s story, mission, and the people behind our global project.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > a[href$=\"about/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (603.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 882.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (882.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/\"><span class=\"title\">About Us</span><span class=\"description\">Learn more about Moodle’s story, mission, and the people behind our global project.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > a[href$=\"about/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/about/open-source/\"><span class=\"title\">Open Source</span><span class=\"description\">Find out how open source supports a more equitable world and ensures sustainability, security, flexibility and customisability.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274953.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/the-moodle-story/\"><span class=\"title\">The Moodle story</span><span class=\"description\">Explore Moodle’s history and learn about our commitment to support equity of access to quality eLearning experiences.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274955.menu-item-object-page.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (882.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 887.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (887.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/the-moodle-story/\"><span class=\"title\">The Moodle story</span><span class=\"description\">Explore Moodle’s history and learn about our commitment to support equity of access to quality eLearning experiences.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274955.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/bcorp/\"><span class=\"title\">Official Certified B Corporation</span><span class=\"description\">Read Moodle’s commitment to educators, learners, employees, customers, and society through achieving B-Corp certification.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274956.menu-item-object-page.menu-item-type-post_type > a[href$=\"bcorp/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/open-source/\"><span class=\"title\">Open Source</span><span class=\"description\">Find out how open source supports a more equitable world and ensures sustainability, security, flexibility and customisability.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274953.menu-item-object-page.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (887.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 1015.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (1015.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/open-source/\"><span class=\"title\">Open Source</span><span class=\"description\">Find out how open source supports a more equitable world and ensures sustainability, security, flexibility and customisability.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274953.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/about/leadership/\"><span class=\"title\">Our Leadership Team</span><span class=\"description\">Learn about Moodle’s board and senior leadership team.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-278458.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/bcorp/\"><span class=\"title\">Official Certified B Corporation</span><span class=\"description\">Read Moodle’s commitment to educators, learners, employees, customers, and society through achieving B-Corp certification.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274956.menu-item-object-page.menu-item-type-post_type > a[href$=\"bcorp/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (1015.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 499.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (499.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/bcorp/\"><span class=\"title\">Official Certified B Corporation</span><span class=\"description\">Read Moodle’s commitment to educators, learners, employees, customers, and society through achieving B-Corp certification.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-274956.menu-item-object-page.menu-item-type-post_type > a[href$=\"bcorp/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/events/\"><span class=\"title\">Events</span><span class=\"description\">See upcoming events and dates for our worldwide MoodleMoot conferences, training, and webinars.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-46209.menu-item-object-page.menu-item-type-post_type > a[href$=\"events/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/leadership/\"><span class=\"title\">Our Leadership Team</span><span class=\"description\">Learn about Moodle’s board and senior leadership team.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-278458.menu-item-object-page.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (499.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 687.4,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (687.4px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/leadership/\"><span class=\"title\">Our Leadership Team</span><span class=\"description\">Learn about Moodle’s board and senior leadership team.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-177262.menu-item-has-children.menu-item-object-page > .sub-menu > .menu-item-278458.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/community/\"><span class=\"title\">Community</span><span class=\"description\">The place to get support, ask and answer questions and contribute to the open source learning platform, Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menuPrimary.no-footer.menu-item-27180 > a[href$=\"community/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/events/\"><span class=\"title\">Events</span><span class=\"description\">See upcoming events and dates for our worldwide MoodleMoot conferences, training, and webinars.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-46209.menu-item-object-page.menu-item-type-post_type > a[href$=\"events/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (687.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 832.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (832.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/events/\"><span class=\"title\">Events</span><span class=\"description\">See upcoming events and dates for our worldwide MoodleMoot conferences, training, and webinars.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-46209.menu-item-object-page.menu-item-type-post_type > a[href$=\"events/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/careers/\"><span class=\"title\">Careers</span><span class=\"description\">Join our mission to empower educators to improve our world. Browse career opportunities at Moodle.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-270313.menu-item-object-page.menu-item-type-post_type > a[href$=\"careers/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/community/\"><span class=\"title\">Community</span><span class=\"description\">The place to get support, ask and answer questions and contribute to the open source learning platform, Moodle LMS.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menuPrimary.no-footer.menu-item-27180 > a[href$=\"community/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (832.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 702.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (702.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/community/\"><span class=\"title\">Community</span><span class=\"description\">The place to get support, ask and answer questions and contribute to the open source learning platform, Moodle LMS.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menuPrimary.no-footer.menu-item-27180 > a[href$=\"community/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/about/awards/\"><span class=\"title\">Awards</span><span class=\"description\">Discover our global awards and rankings that are a testament to Moodle’s 20+ years of expertise in education technology.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-274952.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/careers/\"><span class=\"title\">Careers</span><span class=\"description\">Join our mission to empower educators to improve our world. Browse career opportunities at Moodle.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-270313.menu-item-object-page.menu-item-type-post_type > a[href$=\"careers/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (702.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 826.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (826.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/careers/\"><span class=\"title\">Careers</span><span class=\"description\">Join our mission to empower educators to improve our world. Browse career opportunities at Moodle.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-270313.menu-item-object-page.menu-item-type-post_type > a[href$=\"careers/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://moodle.com/accessibility/\"><span class=\"title\">Accessibility</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .no-header.current-menu-item.page_item > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/about/awards/\"><span class=\"title\">Awards</span><span class=\"description\">Discover our global awards and rankings that are a testament to Moodle’s 20+ years of expertise in education technology.</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-274952.menu-item-object-page.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (826.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 83.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (83.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/about/awards/\"><span class=\"title\">Awards</span><span class=\"description\">Discover our global awards and rankings that are a testament to Moodle’s 20+ years of expertise in education technology.</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .menu-item-274952.menu-item-object-page.menu-item-type-post_type > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/accessibility/\"><span class=\"title\">Accessibility</span></a>",
+          "target": [
+            "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .no-header.current-menu-item.page_item > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (83.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 65.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (65.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 23.8,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://moodle.com/accessibility/\"><span class=\"title\">Accessibility</span></a>",
+                  "target": [
+                    "#menu-moodle-menu-1 > .current-menu-ancestor.current-menu-parent.menu-item-224671 > .mega-menu.not-processed.sub-menu > .no-header.current-menu-item.page_item > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://moodle.com/news/\">Resources</a>",
+          "target": [
+            "#menu-moodle-menu-1 > .menu-item-news.menu-item-274893.menu-item-has-children > a[href$=\"news/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (65.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.8px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 120,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (120px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"#\" onclick=\"OneTrust.ToggleInfoDisplay(); return false;\">Change Cookie Settings</a>",
+                  "target": [
+                    ".link:nth-child(1) > a[href=\"#\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"button arrow\" href=\"/newsletter/\"><span>Newsletter sign up</span></a>",
+          "target": [
+            "a[href$=\"newsletter/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (120px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 154.7,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (154.7px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"button arrow\" href=\"/newsletter/\"><span>Newsletter sign up</span></a>",
+                  "target": [
+                    "a[href$=\"newsletter/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/cookies-policy/\">Cookies Policy</a>",
+                  "target": [
+                    "a[href$=\"cookies-policy/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#\" onclick=\"OneTrust.ToggleInfoDisplay(); return false;\">Change Cookie Settings</a>",
+          "target": [
+            ".link:nth-child(1) > a[href=\"#\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (154.7px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 97.3,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (97.3px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"#\" onclick=\"OneTrust.ToggleInfoDisplay(); return false;\">Change Cookie Settings</a>",
+                  "target": [
+                    ".link:nth-child(1) > a[href=\"#\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/privacy-notice/\">Privacy Notice</a>",
+                  "target": [
+                    "a[href$=\"privacy-notice/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/cookies-policy/\">Cookies Policy</a>",
+          "target": [
+            "a[href$=\"cookies-policy/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (97.3px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 95.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (95.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/cookies-policy/\">Cookies Policy</a>",
+                  "target": [
+                    "a[href$=\"cookies-policy/\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/trademarks/\">Trademark Policy</a>",
+                  "target": [
+                    "a[href$=\"trademarks/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/privacy-notice/\">Privacy Notice</a>",
+          "target": [
+            "a[href$=\"privacy-notice/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (95.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 114.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (114.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 16.6,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/privacy-notice/\">Privacy Notice</a>",
+                  "target": [
+                    "a[href$=\"privacy-notice/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.6px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/trademarks/\">Trademark Policy</a>",
+          "target": [
+            "a[href$=\"trademarks/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (114.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.6px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 36.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (36.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"close\" href=\"#\">Close</a>",
+                  "target": [
+                    ".search-popup > .close[href=\"#\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"close\" href=\"#\">Close</a>",
+          "target": [
+            ".video-popup > .close[href=\"#\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (36.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 36.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (36.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"close\" href=\"#\">Close</a>",
+                  "target": [
+                    ".video-popup > .close[href=\"#\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"close\" href=\"#\">Close</a>",
+          "target": [
+            ".search-popup > .close[href=\"#\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (36.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px."
+        }
+      ]
+    }
+  ]
+}

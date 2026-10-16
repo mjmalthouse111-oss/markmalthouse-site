@@ -1,0 +1,224 @@
+http://localhost:8085/mod/quiz/review.php?attempt=1&cmid=5
+- status
+- link "Skip to main content":
+  - /url: "#maincontent"
+- navigation "Site navigation":
+  - link "SampleU":
+    - /url: http://localhost:8085/my/
+  - menubar:
+    - menuitem "Dashboard"
+  - button "Show notification window with no new notifications"
+  - button "Toggle messaging drawer"
+  - button "User menu":
+    - img "Barbara Gardner": BG
+    - text: 
+- link "Psychology in Cinema":
+  - /url: http://localhost:8085/course/view.php?id=2
+- button "Close course index"
+- separator
+- button "Collapse all" [expanded]
+- navigation:
+  - tree:
+    - treeitem "General" [expanded] [selected]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse0"
+      - link "General":
+        - /url: http://localhost:8085/course/section.php?id=1
+      - group "General":
+        - group:
+          - treeitem "Message from your tutor":
+            - link "Message from your tutor":
+              - /url: http://localhost:8085/mod/resource/view.php?id=1
+          - treeitem "Message from your tutor:tutor-message.wav":
+            - link "Message from your tutor:tutor-message.wav":
+              - /url: http://localhost:8085/course/section.php?id=1#module-2
+          - treeitem "Factual recall test":
+            - link "Factual recall test":
+              - /url: http://localhost:8085/mod/quiz/view.php?id=5
+    - treeitem "Background information" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse1"
+      - link "Background information":
+        - /url: http://localhost:8085/course/section.php?id=2
+      - group "Background information":
+        - group
+    - treeitem "Analysis" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse2"
+      - link "Analysis":
+        - /url: http://localhost:8085/course/section.php?id=3
+      - group "Analysis":
+        - group:
+          - treeitem "Course discussion":
+            - link "Course discussion":
+              - /url: http://localhost:8085/mod/forum/view.php?id=3
+    - treeitem "Reflection and Feedback" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse3"
+      - link "Reflection and Feedback":
+        - /url: http://localhost:8085/course/section.php?id=4
+      - group "Reflection and Feedback":
+        - group:
+          - treeitem "Reflective journal":
+            - link "Reflective journal":
+              - /url: http://localhost:8085/mod/assign/view.php?id=4
+    - treeitem "New section" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse4"
+      - link "New section":
+        - /url: http://localhost:8085/course/section.php?id=5
+      - group "New section":
+        - group
+- button "Open block drawer"
+- banner:
+  - navigation "Breadcrumb":
+    - list:
+      - listitem:
+        - link "Psych Cine":
+          - /url: http://localhost:8085/course/view.php?id=2
+      - listitem:
+        - text: /
+        - link "General":
+          - /url: http://localhost:8085/course/section.php?id=1
+      - listitem: / Factual recall test
+  - heading "Factual recall test" [level=1]
+- alert:
+  - text: Attempt submitted.
+  - button "Dismiss this notification"
+- main:
+  - table "Attempt 1 summary":
+    - caption: Attempt 1 summary
+    - rowgroup:
+      - row "Status Finished":
+        - rowheader "Status"
+        - cell "Finished"
+      - row "Started Thursday, 15 October 2026, 6:13 AM":
+        - rowheader "Started"
+        - cell "Thursday, 15 October 2026, 6:13 AM"
+      - row "Completed Thursday, 15 October 2026, 6:15 AM":
+        - rowheader "Completed"
+        - cell "Thursday, 15 October 2026, 6:15 AM"
+      - row "Duration 1 min 32 secs":
+        - rowheader "Duration"
+        - cell "1 min 32 secs"
+      - row "Marks 1.33/6.00":
+        - rowheader "Marks"
+        - cell "1.33/6.00"
+      - row "Grade 2.22 out of 10.00 (22.22%)":
+        - rowheader "Grade"
+        - cell "2.22 out of 10.00 (22.22%)"
+  - heading "Question 1" [level=3]
+  - text: Correct Mark 1.00 out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: What is the significance of the little girl in A Beautiful Mind?
+  - group "Question 1 Answer":
+    - text: Question 1 Answer
+    - radio "a. She reminds Nash that he is getting older" [disabled]
+    - text: a. She reminds Nash that he is getting older
+    - radio "b. She shows Nash that the people he sees are not real" [checked] [disabled]
+    - text: b. She shows Nash that the people he sees are not real
+    - img "Correct": 
+    - radio "c. She inspires his later discoveries" [disabled]
+    - text: c. She inspires his later discoveries
+    - radio "d. She is his daughter" [disabled]
+    - text: d. She is his daughter
+  - heading "Feedback" [level=4]
+  - text: "Your answer is correct. The correct answer is: She shows Nash that the people he sees are not real"
+  - heading "Question 2" [level=3]
+  - text: Partially correct Mark 0.33 out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Match each film to its director. Spider Answer 1 Question 2
+  - combobox "Answer 1 Question 2" [disabled]:
+    - option "Choose..."
+    - option "David Cronenberg" [selected]
+    - option "David Fincher"
+    - option "Ron Howard"
+  - img "Correct": 
+  - text: A Beautiful Mind Answer 2 Question 2
+  - combobox "Answer 2 Question 2" [disabled]:
+    - option "Choose..." [selected]
+    - option "David Cronenberg"
+    - option "David Fincher"
+    - option "Ron Howard"
+  - text: Fight Club Answer 3 Question 2
+  - combobox "Answer 3 Question 2" [disabled]:
+    - option "Choose..." [selected]
+    - option "David Cronenberg"
+    - option "David Fincher"
+    - option "Ron Howard"
+  - heading "Feedback" [level=4]
+  - text: "Your answer is partially correct. You have correctly selected 1. The correct answer is: Spider → David Cronenberg, A Beautiful Mind → Ron Howard, Fight Club → David Fincher"
+  - heading "Question 3" [level=3]
+  - text: Not answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Which concept does John Nash develop?
+  - group "Question 3 Answer":
+    - text: Question 3 Answer
+    - radio "a. The square cube law" [disabled]
+    - text: a. The square cube law
+    - radio "b. Governing dynamics" [disabled]
+    - text: b. Governing dynamics
+    - radio "c. The pigeonhole principle" [disabled]
+    - text: c. The pigeonhole principle
+    - radio "d. Equinumerosity" [disabled]
+    - text: d. Equinumerosity
+  - heading "Feedback" [level=4]
+  - text: "Your answer is incorrect. The correct answer is: Governing dynamics"
+  - heading "Question 4" [level=3]
+  - text: Not answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Why does Spider attempt to murder his landlady?
+  - group "Question 4 Answer":
+    - text: Question 4 Answer
+    - radio "a. She does not return his affection" [disabled]
+    - text: a. She does not return his affection
+    - radio "b. He fears she will send him back to the asylum" [disabled]
+    - text: b. He fears she will send him back to the asylum
+    - radio "c. She stole from him" [disabled]
+    - text: c. She stole from him
+    - radio "d. He sees her as his father's mistress" [disabled]
+    - text: d. He sees her as his father's mistress
+  - heading "Feedback" [level=4]
+  - text: "Your answer is incorrect. The correct answer is: He sees her as his father's mistress"
+  - heading "Question 5" [level=3]
+  - text: Not answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: In Fight Club, where do the main characters get the material to make soap?
+  - group "Question 5 Answer":
+    - text: Question 5 Answer
+    - radio "a. A hospital" [disabled]
+    - text: a. A hospital
+    - radio "b. A liposuction clinic" [disabled]
+    - text: b. A liposuction clinic
+    - radio "c. A farm" [disabled]
+    - text: c. A farm
+    - radio "d. A factory" [disabled]
+    - text: d. A factory
+  - heading "Feedback" [level=4]
+  - text: "Your answer is incorrect. The correct answer is: A liposuction clinic"
+  - heading "Question 6" [level=3]
+  - text: Not answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Who directed Spider?
+  - group "Question 6 Answer":
+    - text: Question 6 Answer
+    - radio "a. David Cronenberg" [disabled]
+    - text: a. David Cronenberg
+    - radio "b. Ron Howard" [disabled]
+    - text: b. Ron Howard
+    - radio "c. David Fincher" [disabled]
+    - text: c. David Fincher
+    - radio "d. Christopher Nolan" [disabled]
+    - text: d. Christopher Nolan
+  - heading "Feedback" [level=4]
+  - text: "Your answer is incorrect. The correct answer is: David Cronenberg"
+  - link "Finish review":
+    - /url: http://localhost:8085/mod/quiz/view.php?id=5
+- contentinfo:
+  - button "Show footer"

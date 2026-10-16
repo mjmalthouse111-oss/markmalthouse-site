@@ -1,0 +1,514 @@
+{
+  "title": "Course discussion | SampleU",
+  "lang": "en",
+  "landmarks": [
+    {
+      "el": "nav.navbar.fixed-top.bg-body",
+      "role": "nav",
+      "name": "Site navigation"
+    },
+    {
+      "el": "nav#courseindex.courseindex",
+      "role": "nav",
+      "name": ""
+    },
+    {
+      "el": "header#page-header.header-maxwidth.d-print-none",
+      "role": "header",
+      "name": ""
+    },
+    {
+      "el": "nav",
+      "role": "nav",
+      "name": "Breadcrumb"
+    },
+    {
+      "el": "div#yui_3_18_1_1_1792041394471_59",
+      "role": "main",
+      "name": ""
+    }
+  ],
+  "headings": [
+    {
+      "level": "1",
+      "text": "Course discussion"
+    }
+  ],
+  "controls": [
+    {
+      "el": "input#searchinput-6ad061b2716216ad061b240ce15.form-control",
+      "type": "text",
+      "name": "Search forums",
+      "autocomplete": "off",
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#forum-subscription-toggle-1.form-check-input.pe-auto",
+      "type": "checkbox",
+      "name": "Subscribe to forum",
+      "autocomplete": "off",
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#id_subject.form-control.is-invalid",
+      "type": "text",
+      "name": "Subject",
+      "autocomplete": null,
+      "required": true,
+      "invalid": "true",
+      "describedby": "Required"
+    },
+    {
+      "el": "input#id_submitbutton.btn.btn-primary",
+      "type": "submit",
+      "name": "Post to forum",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#id_advancedadddiscussion.btn.btn-link",
+      "type": "submit",
+      "name": "Advanced",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#subscription-toggle-2.form-check-input",
+      "type": "checkbox",
+      "name": "Subscribe to this discussion",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#subscription-toggle-1.form-check-input",
+      "type": "checkbox",
+      "name": "Subscribe to this discussion",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    }
+  ],
+  "images": {
+    "total": 45,
+    "sample": [
+      {
+        "el": "i.icon.fa-regular.fa-bell",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa-regular.fa-message",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "span.userinitials.size-35",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": "Barbara Gardner",
+        "role": "img",
+        "title": "Barbara Gardner"
+      },
+      {
+        "el": "img.icon",
+        "alt": "",
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.icon.activityicon",
+        "alt": "",
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-circle-question",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": "Help with Search",
+        "role": "img",
+        "title": "Help with Search"
+      },
+      {
+        "el": "i.icon.fa.fa-magnifying-glass",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-circle-exclamation",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-circle-exclamation",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "svg",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-circle-exclamation",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": "Required field"
+      },
+      {
+        "el": "i.icon.fa.fa-arrow-down-long",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": "Descending",
+        "role": "img",
+        "title": "Descending"
+      },
+      {
+        "el": "i.icon.fa-regular.fa-star",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": "Star this discussion",
+        "role": "img",
+        "title": "Star this discussion"
+      },
+      {
+        "el": "img.rounded-circle.userpicture",
+        "alt": "Picture of Jeffrey Sanders",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": "Picture of Jeffrey Sanders"
+      },
+      {
+        "el": "img.rounded-circle.userpicture",
+        "alt": "Picture of Jeffrey Sanders",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": "Picture of Jeffrey Sanders"
+      },
+      {
+        "el": "i.icon.fa.fa-ellipsis-vertical",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa-regular.fa-star",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": "Star this discussion",
+        "role": "img",
+        "title": "Star this discussion"
+      },
+      {
+        "el": "img.rounded-circle.userpicture",
+        "alt": "Picture of Jeffrey Sanders",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": "Picture of Jeffrey Sanders"
+      }
+    ]
+  },
+  "live": [
+    {
+      "el": "div.toast-wrapper.mx-auto.py-0",
+      "role": "status",
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.visually-hidden",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "div.all-notifications",
+      "role": "log",
+      "live": null,
+      "text": ""
+    },
+    {
+      "el": "div#contacts-tab-panel-6ad061b2635356ad061b240ce14.tab-pane.fade.show",
+      "role": "tabpanel",
+      "live": "polite",
+      "text": "No contacts"
+    },
+    {
+      "el": "div#requests-tab-panel-6ad061b2635356ad061b240ce14.tab-pane.fade.h-100",
+      "role": "tabpanel",
+      "live": "polite",
+      "text": "No contact requests"
+    },
+    {
+      "el": "div.content-message-container.hidden.h-100",
+      "role": "log",
+      "live": null,
+      "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+    },
+    {
+      "el": "div.p-3.bg-white",
+      "role": "alert",
+      "live": null,
+      "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+    },
+    {
+      "el": "div#view-overview-favourites-target-6ad061b2635356ad061b240ce14.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No starred conversations"
+    },
+    {
+      "el": "div#view-overview-group-messages-target-6ad061b2635356ad061b240ce14.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No group conversations"
+    },
+    {
+      "el": "div#view-overview-messages-target-6ad061b2635356ad061b240ce14.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No private conversations"
+    },
+    {
+      "el": "div.emoji-auto-complete-container.w-100.hidden",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    }
+  ],
+  "labelInName": [
+    {
+      "el": "a#user-menu-toggle.btn.dropdown-toggle",
+      "visible": "BG Barbara",
+      "name": "User menu"
+    },
+    {
+      "el": "a",
+      "visible": "Started by",
+      "name": "Sort by discussion starter name in descending order"
+    }
+  ],
+  "dupIds": [],
+  "iframes": [
+    {
+      "title": "",
+      "id": "id_message_ifr"
+    }
+  ]
+}

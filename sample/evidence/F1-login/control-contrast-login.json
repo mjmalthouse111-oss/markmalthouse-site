@@ -1,0 +1,18 @@
+[
+  {
+    "el": "input#username",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(255,255,255)",
+    "ratio": 3.02
+  },
+  {
+    "el": "input#password",
+    "type": "password",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(255,255,255)",
+    "ratio": 3.02
+  }
+]

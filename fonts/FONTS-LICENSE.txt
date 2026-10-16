@@ -1,0 +1,3 @@
+Fonts in this folder (Latin subsets, downloaded from Google Fonts on 2026-10-14):
+Public Sans (USWDS), Bricolage Grotesque (Mathieu Triay), IBM Plex Mono (IBM).
+All three are licensed under the SIL Open Font License 1.1: https://openfontlicense.org/open-font-license-official-text/

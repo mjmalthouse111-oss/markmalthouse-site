@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "started": "2026-10-15T06:03:23.462Z",
+    "base": "http://localhost:8085",
+    "chromium": "156.0.8078.4",
+    "firefox": "157.0",
+    "finished": "2026-10-15T06:11:30.158Z",
+    "nvda": "2026.2 (portable, Guidepup 0.2.1-2026.2)"
+  },
+  "steps": [
+    {
+      "name": "chromium F1 tab to username",
+      "ms": 1517,
+      "phrases": [
+        "main landmark",
+        "form landmark"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F1 type bad username, tab to password",
+      "ms": 14944,
+      "phrases": [
+        "a",
+        "c",
+        "r",
+        "dash",
+        "n",
+        "o",
+        "b",
+        "o",
+        "d",
+        "y",
+        "Password, edit, protected, Enter your password, blank"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F1 tab to password reveal button",
+      "ms": 9095,
+      "phrases": [
+        "star",
+        "star",
+        "star",
+        "star",
+        "star",
+        "Toggle sensitive, button"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F1 activate password reveal",
+      "ms": 2077,
+      "phrases": [],
+      "error": null
+    },
+    {
+      "name": "chromium F1 submit failed login (error announcement)",
+      "ms": 6034,
+      "phrases": [
+        "Log in to the site Sample U, document"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F4 tab into the editor (field name)",
+      "ms": 2911,
+      "phrases": [
+        "Site navigation, navigation landmark, Sample U, link",
+        "Show notification window with no new notifications, menu button, collapsed, sub Menu, Show notification window with no new notifications",
+        "Toggle messaging drawer, button, collapsed, There are 0 unread conversations",
+        "clickable, User menu, menu button, sub Menu",
+        "Psychology in Cinema, link",
+        "Close course index, button"
+      ],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "chromium F4 type in editor",
+      "ms": 14504,
+      "phrases": [
+        "no previous table",
+        "no next edit field",
+        "separator",
+        "no next table",
+        "num lock on",
+        "no next table",
+        "no next edit field",
+        "no next check box",
+        "no next table",
+        "num lock on"
+      ],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "chromium F4 Alt+F10 to toolbar",
+      "ms": 2091,
+      "phrases": [],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "chromium F4 Escape from toolbar",
+      "ms": 3090,
+      "phrases": [],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "chromium F5 flag button (name and state)",
+      "ms": 1333,
+      "phrases": [
+        "Flagged, toggle button, focused, not pressed, Flag this question for future reference"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 toggle flag",
+      "ms": 2384,
+      "phrases": [
+        "pressed",
+        "Flagged, toggle button, focused, pressed"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 tab to first option",
+      "ms": 1139,
+      "phrases": [
+        "Question 1 Answer, grouping, What is the significance of the little girl in A Beautiful Mind?"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 press Tab 5 more times on unanswered question",
+      "ms": 11174,
+      "phrases": [],
+      "error": null
+    },
+    {
+      "name": "chromium F5 arrow down selects next option",
+      "ms": 2125,
+      "phrases": [
+        "b. She shows Nash that the people he sees are not real, radio button, checked, 2 of 4"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 tab after answering",
+      "ms": 1615,
+      "phrases": [
+        "Clear my choice, button",
+        "Flagged, toggle button, not pressed, Flag this question for future reference"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 browse: Escape to browse mode, H to Question 1 heading",
+      "ms": 3334,
+      "phrases": [
+        "Question 3, heading, level 3"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 browse: next heading (expect Question 1 or Question text)",
+      "ms": 1074,
+      "phrases": [
+        "Question text, heading, level 4"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 browse: down arrow 10 times through question 1",
+      "ms": 3722,
+      "phrases": [
+        "Which concept does John Nash develop?",
+        "grouping, Question 3Answer",
+        "radio button, not checked",
+        "a.",
+        "The square cube law",
+        "radio button, not checked",
+        "b.",
+        "Governing dynamics",
+        "radio button, not checked",
+        "c."
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 browse: H twice more (does it reach Question 2?)",
+      "ms": 1369,
+      "phrases": [
+        "Question 4, heading, level 3",
+        "Question text, heading, level 4"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 browse: F (next form field) 6 times from the top of the page",
+      "ms": 4906,
+      "phrases": [
+        "Question 4 Answer, grouping, a. She does not return his affection, radio button, not checked",
+        "b. He fears she will send him back to the asylum, radio button, not checked",
+        "c. She stole from him, radio button, not checked",
+        "d. He sees her as his father's mistress, radio button, not checked",
+        "Flagged, toggle button, not pressed, Flag this question for future reference",
+        "Question 5 Answer, grouping, a. A hospital, radio button, not checked"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F5 focus mode: Tab 3 times from the current form field",
+      "ms": 4070,
+      "phrases": [
+        "main landmark",
+        "a. A hospital, radio button, not checked, 1 of 4"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F6 open form",
+      "ms": 5040,
+      "phrases": [
+        "expanded"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F6 subject field",
+      "ms": 1347,
+      "phrases": [
+        "Subject, edit, focused, required, blank"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F6 tab into message editor",
+      "ms": 1199,
+      "phrases": [
+        "application"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium F6 submit empty form (errors)",
+      "ms": 5128,
+      "phrases": [
+        "Subject, edit, required, invalid entry, Required, blank"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F1 tab to username",
+      "ms": 1540,
+      "phrases": [
+        "main landmark",
+        "Username or email, edit, has auto complete, Enter your username or email, blank"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F1 type bad username, tab to password",
+      "ms": 6954,
+      "phrases": [
+        "a",
+        "c",
+        "r",
+        "dash",
+        "n",
+        "o",
+        "b",
+        "o",
+        "d",
+        "y",
+        "Password, edit, protected, Enter your password, blank"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F1 tab to password reveal button",
+      "ms": 4058,
+      "phrases": [
+        "star",
+        "star",
+        "star",
+        "star",
+        "star",
+        "Toggle sensitive, button"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F1 activate password reveal",
+      "ms": 2074,
+      "phrases": [],
+      "error": null
+    },
+    {
+      "name": "firefox F1 submit failed login (error announcement)",
+      "ms": 6054,
+      "phrases": [
+        "Log in to the site Sample U"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F4 tab into the editor (field name)",
+      "ms": 2970,
+      "phrases": [
+        "Site navigation, navigation landmark, Sample U, visited, link",
+        "Show notification window with no new notifications, button, collapsed, sub Menu",
+        "Toggle messaging drawer, button, collapsed, There are 0 unread conversations",
+        "clickable, User menu, button, sub Menu",
+        "Psychology in Cinema, link",
+        "Close course index, button"
+      ],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "firefox F4 type in editor",
+      "ms": 14470,
+      "phrases": [
+        "no previous table",
+        "no next edit field",
+        "separator",
+        "no next table",
+        "num lock on",
+        "no next table",
+        "no next edit field",
+        "no next check box",
+        "no next table",
+        "num lock on"
+      ],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "firefox F4 Alt+F10 to toolbar",
+      "ms": 2076,
+      "phrases": [],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "firefox F4 Escape from toolbar",
+      "ms": 3091,
+      "phrases": [],
+      "error": null,
+      "note": "step did not reach the editor; excluded from findings"
+    },
+    {
+      "name": "firefox F5 flag button (name and state)",
+      "ms": 2486,
+      "phrases": [
+        "Flagged, toggle button, focused, not pressed, Flag this question for future reference"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 toggle flag",
+      "ms": 2396,
+      "phrases": [
+        "pressed",
+        "Flagged, toggle button, focused, pressed"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 tab to first option",
+      "ms": 1112,
+      "phrases": [
+        "Question 1 Answer, grouping, What is the significance of the little girl in A Beautiful Mind?"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 press Tab 5 more times on unanswered question",
+      "ms": 11211,
+      "phrases": [],
+      "error": null
+    },
+    {
+      "name": "firefox F5 arrow down selects next option",
+      "ms": 2125,
+      "phrases": [
+        "b. She shows Nash that the people he sees are not real, radio button, checked, 2 of 4"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 tab after answering",
+      "ms": 1599,
+      "phrases": [
+        "clickable, Clear my choice, button",
+        "Flagged, toggle button, not pressed, Flag this question for future reference"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 browse: Escape to browse mode, H to Question 1 heading",
+      "ms": 3342,
+      "phrases": [
+        "clickable, banner landmark, Factual recall test, heading, level 1"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 browse: next heading (expect Question 1 or Question text)",
+      "ms": 1076,
+      "phrases": [
+        "main landmark, clickable, Question 1, heading, level 3"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 browse: down arrow 10 times through question 1",
+      "ms": 3846,
+      "phrases": [
+        "Not yet answered",
+        "Marked out of 1.00",
+        "toggle button, not pressed, Flagged",
+        "heading, level 4, Question text",
+        "What is the significance of the little girl in A Beautiful Mind?",
+        "grouping, Question 1",
+        "Answer",
+        "radio button, not checked",
+        "a.",
+        "She reminds Nash that he is getting older"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 browse: H twice more (does it reach Question 2?)",
+      "ms": 1382,
+      "phrases": [
+        "Question 2, heading, level 3",
+        "Question text, heading, level 4"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 browse: F (next form field) 6 times from the top of the page",
+      "ms": 4985,
+      "phrases": [
+        "Answer 1 Question 2, combo box, collapsed, Match each film to its director. Spider, Choose...",
+        "Answer 2 Question 2, combo box, collapsed, A Beautiful Mind, Choose...",
+        "Answer 3 Question 2, combo box, collapsed, Fight Club, Choose...",
+        "Flagged, toggle button, not pressed, Flag this question for future reference",
+        "Question 3 Answer, grouping, a. The square cube law, radio button, not checked",
+        "b. Governing dynamics, radio button, not checked"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F5 focus mode: Tab 3 times from the current form field",
+      "ms": 4057,
+      "phrases": [
+        "main landmark",
+        "a. The square cube law, radio button, not checked, 1 of 4"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F6 open form",
+      "ms": 5070,
+      "phrases": [
+        "expanded"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F6 subject field",
+      "ms": 1336,
+      "phrases": [
+        "Subject, edit, focused, required, blank"
+      ],
+      "error": null
+    },
+    {
+      "name": "firefox F6 tab into message editor",
+      "ms": 2076,
+      "phrases": [],
+      "error": null
+    },
+    {
+      "name": "firefox F6 submit empty form (errors)",
+      "ms": 4976,
+      "phrases": [
+        "Subject, edit, required, invalid entry, Required, blank"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium 2.2.1 warning appears (what NVDA says)",
+      "phrases": []
+    },
+    {
+      "name": "chromium 2.2.1 tab to Extend session",
+      "ms": 1758,
+      "phrases": [
+        "Close, button",
+        "Cancel, button",
+        "Extend session, button"
+      ],
+      "error": null
+    },
+    {
+      "name": "chromium 2.2.1 activate Extend session",
+      "ms": 3134,
+      "phrases": [
+        "same page, link, Skip to main content"
+      ],
+      "error": null
+    }
+  ]
+}

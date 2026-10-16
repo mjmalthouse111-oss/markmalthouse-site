@@ -1,0 +1,287 @@
+<!doctype html>
+<!-- https://markmalthouse.com ; sample report lives in sample/ -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mark Malthouse | VPAT and ACR reports for software companies</title>
+<meta name="description" content="A VPAT 2.5 Accessibility Conformance Report for small software companies selling to businesses, universities, schools and government. WCAG 2.2 A and AA, Section 508, EN 301 549. Setup plus a monthly plan, report in 10 business days.">
+<link rel="preload" href="fonts/public-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#main"><b>Mark Malthouse</b><span>Accessibility reports</span></a>
+    <nav aria-label="Page sections">
+      <ul>
+        <li><a href="#report">The report</a></li>
+        <li><a href="#price">Pricing</a></li>
+        <li><a href="sample/">Sample</a></li>
+        <li><a href="#faq">Questions</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="mailto:mark@markmalthouse.com?subject=Accessibility%20report%20for%20our%20product">Email me</a>
+  </div>
+</header>
+
+<main id="main">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <p class="kicker">Accessibility reports (VPAT)</p>
+        <h1>A customer asked for your VPAT. <em>Here is one they can check.</em></h1>
+        <p class="sub">I test your software and write the accessibility report (VPAT) that business, university and government customers ask for.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:mark@markmalthouse.com?subject=Accessibility%20report%20for%20our%20product">Email me</a>
+          <a class="textlink" href="sample/">Read the sample report</a>
+        </div>
+        <dl class="terms">
+          <div><dt>Pricing</dt><dd>Setup + monthly</dd></div>
+          <div><dt>Turnaround</dt><dd>10 business days</dd></div>
+          <div><dt>Standards</dt><dd>WCAG 2.2, 508, EN&nbsp;301&nbsp;549</dd></div>
+          <div><dt>Includes</dt><dd>Fix list + re&#8209;tests</dd></div>
+        </dl>
+      </div>
+
+      <figure class="doc-preview">
+        <div class="page"><img src="img/fixlist-p1.webp" width="1020" height="1320" fetchpriority="high" alt="First page of the sample fix list: eight Moodle platform findings ranked High, Medium and Low, each with its WCAG criterion."></div>
+        <figcaption>First page of the sample fix list. An independent sample evaluation of a default Moodle LMS 5.3 install, not produced for, reviewed by, or affiliated with Moodle.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <section id="report" aria-labelledby="report-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="report-h">What you get</h2>
+        <p>For small software companies whose customers (companies, colleges, schools or government) want a VPAT before they sign.</p>
+      </header>
+      <div>
+        <div class="block">
+          <h3>The report</h3>
+          <p>A VPAT 2.5 report covering WCAG 2.2 A and AA, Section 508 and EN 301 549, for up to 10 key screens or user flows. For each rule it shows the result, what I found and how I tested it, so your customer can check the work.</p>
+        </div>
+        <div class="block">
+          <h3>A ranked fix list</h3>
+          <p>Every problem I found, worst first, with the screen, the rule it breaks, the proof and a suggested fix.</p>
+        </div>
+        <div class="block">
+          <h3>Kept current every month</h3>
+          <p>Once your team fixes things, I test them again and update the report. Each month I check the product again and tell you about anything new.</p>
+        </div>
+
+        <figure class="excerpt" aria-labelledby="sheet-cap">
+          <table>
+            <caption>Two rows from the sample report, quoted word for word (one passage from each remark)</caption>
+            <thead>
+              <tr><th scope="col">Criterion</th><th scope="col">Level and remarks</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><code>4.1.2</code>Name, Role, Value</th>
+                <td><span class="lvl part">Partially Supports</span><br>Platform (login): NVDA read the password reveal button as "Toggle sensitive, button" in Chrome and Firefox, and said nothing when it was pressed, so neither its purpose nor its state is conveyed.
+                  <span class="how"><b>How tested:</b> axe-core 4.13 automated scan; markup inspection (Chromium accessibility tree and DOM); keyboard-only walkthrough; NVDA 2026.2 with Chrome and Firefox.</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><code>2.4.7</code>Focus Visible</th>
+                <td><span class="lvl ok">Supports</span><br>Each Tab stop was screenshotted focused and unfocused and the two images compared; every measured stop showed a visible change.
+                  <span class="how"><b>How tested:</b> keyboard-only walkthrough; pixel comparison of focused and unfocused states.</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <figcaption id="sheet-cap">From an independent sample evaluation of a default Moodle LMS 5.3 install, by Mark Malthouse. Not produced for, reviewed by, or affiliated with Moodle.</figcaption>
+        </figure>
+
+        <figure class="excerpt" aria-labelledby="fix-cap">
+          <table>
+            <thead><tr><th scope="col">Finding</th><th scope="col">Impact</th><th scope="col">WCAG</th></tr></thead>
+            <tbody>
+              <tr><td>Tab cannot move past an unanswered multiple-choice question</td><td><span class="lvl high">High</span></td><td>2.1.1 Keyboard; 2.4.3 Focus Order; 4.1.2 Name, Role, Value</td></tr>
+              <tr><td>Activity dates force sideways scrolling on narrow screens and at 400% zoom</td><td><span class="lvl part">Medium</span></td><td>1.4.10 Reflow</td></tr>
+              <tr><td>Course overview drop-downs and other controls have names that differ from their visible text</td><td><span class="lvl part">Medium</span></td><td>2.5.3 Label in Name</td></tr>
+            </tbody>
+          </table>
+          <figcaption id="fix-cap">The top three rows of the sample fix list, quoted word for word.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="methods-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="methods-h">How each screen is tested</h2>
+        <p>Five checks. The raw results are kept as evidence.</p>
+      </header>
+      <dl class="defs">
+        <div><dt>Automated scan</dt><dd>axe-core runs on every screen and state.</dd></div>
+        <div><dt>Keyboard only</dt><dd>Every task done without a mouse, checking focus order, visible focus and anything you can't reach or get stuck in.</dd></div>
+        <div><dt>Zoom and reflow</dt><dd>Pages checked at 200% zoom, at a narrow 320px width and with wider text spacing.</dd></div>
+        <div><dt>Color contrast</dt><dd>Text and controls measured, including text on images that scanners miss.</dd></div>
+        <div><dt>Screen reader</dt><dd>Key tasks run with the NVDA screen reader in Chrome and Firefox, driven by automation (Guidepup). What it says is logged and reviewed. People with disabilities do not do the testing.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="price" aria-labelledby="price-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="price-h">Pricing</h2>
+      </header>
+      <div class="price-box">
+        <p class="muted">A one-time setup and assessment, then a small monthly plan that keeps the report current. Both are quoted in writing once we agree which screens to test. The report is ready 10 business days after I get a working test account.</p>
+        <p class="muted">Invoiced in US dollars by Mark Malthouse, Calgary, Canada (W-8BEN available).</p>
+        <div class="price-cols">
+          <div>
+            <h3>Setup and assessment</h3>
+            <ul class="plain">
+              <li>The full test of the screens we agree on</li>
+              <li>The report, as an editable document and a PDF</li>
+              <li>The ranked fix list with evidence</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Monthly plan</h3>
+            <ul class="plain">
+              <li>A monthly check of those screens, with a short note on anything new</li>
+              <li>Re-tests after your fixes, and an updated report</li>
+              <li>The report updated after big releases (up to twice a year)</li>
+              <li>Email answers to your customers' questions about the report</li>
+            </ul>
+            <p class="muted" style="margin-top:10px">6-month minimum, then cancel any time.</p>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:20px">Not included: fixing the problems. I can quote that separately if you want.</p>
+        <a class="btn" href="mailto:mark@markmalthouse.com?subject=Accessibility%20report%20quote">Ask for a quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" aria-labelledby="how-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="how-h">How it works</h2>
+        <p>All in writing, so there's a record.</p>
+      </header>
+      <ol class="steps">
+        <li><div><h3>Email me</h3><p>Tell me what you sell, which screens matter most and who asked for the report.</p></div></li>
+        <li><div><h3>Agree the scope</h3><p>We agree by email which screens to test. A short phone call is optional.</p></div></li>
+        <li><div><h3>Get a written quote</h3><p>Scope, tests, delivery date and terms. Liability is capped at the fee, and it's a technical review, not legal advice.</p></div></li>
+        <li><div><h3>Pay the setup</h3><p>Card invoice in US dollars. The monthly plan starts when the report is delivered.</p></div></li>
+        <li><div><h3>Testing starts</h3><p>You send a test account. The report and fix list arrive within 10 business days.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="sample" aria-labelledby="sample-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="sample-h">Read a sample first</h2>
+      </header>
+      <div class="band">
+        <p>A full sample report and fix list for Moodle LMS 5.3, tested on 15 October 2026, with the evidence behind every finding. An independent sample, not produced for, reviewed by, or affiliated with Moodle.</p>
+        <p><a class="btn" href="sample/">Read the sample report</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="limits" aria-labelledby="limits-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="limits-h">What this is not</h2>
+        <p>Your customer will read the report closely, so these limits are in it too.</p>
+      </header>
+      <ul class="limits">
+        <li>I'm not IAAP-certified. Each result says exactly how it was tested, so anyone can check the method.</li>
+        <li>It's a technical review, not legal advice, and it doesn't decide legal compliance.</li>
+        <li>An AI agent does most of the testing under my direction, and I review every finding. People with disabilities don't test unless we arrange that separately.</li>
+        <li>It covers the screens we agree on. It doesn't promise there are no other problems.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="who" aria-labelledby="who-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="who-h">Who a VPAT is for</h2>
+        <p>Customers ask for it because the software they buy has to work for everyone.</p>
+      </header>
+      <div class="people">
+        <figure class="person">
+          <img src="img/team.webp" width="1100" height="733" loading="lazy" decoding="async" alt="A small software team working on laptops around a shared table.">
+          <figcaption><b>Your team</b>You make software that companies, schools and agencies want to buy. They want proof it's accessible.</figcaption>
+        </figure>
+        <figure class="person">
+          <img src="img/student.webp" width="900" height="900" loading="lazy" decoding="async" alt="A student working on a laptop in a university library.">
+          <figcaption><b>Their users</b>Staff, students and the public all need to be able to use it.</figcaption>
+        </figure>
+        <figure class="person">
+          <img src="img/braille.webp" width="1100" height="825" loading="lazy" decoding="async" alt="Hands on a refreshable braille display in front of a computer keyboard.">
+          <figcaption><b>People using assistive technology</b>Screen reader and braille users rely on correct labels and focus order. I test with the NVDA screen reader. Braille displays aren't tested.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" aria-labelledby="faq-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="faq-h">Questions</h2>
+        <p>Anything else, email me.</p>
+      </header>
+      <div class="faq">
+        <details>
+          <summary>What is a VPAT, and what is an ACR?</summary>
+          <p>The VPAT (Voluntary Product Accessibility Template) is a blank form from the Information Technology Industry Council. Filled in for a product, it's called an Accessibility Conformance Report (ACR). Most buyers just say VPAT.</p>
+        </details>
+        <details>
+          <summary>Why are customers asking for one?</summary>
+          <p>Public colleges, schools and government agencies have to make the technology they use accessible, and a 2024 U.S. Department of Justice rule (ADA Title II) made the requirements more specific. Many now check a vendor's report before they buy or renew.</p>
+          <p>Some larger companies ask too, especially ones that sell to government or have customers in the EU, where the European Accessibility Act has covered many consumer digital services since June 2025.</p>
+        </details>
+        <details>
+          <summary>What do you need from me?</summary>
+          <p>A test account with normal user access (a test copy is fine if it matches the live product), the screens your customers care about most, and someone to answer emails during the 10 days.</p>
+        </details>
+        <details>
+          <summary>How long is a report valid?</summary>
+          <p>There's no official expiry. Many buyers want one from the last 12 to 24 months, and a new one after a big redesign. The report shows the product version and test date. On the monthly plan I keep it up to date.</p>
+        </details>
+        <details>
+          <summary>Do you fix the problems too?</summary>
+          <p>The fix list includes suggested fixes. Doing the fixes is quoted separately, only if you ask.</p>
+        </details>
+        <details>
+          <summary>Who does the testing?</summary>
+          <p>I run the business and approve everything that goes out. An AI agent does most of the testing and writing under my direction, and every finding is backed by evidence you can check.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-h">
+    <div class="wrap rail">
+      <header>
+        <h2 id="contact-h">Contact</h2>
+      </header>
+      <div>
+        <p class="muted">Email is best. Tell me what you sell and who asked for the report, and I'll reply with questions or a quote.</p>
+        <a class="mail" href="mailto:mark@markmalthouse.com">mark@markmalthouse.com</a>
+        <address><b>Mark Malthouse</b><br>Independent accessibility evaluator<br>Calgary, Alberta, Canada</address>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Mark Malthouse, accessibility reports. Calgary, Alberta, Canada. Email: mark@markmalthouse.com</p>
+    <p>No cookies, analytics or tracking on this page. Fonts are served from this site.</p>
+    <p>Photos from Unsplash by Annie Spratt, Zoshua Colah and Compagnons. Illustrative only: the people shown are not clients or testers.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,233 @@
+http://localhost:8085/mod/forum/view.php?id=3
+- status
+- link "Skip to main content":
+  - /url: "#maincontent"
+- navigation "Site navigation":
+  - link "SampleU":
+    - /url: http://localhost:8085/my/
+  - menubar:
+    - menuitem "Dashboard"
+  - button "Show notification window with no new notifications"
+  - button "Toggle messaging drawer"
+  - button "User menu":
+    - img "Barbara Gardner": BG
+    - text: 
+- link "Psychology in Cinema":
+  - /url: http://localhost:8085/course/view.php?id=2
+- button "Close course index"
+- separator
+- button "Collapse all" [expanded]
+- navigation:
+  - tree:
+    - treeitem "General" [expanded] [selected]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse0"
+      - link "General":
+        - /url: http://localhost:8085/course/section.php?id=1
+      - group "General":
+        - group:
+          - treeitem "Message from your tutor":
+            - link "Message from your tutor":
+              - /url: http://localhost:8085/mod/resource/view.php?id=1
+          - treeitem "Message from your tutor:tutor-message.wav":
+            - link "Message from your tutor:tutor-message.wav":
+              - /url: http://localhost:8085/course/section.php?id=1#module-2
+          - treeitem "Factual recall test":
+            - link "Factual recall test":
+              - /url: http://localhost:8085/mod/quiz/view.php?id=5
+    - treeitem "Background information" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse1"
+      - link "Background information":
+        - /url: http://localhost:8085/course/section.php?id=2
+      - group "Background information":
+        - group
+    - treeitem "Analysis" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse2"
+      - link "Analysis":
+        - /url: http://localhost:8085/course/section.php?id=3
+      - group "Analysis":
+        - group:
+          - treeitem "Course discussion":
+            - link "Course discussion":
+              - /url: http://localhost:8085/mod/forum/view.php?id=3
+    - treeitem "Reflection and Feedback" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse3"
+      - link "Reflection and Feedback":
+        - /url: http://localhost:8085/course/section.php?id=4
+      - group "Reflection and Feedback":
+        - group:
+          - treeitem "Reflective journal":
+            - link "Reflective journal":
+              - /url: http://localhost:8085/mod/assign/view.php?id=4
+    - treeitem "New section" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse4"
+      - link "New section":
+        - /url: http://localhost:8085/course/section.php?id=5
+      - group "New section":
+        - group
+- banner:
+  - navigation "Breadcrumb":
+    - list:
+      - listitem:
+        - link "Psych Cine":
+          - /url: http://localhost:8085/course/view.php?id=2
+      - listitem:
+        - text: /
+        - link "Analysis":
+          - /url: http://localhost:8085/course/section.php?id=3
+      - listitem: / Course discussion
+  - heading "Course discussion" [level=1]
+- text: Discuss the films and readings here.
+- main:
+  - button "Help":
+    - img "Help with Search": 
+  - textbox "Search forums"
+  - text: Search forums
+  - button "Search forums"
+  - link "Add discussion topic" [expanded]:
+    - /url: "#collapseAddForm"
+  - checkbox "Subscribe to forum"
+  - text: Subscribe to forum Subject
+  - textbox "Subject"
+  - text: Message
+  - application:
+    - menubar:
+      - menuitem "Edit"
+      - menuitem "View"
+      - menuitem "Insert"
+      - menuitem "Format"
+      - menuitem "Tools"
+      - menuitem "Table"
+      - menuitem "Help"
+    - group:
+      - toolbar:
+        - group "history":
+          - button "Undo" [disabled]:
+            - img
+          - button "Redo" [disabled]:
+            - img
+        - group "formatting":
+          - button "Bold":
+            - img
+          - button "Italic":
+            - img
+        - group "content":
+          - button "Image":
+            - img
+          - button "Multimedia":
+            - img
+          - button "Record audio":
+            - img
+          - button "Record video":
+            - img
+          - button "Link":
+            - img
+          - button "Unlink":
+            - img
+        - group "view":
+          - button "Fullscreen":
+            - img
+        - group "alignment":
+          - button "Align left":
+            - img
+          - button "Align centre":
+            - img
+          - button "Align right":
+            - img
+        - group:
+          - button "Reveal or hide additional toolbar items":
+            - img
+    - iframe
+    - group "Element Path":
+      - button "p"
+    - button "0 words"
+    - link "Build with TinyMCE":
+      - /url: https://www.tiny.cloud/powered-by-tiny?utm_campaign=poweredby&utm_source=tiny&utm_medium=referral&utm_content=v7
+      - text: Build with
+      - img
+    - separator "Press the Up and Down arrow keys to resize the editor.":
+      - img
+  - button "Post to forum"
+  - button "Cancel" [expanded]
+  - button "Advanced"
+  - table "List of discussions. Showing 2 of 2 discussions":
+    - caption: List of discussions. Showing 2 of 2 discussions
+    - rowgroup:
+      - row "Status Sort by discussion name in descending order Sort by discussion starter name in descending order Sort by last post creation date in ascending order Descending Sort by number of replies in descending order Subscribe Actions":
+        - columnheader "Status"
+        - columnheader "Sort by discussion name in descending order":
+          - link "Sort by discussion name in descending order":
+            - /url: http://localhost:8085/mod/forum/view.php?id=3&o=7
+            - text: Discussion
+        - columnheader "Sort by discussion starter name in descending order":
+          - link "Sort by discussion starter name in descending order":
+            - /url: http://localhost:8085/mod/forum/view.php?id=3&o=9
+            - text: Started by
+        - columnheader "Sort by last post creation date in ascending order Descending":
+          - link "Sort by last post creation date in ascending order":
+            - /url: http://localhost:8085/mod/forum/view.php?id=3&o=2
+            - text: Last post
+          - img "Descending": 
+        - columnheader "Sort by number of replies in descending order":
+          - link "Sort by number of replies in descending order":
+            - /url: http://localhost:8085/mod/forum/view.php?id=3&o=5
+            - text: Replies
+        - columnheader "Subscribe"
+        - columnheader "Actions"
+    - rowgroup:
+      - row "Star this discussion Screening times Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026 Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026 0 Subscribe to this discussion Toggle the discussion menu":
+        - cell "Star this discussion":
+          - button "Star this discussion":
+            - img "Star this discussion": 
+        - rowheader "Screening times":
+          - link "Screening times":
+            - /url: http://localhost:8085/mod/forum/discuss.php?d=2
+        - cell "Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026":
+          - img "Picture of Jeffrey Sanders"
+          - text: Jeffrey Sanders
+          - time: 15 Oct 2026
+        - cell "Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026":
+          - img "Picture of Jeffrey Sanders"
+          - text: Jeffrey Sanders
+          - link "15 Oct 2026":
+            - /url: http://localhost:8085/mod/forum/discuss.php?d=2&parent=2
+            - time: 15 Oct 2026
+        - cell "0"
+        - cell "Subscribe to this discussion":
+          - checkbox "Subscribe to this discussion"
+          - text: Subscribe to this discussion
+        - cell "Toggle the discussion menu":
+          - button "Toggle the discussion menu"
+      - 'row "Star this discussion Week 1: first impressions of Spider Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026 Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026 0 Subscribe to this discussion Toggle the discussion menu"':
+        - cell "Star this discussion":
+          - button "Star this discussion":
+            - img "Star this discussion": 
+        - 'rowheader "Week 1: first impressions of Spider"':
+          - 'link "Week 1: first impressions of Spider"':
+            - /url: http://localhost:8085/mod/forum/discuss.php?d=1
+        - cell "Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026":
+          - img "Picture of Jeffrey Sanders"
+          - text: Jeffrey Sanders
+          - time: 15 Oct 2026
+        - cell "Picture of Jeffrey Sanders Jeffrey Sanders 15 Oct 2026":
+          - img "Picture of Jeffrey Sanders"
+          - text: Jeffrey Sanders
+          - link "15 Oct 2026":
+            - /url: http://localhost:8085/mod/forum/discuss.php?d=1&parent=1
+            - time: 15 Oct 2026
+        - cell "0"
+        - cell "Subscribe to this discussion":
+          - checkbox "Subscribe to this discussion"
+          - text: Subscribe to this discussion
+        - cell "Toggle the discussion menu":
+          - button "Toggle the discussion menu"
+  - link "Previous":
+    - /url: http://localhost:8085/r.php/course/cms/3/previous
+  - link "Next":
+    - /url: http://localhost:8085/r.php/course/cms/3/next
+- contentinfo:
+  - button "Show footer"

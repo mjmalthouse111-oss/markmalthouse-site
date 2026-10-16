@@ -1,0 +1,194 @@
+[
+  {
+    "el": "input#q1:1_answer0",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:1_answer1",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:1_answer2",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:1_answer3",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "select#menuq1:2_sub0",
+    "type": "select-one",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 2.64
+  },
+  {
+    "el": "select#menuq1:2_sub1",
+    "type": "select-one",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 2.64
+  },
+  {
+    "el": "select#menuq1:2_sub2",
+    "type": "select-one",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 2.64
+  },
+  {
+    "el": "input#q1:3_answer0",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:3_answer1",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:3_answer2",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:3_answer3",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:4_answer0",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:4_answer1",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:4_answer2",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:4_answer3",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:5_answer0",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:5_answer1",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:5_answer2",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:5_answer3",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:6_answer0",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:6_answer1",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:6_answer2",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#q1:6_answer3",
+    "type": "radio",
+    "borderWidth": "0px",
+    "borderColor": "rgb(84, 84, 84)",
+    "adjacentBg": "rgb(230,242,245)",
+    "ratio": 6.63
+  },
+  {
+    "el": "input#",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(235,238,240)",
+    "ratio": 2.59
+  }
+]

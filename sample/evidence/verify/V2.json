@@ -1,0 +1,22 @@
+{
+  "width": {
+    "doc": 320,
+    "vw": 320,
+    "usermenuRight": 308
+  },
+  "colourMode": null,
+  "dropdowns": [
+    {
+      "ariaLabel": "Grouping drop-down menu",
+      "visible": "All"
+    },
+    {
+      "ariaLabel": "Sorting drop-down menu",
+      "visible": "Sort by course name"
+    },
+    {
+      "ariaLabel": "Display drop-down menu",
+      "visible": "Card"
+    }
+  ]
+}

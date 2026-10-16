@@ -1,0 +1,86 @@
+{
+  "dates": [
+    {
+      "text": "Opened:\nFriday, 25 September 2026, 12:00 AM",
+      "right": 364,
+      "ws": "nowrap"
+    },
+    {
+      "text": "Due:\nThursday, 31 December 2026, 12:00 AM",
+      "right": 364,
+      "ws": "nowrap"
+    }
+  ],
+  "docWidth": 364,
+  "editor": {
+    "iframe": {
+      "title": "",
+      "labelledby": "id_onlinetext_editor_label"
+    },
+    "body": {
+      "role": null,
+      "ariaLabel": "Online text. Rich text area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help."
+    },
+    "wordcount": {
+      "text": "10 words",
+      "ariaLabel": null,
+      "html": "<button type=\"button\" tabindex=\"-1\" data-alloy-tabstop=\"true\" class=\"tox-statusbar__wordcount\">10 words</button>"
+    },
+    "resizeHandle": "<div aria-label=\"Press the Up and Down arrow keys to resize the editor.\" data-mce-name=\"resize-handle\" role=\"separator\" data-alloy-tabstop=\"true\" tabindex=\"-1\" class=\"tox-statusbar__resize-handle tox-statusbar__resize-cursor-default\" aria-valuemin=\"175\" aria-valuenow=\"372\" aria-valuetext=\"Editor's h"
+  },
+  "wordcountAfterTyping": {
+    "text": "14 words",
+    "ariaLabel": null
+  },
+  "tabFromEditorBody": {
+    "top": {
+      "tag": "input",
+      "id": "id_submitbutton",
+      "cls": "btn\n                        btn-primary\n                    ",
+      "text": "Save changes"
+    },
+    "inFrame": null
+  },
+  "shiftTabFromEditorBody": {
+    "tag": "a",
+    "id": "",
+    "cls": "btn btn-icon me-3 icons-collapse-expand stretched-link fhead",
+    "text": "Add submission"
+  },
+  "altF10": {
+    "tag": "button",
+    "id": "",
+    "cls": "tox-tbtn",
+    "text": "Undo"
+  },
+  "escapeFromToolbar": {
+    "top": {
+      "tag": "button",
+      "id": "",
+      "cls": "tox-tbtn",
+      "text": "Undo"
+    },
+    "inFrame": null
+  },
+  "imageDialog": {
+    "title": "Insert image",
+    "text": "Insert image Add file Drag and drop an image to upload, or click to select Or add via URL Add Cancel Browse repositories"
+  },
+  "toolsMenu": [
+    "Source code",
+    "Word count",
+    "Accessibility checker",
+    "Media manager"
+  ],
+  "accessibilityChecker": "Accessibility checker Congratulations, no accessibility issues found!",
+  "afterSave": {
+    "url": "http://localhost:8085/mod/assign/view.php?id=4&action=view",
+    "active": {
+      "tag": "body",
+      "id": "page-mod-assign-view",
+      "cls": "format-topics limitedwidth path-mod path-mod-assign chrome d",
+      "text": "Skip to main content SampleU Dashboard BG Barbara Psychology in Cinema Collapse "
+    },
+    "status": "Submission status\nSubmission status\nSubmission status\tDraft (not submitted)\nGrading status\tNot graded\nTime remaining\t76 days 18 hours remaining\nLast modified\tThursday, 15 October 2026, 6:22 AM\nOnline "
+  }
+}

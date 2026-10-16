@@ -1,0 +1,165 @@
+{
+  "url": "http://localhost:8085/mod/assign/view.php?id=4&action=view",
+  "timestamp": "2026-10-15T05:13:05.321Z",
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.13.0"
+  },
+  "violations": [
+    {
+      "id": "heading-order",
+      "impact": "moderate",
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the order of headings is semantically correct",
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order invalid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h3>Submission status</h3>",
+          "target": [
+            ".submissionstatustable > h3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Heading order invalid"
+        }
+      ]
+    },
+    {
+      "id": "region",
+      "impact": "moderate",
+      "tags": [
+        "cat.keyboard",
+        "best-practice",
+        "RGAAv4",
+        "RGAA-9.2.1"
+      ],
+      "description": "Ensure all page content is contained by landmarks",
+      "help": "All page content should be contained by landmarks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/region?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"drawerheading\">\n                <div id=\"courseindexdrawerheading\">\n    <a class=\"aabtn m-1 courseindex-link text-truncate fw-bold\" href=\"http://localhost:8085/course/view.php?id=2\">\n        Psychology in Cinema\n    </a>\n</div>\n\n            </div>",
+          "target": [
+            "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"activity-header\" data-for=\"page-activity-header\">",
+          "target": [
+            ".activity-header"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "aria-valid-attr-value",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure all ARIA attributes have valid values",
+      "help": "ARIA attributes must conform to valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": {
+                "messageKey": "controlsWithinPopup",
+                "needsReview": "aria-controls=\"popover-region-container-6ad060de0bc106ad060ddecb1e2\""
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"popover-region-container-6ad060de0bc106ad060ddecb1e2\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"popover-region-toggl...\" data-region=\"popover-region-toggl...\" aria-controls=\"popover-region-conta...\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\" Show notification w...\" title=\" Show notification w...\" tabindex=\"0\" role=\"button\">",
+          "target": [
+            "div[data-region=\"popover-region-toggle\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"popover-region-container-6ad060de0bc106ad060ddecb1e2\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": {
+                "messageKey": "controlsWithinPopup",
+                "needsReview": "aria-controls=\"user-action-menu\""
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"user-action-menu\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<a href=\"#\" role=\"button\" id=\"user-menu-toggle\" data-bs-toggle=\"dropdown\" aria-label=\"User menu\" aria-haspopup=\"true\" aria-controls=\"user-action-menu\" class=\"btn dropdown-toggle\">",
+          "target": [
+            "#user-menu-toggle"
+          ],
+          "failureSummary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"user-action-menu\""
+        }
+      ]
+    }
+  ],
+  "passesCount": 53,
+  "inapplicableCount": 36
+}

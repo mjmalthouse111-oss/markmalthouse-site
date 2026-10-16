@@ -1,0 +1,230 @@
+{
+  "file": "moodle-support-home.html",
+  "facts": {
+    "title": "Home | Support : Moodle Services knowledge base",
+    "lang": "en",
+    "h1": [
+      "Hi, how can we help you?"
+    ],
+    "headings": 7,
+    "landmarks": 4,
+    "skipLink": true,
+    "imgsNoAlt": 0
+  },
+  "violations": [
+    {
+      "id": "target-size",
+      "impact": "serious",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag22aa",
+        "wcag258"
+      ],
+      "description": "Ensure touch targets have sufficient size and space",
+      "help": "All touch targets must be 24px large, or leave sufficient space",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 132.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (132.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"navbar-brand d-flex align-items-center\" href=\"http://www.Moodle.com\">",
+                  "target": [
+                    ".navbar-brand"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"#fw-main-content\" class=\"visually-hidden visually-hidden-focusable p-8 my-12 btn btn-outline-primary\">Skip to main content</a>",
+          "target": [
+            ".visually-hidden-focusable"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (132.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 39.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions\" class=\"nav-link\">\n                  <span class=\"d-md-none icon-solutions\"></span> Knowledge base\n                </a>",
+                  "target": [
+                    ".nav-link[href$=\"solutions\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/home\" class=\"nav-link\">\n                  <span class=\"d-md-none icon-home\"></span> Home\n                </a>",
+          "target": [
+            "a[href$=\"home\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 177,
+                "height": 21
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (177px by 21px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 21,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button id=\"solutions\" class=\"fw-search-tab \" data-tab=\"solutions\" role=\"tab\" aria-selected=\"false\" aria-controls=\"fw-search-tabpanel\">\n            Articles\n          </button>",
+                  "target": [
+                    "#solutions"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<input type=\"text\" class=\"form-control\" id=\"searchInput\" name=\"term\" value=\"\" placeholder=\"Enter the search term here....\" aria-describedby=\"srSearchUpdateMessage\" autocomplete=\"off\" aria-label=\"Enter the search term here....\">",
+          "target": [
+            "#searchInput"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (177px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 30.8,
+                "height": 21
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (30.8px by 21px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 21,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<input type=\"text\" class=\"form-control\" id=\"searchInput\" name=\"term\" value=\"\" placeholder=\"Enter the search term here....\" aria-describedby=\"srSearchUpdateMessage\" autocomplete=\"off\" aria-label=\"Enter the search term here....\">",
+                  "target": [
+                    "#searchInput"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button id=\"all\" class=\"fw-search-tab fw-active-search-tab\" data-tab=\"all\" role=\"tab\" aria-selected=\"true\" aria-controls=\"fw-search-tabpanel\">\n          All\n        </button>",
+          "target": [
+            "#all"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (30.8px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 59.7,
+                "height": 21
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (59.7px by 21px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 21,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<input type=\"text\" class=\"form-control\" id=\"searchInput\" name=\"term\" value=\"\" placeholder=\"Enter the search term here....\" aria-describedby=\"srSearchUpdateMessage\" autocomplete=\"off\" aria-label=\"Enter the search term here....\">",
+                  "target": [
+                    "#searchInput"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button id=\"solutions\" class=\"fw-search-tab \" data-tab=\"solutions\" role=\"tab\" aria-selected=\"false\" aria-controls=\"fw-search-tabpanel\">\n            Articles\n          </button>",
+          "target": [
+            "#solutions"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (59.7px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+        }
+      ]
+    }
+  ]
+}

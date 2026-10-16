@@ -1,0 +1,40 @@
+http://localhost:8085/grade/report/overview/index.php
+- status
+- link "Skip to main content":
+  - /url: "#maincontent"
+- navigation "Site navigation":
+  - link "SampleU":
+    - /url: http://localhost:8085/my/
+  - menubar:
+    - menuitem "Dashboard"
+  - button "Show notification window with no new notifications"
+  - button "Toggle messaging drawer"
+  - button "User menu":
+    - img "Barbara Gardner": BG
+    - text: 
+- banner:
+  - link "Barbara Gardner":
+    - /url: http://localhost:8085/user/profile.php?id=3
+    - img "Barbara Gardner": BG
+  - heading "Barbara Gardner" [level=1]
+  - button "Message"
+- main:
+  - heading "Courses I am taking" [level=2]
+  - table:
+    - rowgroup:
+      - row "Course name Grade":
+        - columnheader "Course name"
+        - columnheader "Grade"
+    - rowgroup:
+      - row "Film Studies Foundations -":
+        - cell "Film Studies Foundations":
+          - link "Film Studies Foundations":
+            - /url: http://localhost:8085/course/user.php?mode=grade&id=3&user=3
+        - cell "-"
+      - row "Psychology in Cinema 10.22":
+        - cell "Psychology in Cinema":
+          - link "Psychology in Cinema":
+            - /url: http://localhost:8085/course/user.php?mode=grade&id=2&user=3
+        - cell "10.22"
+- contentinfo:
+  - button "Show footer"

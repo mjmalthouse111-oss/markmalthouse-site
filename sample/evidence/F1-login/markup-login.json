@@ -1,0 +1,94 @@
+{
+  "title": "Log in to the site | SampleU",
+  "lang": "en",
+  "landmarks": [
+    {
+      "el": "aside.login-layout-left.col-lg-6.d-none",
+      "role": "aside",
+      "name": ""
+    },
+    {
+      "el": "div",
+      "role": "main",
+      "name": ""
+    }
+  ],
+  "headings": [
+    {
+      "level": "1",
+      "text": "Welcome to Moodle"
+    },
+    {
+      "level": "1",
+      "text": "Welcome back"
+    }
+  ],
+  "controls": [
+    {
+      "el": "input#username.form-control",
+      "type": "text",
+      "name": "Username or email",
+      "autocomplete": "username",
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#password.form-control",
+      "type": "password",
+      "name": "Password",
+      "autocomplete": "current-password",
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    }
+  ],
+  "images": {
+    "total": 4,
+    "sample": [
+      {
+        "el": "i.icon.fa.fa-envelope",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-lock",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa-regular.fa-eye",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-question",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      }
+    ]
+  },
+  "live": [
+    {
+      "el": "div.toast-wrapper.mx-auto.py-0",
+      "role": "status",
+      "live": "polite",
+      "text": ""
+    }
+  ],
+  "labelInName": [],
+  "dupIds": [],
+  "iframes": []
+}

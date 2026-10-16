@@ -1,0 +1,10 @@
+{
+  "viewport": 320,
+  "documentWidth": 320,
+  "pageScrollsHorizontally": false,
+  "offenders": [],
+  "scrollContainers": [
+    "div.table-responsive (824px content in 284px box)"
+  ],
+  "screenshot": "F7-grades\\reflow320-grades-user.png"
+}

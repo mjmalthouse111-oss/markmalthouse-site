@@ -1,0 +1,13 @@
+{
+  "viewport": 320,
+  "documentWidth": 364,
+  "pageScrollsHorizontally": true,
+  "offenders": [
+    "div.date-item right=364",
+    "div.date-item right=364"
+  ],
+  "scrollContainers": [
+    "div.tox-menubar (366px content in 258px box)"
+  ],
+  "screenshot": "F4-assignment\\reflow320-assign-edit.png"
+}

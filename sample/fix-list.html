@@ -1,0 +1,171 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Moodle Fix List</title><style>:root{--ink:#1b1f24;--muted:#4a5560;--line:#c9d0d6;--soft:#f3f5f7;--accent:#1d4e89;--warn:#8a3b00;--bg:#ffffff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ink:#e8ecef;--muted:#b7c0c8;--line:#3d464f;--soft:#20262c;--accent:#8ab8ef;--warn:#f0a868;--bg:#14181c}}
+:root[data-theme="dark"]{--ink:#e8ecef;--muted:#b7c0c8;--line:#3d464f;--soft:#20262c;--accent:#8ab8ef;--warn:#f0a868;--bg:#14181c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "Segoe UI",Arial,Helvetica,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.75rem;line-height:1.25;margin:0 0 8px}
+h2{font-size:1.3rem;margin:36px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--line)}
+h3{font-size:1.08rem;margin:22px 0 8px}
+p{margin:0 0 8px}
+a{color:var(--accent)}
+.label{border:2px solid var(--warn);padding:12px 14px;margin:12px 0 16px;background:var(--soft)}
+.label p{margin:0 0 4px}
+.label strong{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+thead th{background:var(--soft)}
+tbody th{font-weight:600;width:24%}
+.lvl{display:inline-block;font-weight:600;white-space:nowrap}
+.sup{color:#1e6b34}.part{color:#8a5a00}.dns{color:#a1261b}.na,.ne{color:var(--muted)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .sup{color:#7fd39a}:root:not([data-theme="light"]) .part{color:#f2c46b}:root:not([data-theme="light"]) .dns{color:#ff8f84}}
+.how{color:var(--muted);font-size:.88rem}
+.ev{font-size:.82rem;color:var(--muted);word-break:break-word}
+.meta th{width:26%}
+.counts td,.counts th{text-align:center}.counts tbody th{text-align:left}
+.fix{border:1px solid var(--line);padding:12px 14px;margin:0 0 14px;break-inside:avoid}
+.fix h3{margin:0 0 6px}
+.fix dl{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;margin:0}
+.fix dt{font-weight:600;color:var(--muted)}
+.fix dd{margin:0}
+.imp{font-weight:700}.imp-High{color:#a1261b}.imp-Medium{color:#8a5a00}.imp-Low{color:var(--muted)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .imp-High{color:#ff9b94}:root:not([data-theme="light"]) .imp-Medium{color:#f2c46b}}
+:root[data-theme="dark"] .imp-High{color:#ff9b94}:root[data-theme="dark"] .imp-Medium{color:#f2c46b}
+figure{margin:8px 0 0}figure img{max-width:100%;max-height:340px;border:1px solid var(--line)}
+figcaption{font-size:.8rem;color:var(--muted)}
+.small{font-size:.85rem;color:var(--muted)}
+td,th{overflow-wrap:break-word}.ev,.ev a,td a{overflow-wrap:anywhere}
+@media (max-width:640px){td{overflow-wrap:anywhere}.lvl{white-space:normal}tbody th{width:auto}.fix dl{grid-template-columns:1fr}table{font-size:.85rem}th,td{padding:5px 6px}}
+@media print{body{font-size:10.5pt}main{max-width:none;padding:0}h2,h3{break-after:avoid}tr{break-inside:auto}td p{orphans:3;widows:3}tr:has(th.sub){break-after:avoid}figure{break-inside:avoid}a{color:inherit;text-decoration:none}}
+.draft{border:2px solid #a1261b;padding:10px 14px;margin:0 0 16px}
+.draft strong{color:#a1261b}
+.pend{color:#a1261b}
+th.sub{background:var(--soft)}
+.evnote{font-size:.78rem;color:var(--muted)}
+
+@media print{figure img{max-height:220px}}
+@media print{.fix{break-inside:auto}.fix h3,.fix dt{break-after:avoid}.fix dl{orphans:3;widows:3}}
+@media print{.fix dl{display:block}.fix dt{margin-top:4px}.fix dd{margin:0 0 2px 0}}
+@media print{table.meta,table.meta tbody,table.meta tr,table.meta th,table.meta td{display:block;width:auto}table.meta th{border-bottom:none;background:var(--soft)}table.meta td{border-top:none}}
+
+@media print{.fix figure{break-before:avoid}figure img{max-height:180px}}
+</style></head><body><main><p style="margin:0 0 16px"><a href="./">Back to the sample overview</a></p>
+<p class="small">Companion to the sample Accessibility Conformance Report</p>
+<h1>Moodle LMS 5.3 (default install): Prioritized Fix List</h1>
+<div class="label" role="note">
+<p><strong>SAMPLE REPORT.</strong> Independent sample evaluation by Mark Malthouse, independent accessibility evaluator. Not produced for, reviewed by, or affiliated with Moodle.</p>
+<p>This is a sample, made to show the format and method. It records what was observed on 15 October 2026 on a default Moodle LMS 5.3 install with sample course content, run locally by the evaluator.</p>
+<p>Mark Malthouse is not IAAP-certified; each criterion lists exactly how it was tested.</p>
+<p>This is a technical assessment, not legal advice and not a determination of legal conformance.</p>
+</div>
+
+<p>8 platform findings, ranked by how much they affect users (High, then Medium, then Low; within each, by how many users and how central the task is), then 1 sample content finding.</p>
+<h2>Platform findings (Moodle LMS)</h2>
+<table><thead><tr><th scope="col">#</th><th scope="col">Finding</th><th scope="col">Impact</th><th scope="col">WCAG</th><th scope="col">Owner</th></tr></thead><tbody>
+<tr><td>1</td><td><a href="#fix-1">Tab cannot move past an unanswered multiple-choice question</a></td><td><span class="imp imp-High">High</span></td><td>2.1.1 Keyboard; 2.4.3 Focus Order; 4.1.2 Name, Role, Value</td><td>Platform (question type: multiple choice)</td></tr><tr><td>2</td><td><a href="#fix-2">Activity dates force sideways scrolling on narrow screens and at 400% zoom</a></td><td><span class="imp imp-Medium">Medium</span></td><td>1.4.10 Reflow</td><td>Platform (activity header)</td></tr><tr><td>3</td><td><a href="#fix-3">Course overview drop-downs and other controls have names that differ from their visible text</a></td><td><span class="imp imp-Medium">Medium</span></td><td>2.5.3 Label in Name</td><td>Platform (dashboard, header, forum)</td></tr><tr><td>4</td><td><a href="#fix-4">Password reveal button is named &quot;Toggle sensitive&quot; with no state</a></td><td><span class="imp imp-Medium">Medium</span></td><td>2.4.6 Headings and Labels; 4.1.2 Name, Role, Value</td><td>Platform (login form)</td></tr><tr><td>5</td><td><a href="#fix-5">Screen readers are not told the name of the text editor field</a></td><td><span class="imp imp-Low">Low</span></td><td>4.1.2 Name, Role, Value</td><td>Platform (TinyMCE integration)</td></tr><tr><td>6</td><td><a href="#fix-6">&quot;Flag question&quot; button is named &quot;Flagged&quot; whatever its state</a></td><td><span class="imp imp-Low">Low</span></td><td>4.1.2 Name, Role, Value; 2.5.3 Label in Name</td><td>Platform (quiz)</td></tr><tr><td>7</td><td><a href="#fix-7">Drawer button tooltip vanishes when the pointer moves onto it</a></td><td><span class="imp imp-Low">Low</span></td><td>1.4.13 Content on Hover or Focus</td><td>Platform (theme tooltips)</td></tr><tr><td>8</td><td><a href="#fix-8">Text field borders are too faint on grey backgrounds</a></td><td><span class="imp imp-Low">Low</span></td><td>1.4.11 Non-text Contrast</td><td>Platform (theme form styles)</td></tr>
+</tbody></table>
+<section class="fix" id="fix-1" aria-labelledby="fix-h-1"><h3 id="fix-h-1">1. Tab cannot move past an unanswered multiple-choice question</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-High">High</span></dd>
+<dt>WCAG criterion</dt><dd>2.1.1 Keyboard; 2.4.3 Focus Order; 4.1.2 Name, Role, Value</dd>
+<dt>Location</dt><dd>F5 quiz attempt page, first option of each unanswered multiple-choice question (for example input#q2:1_answer0); hidden div[id$=&quot;_clearchoice&quot;]</dd>
+<dt>What happens</dt><dd>With no answer chosen, focus stays on option a after 26 more Tab presses (Chromium and Firefox), and NVDA says nothing on further Tab presses. This blocks sighted keyboard users, switch users and screen reader users who move with Tab (focus mode); they must choose an answer to move on, or find the quiz navigation drawer. NVDA browse mode (H, arrow keys, F) does move past the question. The hidden &quot;Clear my choice&quot; radio is checked, focusable and inside aria-hidden=&quot;true&quot;.</dd>
+<dt>Suggested fix</dt><dd>Give the hidden &quot;no answer&quot; radio tabindex=&quot;-1&quot; only. Do not add disabled, because its value of -1 must still be submitted with the form. Then check the clear-choice focus script in qtype_multichoice for code that moves focus back to the first option. Retest Tab and Shift+Tab through a page of unanswered questions. Moodle tracks this as MDL-89285 (open, in component lead review on 15 October 2026).</dd>
+<dt>Tracker</dt><dd><a href="https://moodle.atlassian.net/browse/MDL-89285">https://moodle.atlassian.net/browse/MDL-89285</a></dd>
+<dt>Evidence</dt><dd class="ev"><a href="evidence/verify/V6.json">verify/V6.json</a>, <a href="evidence/verify/V6-after-26-tabs-chromium.png">verify/V6-after-26-tabs-chromium.png</a>, <a href="evidence/F5-quiz/axe-quiz-attempt.json">F5-quiz/axe-quiz-attempt.json</a></dd>
+<dt>Owner</dt><dd>Platform (question type: multiple choice)</dd></dl>
+<figure><img src="evidence/verify/V6-after-26-tabs-chromium.png" alt="Screenshot evidence for finding 1: After 26 Tab presses focus is still on option a."><figcaption>After 26 Tab presses focus is still on option a.</figcaption></figure>
+</section>
+<section class="fix" id="fix-2" aria-labelledby="fix-h-2"><h3 id="fix-h-2">2. Activity dates force sideways scrolling on narrow screens and at 400% zoom</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-Medium">Medium</span></dd>
+<dt>WCAG criterion</dt><dd>1.4.10 Reflow</dd>
+<dt>Location</dt><dd>F4 assignment view and edit pages at 320 CSS px, .date-item (white-space: nowrap)</dd>
+<dt>What happens</dt><dd>The &quot;Opened&quot; and &quot;Due&quot; dates do not wrap, so the page becomes 364 px wide and the dates are cut off.</dd>
+<dt>Suggested fix</dt><dd>Allow the date text to wrap (white-space: normal) or stack the label above the date below about 400 px wide.</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/verify/V4-assign-dates-320.png">verify/V4-assign-dates-320.png</a>, <a href="evidence/verify/V4.json">verify/V4.json</a></dd>
+<dt>Owner</dt><dd>Platform (activity header)</dd></dl>
+<figure><img src="evidence/verify/V4-assign-dates-320.png" alt="Screenshot evidence for finding 2: Assignment page at 320 CSS px: dates cut off at the right."><figcaption>Assignment page at 320 CSS px: dates cut off at the right.</figcaption></figure>
+</section>
+<section class="fix" id="fix-3" aria-labelledby="fix-h-3"><h3 id="fix-h-3">3. Course overview drop-downs and other controls have names that differ from their visible text</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-Medium">Medium</span></dd>
+<dt>WCAG criterion</dt><dd>2.5.3 Label in Name</dd>
+<dt>Location</dt><dd>F2 dashboard: #groupingdropdown, #sortingdropdown, #displaydropdown; header #user-menu-toggle; F6 forum list &quot;Started by&quot; sort link</dd>
+<dt>What happens</dt><dd>Visible text &quot;All&quot;, &quot;Sort by course name&quot;, &quot;Card&quot;, &quot;BG Barbara&quot; and &quot;Started by&quot; is not part of the names (&quot;Grouping drop-down menu&quot;, etc.). Voice control users cannot click them by saying what they see.</dd>
+<dt>Suggested fix</dt><dd>Start each accessible name with the visible text, for example aria-label=&quot;All, grouping filter&quot;, or drop the aria-label and add the extra context with visually hidden text after the visible text.</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/verify/V2.json">verify/V2.json</a>, <a href="evidence/F2-dashboard/filter-bar-crop.png">F2-dashboard/filter-bar-crop.png</a>, <a href="evidence/F6-forum/markup-forum-view.json">F6-forum/markup-forum-view.json</a></dd>
+<dt>Owner</dt><dd>Platform (dashboard, header, forum)</dd></dl>
+<figure><img src="evidence/F2-dashboard/filter-bar-crop.png" alt="Screenshot evidence for finding 3: Course overview filter bar: visible text 'All', 'Sort by course name', 'Card'."><figcaption>Course overview filter bar: visible text 'All', 'Sort by course name', 'Card'.</figcaption></figure>
+</section>
+<section class="fix" id="fix-4" aria-labelledby="fix-h-4"><h3 id="fix-h-4">4. Password reveal button is named &quot;Toggle sensitive&quot; with no state</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-Medium">Medium</span></dd>
+<dt>WCAG criterion</dt><dd>2.4.6 Headings and Labels; 4.1.2 Name, Role, Value</dd>
+<dt>Location</dt><dd>F1 login page, button.toggle-sensitive-btn next to the password field</dd>
+<dt>What happens</dt><dd>NVDA reads it as &quot;Toggle sensitive, button&quot; (Chrome and Firefox), which does not say it shows the password, and says nothing when it is pressed, so users do not know whether the password is now shown.</dd>
+<dt>Suggested fix</dt><dd>Name it &quot;Show password&quot; and add aria-pressed=&quot;false&quot;/&quot;true&quot; (or switch the name to &quot;Hide password&quot; when shown).</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/verify/V7.json">verify/V7.json</a>, <a href="evidence/verify/V7-password-toggle.png">verify/V7-password-toggle.png</a>, <a href="evidence/nvda/nvda-log.json">nvda/nvda-log.json</a></dd>
+<dt>Owner</dt><dd>Platform (login form)</dd></dl>
+
+</section>
+<section class="fix" id="fix-5" aria-labelledby="fix-h-5"><h3 id="fix-h-5">5. Screen readers are not told the name of the text editor field</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-Low">Low</span></dd>
+<dt>WCAG criterion</dt><dd>4.1.2 Name, Role, Value</dd>
+<dt>Location</dt><dd>F4 assignment edit and F6 forum form, iframe#id_onlinetext_editor_ifr and #id_message_ifr, body#tinymce (NVDA checked on F6 only)</dd>
+<dt>What happens</dt><dd>Tabbing from Subject into the forum Message editor, NVDA announced only &quot;application&quot; in Chrome, so a screen reader user is not told which field they are in; no speech was captured within 2 seconds in Firefox (not confirmed). The editable body (role &quot;document&quot;) has aria-label=&quot;Online text. Rich text area...&quot; where ARIA does not allow a name; the iframe is labelled, but that label was not announced.</dd>
+<dt>Suggested fix</dt><dd>Give the editable body a role that allows a name (role=&quot;textbox&quot; with aria-multiline=&quot;true&quot;) or check the TinyMCE version for its fix, then confirm with NVDA and VoiceOver.</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/F4-assignment/axe-assign-edit.json">F4-assignment/axe-assign-edit.json</a>, <a href="evidence/verify/V4.json">verify/V4.json</a>, <a href="evidence/F6-forum/axe-forum-form.json">F6-forum/axe-forum-form.json</a>, <a href="evidence/nvda/nvda-log.json">nvda/nvda-log.json</a></dd>
+<dt>Owner</dt><dd>Platform (TinyMCE integration)</dd></dl>
+
+</section>
+<section class="fix" id="fix-6" aria-labelledby="fix-h-6"><h3 id="fix-h-6">6. &quot;Flag question&quot; button is named &quot;Flagged&quot; whatever its state</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-Low">Low</span></dd>
+<dt>WCAG criterion</dt><dd>4.1.2 Name, Role, Value; 2.5.3 Label in Name</dd>
+<dt>Location</dt><dd>F5 quiz attempt and review pages, .questionflag a[role=button] (one per question)</dd>
+<dt>What happens</dt><dd>aria-label=&quot;Flagged&quot; is fixed while the visible text changes between &quot;Flag question&quot; and &quot;Remove flag&quot;. On an unflagged question NVDA says &quot;Flagged, toggle button, not pressed, Flag this question for future reference&quot;; after flagging it says &quot;Flagged, toggle button, pressed&quot;. The state is announced correctly, but the name contradicts it, and voice control users saying &quot;Flag question&quot; get no match.</dd>
+<dt>Suggested fix</dt><dd>Remove the fixed aria-label so the visible text becomes the name, or name it &quot;Flag question&quot; and keep aria-pressed for the state.</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/run-F5.json">run-F5.json</a>, <a href="evidence/F5-quiz/flag-toggled.png">F5-quiz/flag-toggled.png</a>, <a href="evidence/F5-quiz/aria-quiz-attempt.yml">F5-quiz/aria-quiz-attempt.yml</a>, <a href="evidence/nvda/nvda-log.json">nvda/nvda-log.json</a></dd>
+<dt>Owner</dt><dd>Platform (quiz)</dd></dl>
+<figure><img src="evidence/F5-quiz/flag-toggled.png" alt="Screenshot evidence for finding 6: Quiz attempt after toggling the flag: the visible text reads &quot;Remove flag&quot;."><figcaption>Quiz attempt after toggling the flag: the visible text reads &quot;Remove flag&quot;.</figcaption></figure>
+</section>
+<section class="fix" id="fix-7" aria-labelledby="fix-h-7"><h3 id="fix-h-7">7. Drawer button tooltip vanishes when the pointer moves onto it</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-Low">Low</span></dd>
+<dt>WCAG criterion</dt><dd>1.4.13 Content on Hover or Focus</dd>
+<dt>Location</dt><dd>F3 course page, course index drawer button</dd>
+<dt>What happens</dt><dd>The tooltip hides as soon as the pointer leaves the button, so screen magnifier users cannot move onto it to read it.</dd>
+<dt>Suggested fix</dt><dd>Keep the tooltip open while the pointer is over the trigger or the tooltip.</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/verify/V3.json">verify/V3.json</a>, <a href="evidence/verify/V3-tooltip-courseindex.png">verify/V3-tooltip-courseindex.png</a></dd>
+<dt>Owner</dt><dd>Platform (theme tooltips)</dd></dl>
+
+</section>
+<section class="fix" id="fix-8" aria-labelledby="fix-h-8"><h3 id="fix-h-8">8. Text field borders are too faint on grey backgrounds</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-Low">Low</span></dd>
+<dt>WCAG criterion</dt><dd>1.4.11 Non-text Contrast</dd>
+<dt>Location</dt><dd>F6 forum form #id_subject, forum search field, forum subscription switches (on #f8f9fa); messaging drawer search field (on #ebeef0)</dd>
+<dt>What happens</dt><dd>The #8f959e border is 2.86:1 against #f8f9fa and 2.59:1 against #ebeef0, so low-vision users may not see where the field is.</dd>
+<dt>Suggested fix</dt><dd>Use a border of #7a8089 or darker (3.8:1 on #f8f9fa).</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/F6-forum/control-contrast-forum-form.json">F6-forum/control-contrast-forum-form.json</a>, <a href="evidence/F6-forum/desktop-forum-form.png">F6-forum/desktop-forum-form.png</a></dd>
+<dt>Owner</dt><dd>Platform (theme form styles)</dd></dl>
+
+</section>
+<h2>Sample content (course author)</h2>
+<p>These items are in the sample course material, not in Moodle LMS. A real customer's course authors would fix them.</p>
+<section class="fix" id="fix-C1" aria-labelledby="fix-h-C1"><h3 id="fix-h-C1">C1. Course audio message has no transcript</h3><dl>
+<dt>Impact</dt><dd><span class="imp imp-High">High</span></dd>
+<dt>WCAG criterion</dt><dd>1.2.1 Audio-only and Video-only</dd>
+<dt>Location</dt><dd>F3 course page, &quot;General&quot; section, audio player &quot;Message from your tutor&quot;</dd>
+<dt>What happens</dt><dd>A 33-second spoken welcome from the tutor has no text version, so deaf and hard-of-hearing students miss it.</dd>
+<dt>Suggested fix</dt><dd>Add a transcript under the player (or a link to one) with everything said.</dd>
+
+<dt>Evidence</dt><dd class="ev"><a href="evidence/verify/V3-course-audio.png">verify/V3-course-audio.png</a>, <a href="evidence/verify/V3.json">verify/V3.json</a></dd>
+<dt>Owner</dt><dd>Sample content (course author)</dd></dl>
+<figure><img src="evidence/verify/V3-course-audio.png" alt="Screenshot evidence for finding C1: Course page: audio player with no transcript."><figcaption>Course page: audio player with no transcript.</figcaption></figure>
+</section>
+<h2>Advisory notes</h2><ul><li>After a failed login the page reloads with the error in a role=&quot;alert&quot; box and focus in the username field, but NVDA read only the page title (&quot;Log in to the site Sample U&quot;) in Chrome and Firefox; the error was not announced. Linking the error to the field (aria-describedby and aria-invalid) would make it heard. This may be a test timing effect; a manual NVDA check is recommended.</li><li>When the session timeout warning appeared, NVDA spoke nothing in the following 3 seconds (see WCAG 2.2.1). A manual check with a screen reader user is recommended.</li><li>Heading levels skip in places (for example h1 to h3 on quiz and assignment pages). Not a WCAG failure, but it makes heading navigation less predictable.</li><li>The activity description and dates on assignment and quiz pages sit outside the main landmark, so landmark navigation lands below the instructions.</li><li>After Alt+F10 moves focus to the editor toolbar, Escape leaves focus on the toolbar instead of returning it to the text.</li><li>During the first second after the editor loads, axe reported an unnamed word-count button and a resize handle without aria-valuenow; both were correct once loading finished.</li><li>In Windows contrast themes (forced colours), the quiz flag icon disappears; its text label stays, so no information is lost.</li></ul>
+<p class="small">Technical assessment, not legal advice and not a determination of legal conformance. Fixes should be retested after they are made, including a screen reader check.</p>
+</main></body></html>

@@ -1,0 +1,73 @@
+{
+  "atLoad": {
+    "scrollY": 0,
+    "editButton": [
+      20,
+      490,
+      144,
+      38
+    ],
+    "pointsCovered": "9 of 21",
+    "coveredBy": [
+      "button.btn.btn-icon.icon-size-3 \"Open course index\"",
+      "div.drawer-toggler.drawer-left-toggle.open-nav \"\""
+    ]
+  },
+  "scrolled": [
+    {
+      "scrollY": 100,
+      "editButton": [
+        20,
+        390,
+        144,
+        38
+      ],
+      "pointsCovered": "0 of 21",
+      "coveredBy": []
+    },
+    {
+      "scrollY": 200,
+      "editButton": [
+        20,
+        290,
+        144,
+        38
+      ],
+      "pointsCovered": "0 of 21",
+      "coveredBy": []
+    },
+    {
+      "scrollY": 300,
+      "editButton": [
+        20,
+        190,
+        144,
+        38
+      ],
+      "pointsCovered": "0 of 21",
+      "coveredBy": []
+    },
+    {
+      "scrollY": 400,
+      "editButton": [
+        20,
+        90,
+        144,
+        38
+      ],
+      "pointsCovered": "0 of 21",
+      "coveredBy": []
+    }
+  ],
+  "afterScroll": {
+    "scrollY": 320,
+    "editButton": [
+      20,
+      170,
+      144,
+      38
+    ],
+    "pointsCovered": "0 of 21",
+    "coveredBy": []
+  }
+}

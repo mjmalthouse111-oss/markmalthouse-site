@@ -1,0 +1,46 @@
+{
+  "login": {
+    "stops": 63,
+    "fullyObscured": [],
+    "partlyObscured": 0
+  },
+  "dashboard": {
+    "stops": 67,
+    "fullyObscured": [],
+    "partlyObscured": 3
+  },
+  "course": {
+    "stops": 68,
+    "fullyObscured": [
+      {
+        "id": "",
+        "text": "Course",
+        "visible": 0,
+        "total": 9,
+        "cover": "div.container-fluid",
+        "sr": false
+      }
+    ],
+    "partlyObscured": 0
+  },
+  "assign-edit": {
+    "stops": 67,
+    "fullyObscured": [],
+    "partlyObscured": 0
+  },
+  "quiz-attempt": {
+    "stops": 21,
+    "fullyObscured": [],
+    "partlyObscured": 0
+  },
+  "forum": {
+    "stops": 69,
+    "fullyObscured": [],
+    "partlyObscured": 0
+  },
+  "grades": {
+    "stops": 67,
+    "fullyObscured": [],
+    "partlyObscured": 0
+  }
+}

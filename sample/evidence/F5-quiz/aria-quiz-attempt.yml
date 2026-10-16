@@ -1,0 +1,152 @@
+http://localhost:8085/mod/quiz/attempt.php?attempt=1&cmid=5
+- status
+- link "Skip to main content":
+  - /url: "#maincontent"
+- navigation "Site navigation":
+  - link "SampleU":
+    - /url: http://localhost:8085/my/
+  - menubar:
+    - menuitem "Dashboard"
+  - button "Show notification window with no new notifications"
+  - button "Toggle messaging drawer"
+  - button "User menu":
+    - img "Barbara Gardner": BG
+    - text: 
+- button "Close block drawer"
+- complementary "Blocks":
+  - heading "Blocks" [level=2]
+  - link "Skip Quiz navigation":
+    - /url: "#sb-1"
+  - navigation "Quiz navigation":
+    - heading "Quiz navigation" [level=3]
+    - link "Question 1 This page":
+      - /url: "#question-1-1"
+    - link "Question 2 This page":
+      - /url: "#question-1-2"
+    - link "Question 3 This page":
+      - /url: "#question-1-3"
+    - link "Question 4 This page":
+      - /url: "#question-1-4"
+    - link "Question 5 This page":
+      - /url: "#question-1-5"
+    - link "Question 6 This page":
+      - /url: "#question-1-6"
+    - link "Finish attempt ...":
+      - /url: http://localhost:8085/mod/quiz/summary.php?attempt=1&cmid=5
+- button "Open course index"
+- banner:
+  - navigation "Breadcrumb":
+    - list:
+      - listitem:
+        - link "Psych Cine":
+          - /url: http://localhost:8085/course/view.php?id=2
+      - listitem:
+        - text: /
+        - link "General":
+          - /url: http://localhost:8085/course/section.php?id=1
+      - listitem: / Factual recall test
+  - heading "Factual recall test" [level=1]
+- main:
+  - link "Back":
+    - /url: http://localhost:8085/mod/quiz/view.php?id=5
+  - heading "Question 1" [level=3]
+  - text: Not yet answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: What is the significance of the little girl in A Beautiful Mind?
+  - group "Question 1 Answer":
+    - text: Question 1 Answer
+    - radio "a. She reminds Nash that he is getting older"
+    - text: a. She reminds Nash that he is getting older
+    - radio "b. She shows Nash that the people he sees are not real"
+    - text: b. She shows Nash that the people he sees are not real
+    - radio "c. She inspires his later discoveries"
+    - text: c. She inspires his later discoveries
+    - radio "d. She is his daughter"
+    - text: d. She is his daughter
+  - heading "Question 2" [level=3]
+  - text: Not yet answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Match each film to its director. Spider Answer 1 Question 2
+  - combobox "Answer 1 Question 2":
+    - option "Choose..." [selected]
+    - option "David Cronenberg"
+    - option "David Fincher"
+    - option "Ron Howard"
+  - text: A Beautiful Mind Answer 2 Question 2
+  - combobox "Answer 2 Question 2":
+    - option "Choose..." [selected]
+    - option "David Cronenberg"
+    - option "David Fincher"
+    - option "Ron Howard"
+  - text: Fight Club Answer 3 Question 2
+  - combobox "Answer 3 Question 2":
+    - option "Choose..." [selected]
+    - option "David Cronenberg"
+    - option "David Fincher"
+    - option "Ron Howard"
+  - heading "Question 3" [level=3]
+  - text: Not yet answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Which concept does John Nash develop?
+  - group "Question 3 Answer":
+    - text: Question 3 Answer
+    - radio "a. The square cube law"
+    - text: a. The square cube law
+    - radio "b. Governing dynamics"
+    - text: b. Governing dynamics
+    - radio "c. The pigeonhole principle"
+    - text: c. The pigeonhole principle
+    - radio "d. Equinumerosity"
+    - text: d. Equinumerosity
+  - heading "Question 4" [level=3]
+  - text: Not yet answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Why does Spider attempt to murder his landlady?
+  - group "Question 4 Answer":
+    - text: Question 4 Answer
+    - radio "a. She does not return his affection"
+    - text: a. She does not return his affection
+    - radio "b. He fears she will send him back to the asylum"
+    - text: b. He fears she will send him back to the asylum
+    - radio "c. She stole from him"
+    - text: c. She stole from him
+    - radio "d. He sees her as his father's mistress"
+    - text: d. He sees her as his father's mistress
+  - heading "Question 5" [level=3]
+  - text: Not yet answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: In Fight Club, where do the main characters get the material to make soap?
+  - group "Question 5 Answer":
+    - text: Question 5 Answer
+    - radio "a. A hospital"
+    - text: a. A hospital
+    - radio "b. A liposuction clinic"
+    - text: b. A liposuction clinic
+    - radio "c. A farm"
+    - text: c. A farm
+    - radio "d. A factory"
+    - text: d. A factory
+  - heading "Question 6" [level=3]
+  - text: Not yet answered Marked out of 1.00
+  - button "Flagged": Flag question
+  - heading "Question text" [level=4]
+  - text: Who directed Spider?
+  - group "Question 6 Answer":
+    - text: Question 6 Answer
+    - radio "a. David Cronenberg"
+    - text: a. David Cronenberg
+    - radio "b. Ron Howard"
+    - text: b. Ron Howard
+    - radio "c. David Fincher"
+    - text: c. David Fincher
+    - radio "d. Christopher Nolan"
+    - text: d. Christopher Nolan
+  - button "Finish attempt ..."
+- contentinfo:
+  - button "Show footer"
+- tooltip "Open course index"

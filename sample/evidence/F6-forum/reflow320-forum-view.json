@@ -1,0 +1,10 @@
+{
+  "viewport": 320,
+  "documentWidth": 320,
+  "pageScrollsHorizontally": false,
+  "offenders": [],
+  "scrollContainers": [
+    "div.table-responsive (718px content in 304px box)"
+  ],
+  "screenshot": "F6-forum\\reflow320-forum-view.png"
+}

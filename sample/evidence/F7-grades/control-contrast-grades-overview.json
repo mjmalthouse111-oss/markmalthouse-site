@@ -1,0 +1,10 @@
+[
+  {
+    "el": "input#",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(235,238,240)",
+    "ratio": 2.59
+  }
+]

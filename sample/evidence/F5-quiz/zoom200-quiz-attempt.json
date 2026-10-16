@@ -1,0 +1,11 @@
+{
+  "viewport": 640,
+  "documentWidth": 644,
+  "pageScrollsHorizontally": true,
+  "offenders": [
+    "div#yui_3_18_1_1_1792041220695_203.row right=644",
+    "div#yui_3_18_1_1_1792041220695_202.navitem right=644"
+  ],
+  "scrollContainers": [],
+  "screenshot": "F5-quiz\\zoom200-quiz-attempt.png"
+}

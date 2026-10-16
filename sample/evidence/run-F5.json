@@ -1,0 +1,2326 @@
+{
+  "flow": "F5",
+  "started": "2026-10-15T05:13:05.932Z",
+  "seconds": 150,
+  "result": {
+    "view": {
+      "url": "http://localhost:8085/mod/quiz/view.php?id=5",
+      "title": "Psych Cine: Factual recall test | SampleU",
+      "screenshot": "F5-quiz\\desktop-quiz-view.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 2,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+              ".activity-header"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Psych Cine: Factual recall test | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Factual recall test"
+          }
+        ],
+        "controls": [],
+        "images": {
+          "total": 14,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-left",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-right",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad060f6834606ad060f6639334.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad060f6834606ad060f6639334.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad060f6834606ad060f6639334.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad060f6834606ad060f6639334.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad060f6834606ad060f6639334.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "quiz-view",
+        "url": "http://localhost:8085/mod/quiz/view.php?id=5",
+        "stops": 16,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"Psychology in Cinema\"",
+          "6: button \"Close course index\"",
+          "7: button \"Collapse all\"",
+          "8: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "9: a \"Psych Cine\"",
+          "10: a \"General\"",
+          "11: button \"Attempt quiz\"",
+          "12: a \"Previous\"",
+          "13: a \"Next\"",
+          "14: button \"Show footer\"",
+          "16: a \"Skip to main content\""
+        ]
+      }
+    },
+    "startButtonText": "Attempt quiz",
+    "attemptUrl": "http://localhost:8085/mod/quiz/attempt.php?attempt=1&cmid=5",
+    "attempt": {
+      "url": "http://localhost:8085/mod/quiz/attempt.php?attempt=1&cmid=5",
+      "title": "Factual recall test | SampleU",
+      "screenshot": "F5-quiz\\desktop-quiz-attempt.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-hidden-focus",
+            "impact": "serious",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 5,
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "targets": [
+              "#q1\\:1_clearchoice",
+              "#q1\\:3_clearchoice",
+              "#q1\\:4_clearchoice",
+              "#q1\\:5_clearchoice",
+              "#q1\\:6_clearchoice"
+            ]
+          },
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "Heading levels should only increase by one",
+            "targets": [
+              "#question-1-1 > .info > .no"
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#tooltip894181"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "nodes": 10,
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "targets": [
+              "#quiznavbutton1",
+              "#quiznavbutton2",
+              "#quiznavbutton3",
+              "#quiznavbutton4",
+              "#quiznavbutton5",
+              "#quiznavbutton6"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Factual recall test | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "aside#block-region-side-pre.block-region",
+            "role": "aside",
+            "name": "Blocks"
+          },
+          {
+            "el": "section#mod_quiz_navblock.block.block_fake.card",
+            "role": "navigation",
+            "name": "Quiz navigation"
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "2",
+            "text": "Blocks"
+          },
+          {
+            "level": "3",
+            "text": "Quiz navigation"
+          },
+          {
+            "level": "1",
+            "text": "Factual recall test"
+          },
+          {
+            "level": "3",
+            "text": "Question 1"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "3",
+            "text": "Question 2"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "3",
+            "text": "Question 3"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "3",
+            "text": "Question 4"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "3",
+            "text": "Question 5"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "3",
+            "text": "Question 6"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          }
+        ],
+        "controls": [
+          {
+            "el": "input#q1:1_answer0",
+            "type": "radio",
+            "name": "a. She reminds Nash that he is getting older",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:1_answer1",
+            "type": "radio",
+            "name": "b. She shows Nash that the people he sees are not real",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:1_answer2",
+            "type": "radio",
+            "name": "c. She inspires his later discoveries",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:1_answer3",
+            "type": "radio",
+            "name": "d. She is his daughter",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:1_answer-1.visually-hidden",
+            "type": "radio",
+            "name": "Clear my choice",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "select#menuq1:2_sub0.select.form-select.form-select",
+            "type": "select-one",
+            "name": "Answer 1 Question 2",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": "Match each film to its director. Spider"
+          },
+          {
+            "el": "select#menuq1:2_sub1.select.form-select.form-select",
+            "type": "select-one",
+            "name": "Answer 2 Question 2",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": "A Beautiful Mind"
+          },
+          {
+            "el": "select#menuq1:2_sub2.select.form-select.form-select",
+            "type": "select-one",
+            "name": "Answer 3 Question 2",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": "Fight Club"
+          },
+          {
+            "el": "input#q1:3_answer0",
+            "type": "radio",
+            "name": "a. The square cube law",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:3_answer1",
+            "type": "radio",
+            "name": "b. Governing dynamics",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:3_answer2",
+            "type": "radio",
+            "name": "c. The pigeonhole principle",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:3_answer3",
+            "type": "radio",
+            "name": "d. Equinumerosity",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:3_answer-1.visually-hidden",
+            "type": "radio",
+            "name": "Clear my choice",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer0",
+            "type": "radio",
+            "name": "a. She does not return his affection",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer1",
+            "type": "radio",
+            "name": "b. He fears she will send him back to the asylum",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer2",
+            "type": "radio",
+            "name": "c. She stole from him",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer3",
+            "type": "radio",
+            "name": "d. He sees her as his father's mistress",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer-1.visually-hidden",
+            "type": "radio",
+            "name": "Clear my choice",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer0",
+            "type": "radio",
+            "name": "a. A hospital",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer1",
+            "type": "radio",
+            "name": "b. A liposuction clinic",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer2",
+            "type": "radio",
+            "name": "c. A farm",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer3",
+            "type": "radio",
+            "name": "d. A factory",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer-1.visually-hidden",
+            "type": "radio",
+            "name": "Clear my choice",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer0",
+            "type": "radio",
+            "name": "a. David Cronenberg",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer1",
+            "type": "radio",
+            "name": "b. Ron Howard",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer2",
+            "type": "radio",
+            "name": "c. David Fincher",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer3",
+            "type": "radio",
+            "name": "d. Christopher Nolan",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer-1.visually-hidden",
+            "type": "radio",
+            "name": "Clear my choice",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#mod_quiz-next-nav.mod_quiz-next-nav.btn.btn-primary",
+            "type": "submit",
+            "name": "Finish attempt ...",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          }
+        ],
+        "images": {
+          "total": 13,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#quiz-timer.quiz-timer-inner.py-1.px-2",
+            "role": "timer",
+            "live": null,
+            "text": "Time left"
+          },
+          {
+            "el": "div#connection-error",
+            "role": "alert",
+            "live": null,
+            "text": "Network connection lost. (Autosave failed). Make a note of any responses entered on this page in the last few minutes, t"
+          },
+          {
+            "el": "div#connection-ok",
+            "role": "alert",
+            "live": null,
+            "text": "Network connection restored. You may continue safely."
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad06104838896ad061041eefa7.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad06104838896ad061041eefa7.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad06104838896ad061041eefa7.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad06104838896ad061041eefa7.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad06104838896ad061041eefa7.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "select#menuq1:2_sub0",
+          "type": "select-one",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(230,242,245)",
+          "ratio": 2.64
+        },
+        {
+          "el": "select#menuq1:2_sub1",
+          "type": "select-one",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(230,242,245)",
+          "ratio": 2.64
+        },
+        {
+          "el": "select#menuq1:2_sub2",
+          "type": "select-one",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(230,242,245)",
+          "ratio": 2.64
+        },
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "quiz-attempt",
+        "url": "http://localhost:8085/mod/quiz/attempt.php?attempt=1&cmid=5",
+        "stops": 90,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 85,
+        "sequence": [
+          "0: a \"Psych Cine\"",
+          "1: a \"General\"",
+          "2: a \"Back\"",
+          "3: a[button] \"Flagged\"",
+          "4: input \"0\"",
+          "5: input \"0\"",
+          "6: input \"0\"",
+          "7: input \"0\"",
+          "8: input \"0\"",
+          "9: input \"0\"",
+          "10: input \"0\"",
+          "11: input \"0\"",
+          "12: input \"0\"",
+          "13: input \"0\"",
+          "14: input \"0\"",
+          "15: input \"0\"",
+          "16: input \"0\"",
+          "17: input \"0\"",
+          "18: input \"0\"",
+          "19: input \"0\"",
+          "20: input \"0\"",
+          "21: input \"0\"",
+          "22: input \"0\"",
+          "23: input \"0\"",
+          "24: input \"0\"",
+          "25: input \"0\"",
+          "26: input \"0\"",
+          "27: input \"0\"",
+          "28: input \"0\"",
+          "29: input \"0\"",
+          "30: input \"0\"",
+          "31: input \"0\"",
+          "32: input \"0\"",
+          "33: input \"0\"",
+          "34: input \"0\"",
+          "35: input \"0\"",
+          "36: input \"0\"",
+          "37: input \"0\"",
+          "38: input \"0\"",
+          "39: input \"0\"",
+          "40: input \"0\"",
+          "41: input \"0\"",
+          "42: input \"0\"",
+          "43: input \"0\"",
+          "44: input \"0\"",
+          "45: input \"0\"",
+          "46: input \"0\"",
+          "47: input \"0\"",
+          "48: input \"0\"",
+          "49: input \"0\"",
+          "50: input \"0\"",
+          "51: input \"0\"",
+          "52: input \"0\"",
+          "53: input \"0\"",
+          "54: input \"0\"",
+          "55: input \"0\"",
+          "56: input \"0\"",
+          "57: input \"0\"",
+          "58: input \"0\"",
+          "59: input \"0\"",
+          "60: input \"0\"",
+          "61: input \"0\"",
+          "62: input \"0\"",
+          "63: input \"0\"",
+          "64: input \"0\"",
+          "65: input \"0\"",
+          "66: input \"0\"",
+          "67: input \"0\"",
+          "68: input \"0\"",
+          "69: input \"0\"",
+          "70: input \"0\"",
+          "71: input \"0\"",
+          "72: input \"0\"",
+          "73: input \"0\"",
+          "74: input \"0\"",
+          "75: input \"0\"",
+          "76: input \"0\"",
+          "77: input \"0\"",
+          "78: input \"0\"",
+          "79: input \"0\"",
+          "80: input \"0\"",
+          "81: input \"0\"",
+          "82: input \"0\"",
+          "83: input \"0\"",
+          "84: input \"0\"",
+          "85: input \"0\"",
+          "86: input \"0\"",
+          "87: input \"0\"",
+          "88: input \"0\"",
+          "89: input \"0\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 324,
+        "pageScrollsHorizontally": true,
+        "offenders": [
+          "div#yui_3_18_1_1_1792041220695_203.row right=324",
+          "div#yui_3_18_1_1_1792041220695_202.navitem right=324"
+        ],
+        "scrollContainers": [],
+        "screenshot": "F5-quiz\\reflow320-quiz-attempt.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 644,
+        "pageScrollsHorizontally": true,
+        "offenders": [
+          "div#yui_3_18_1_1_1792041220695_203.row right=644",
+          "div#yui_3_18_1_1_1792041220695_202.navitem right=644"
+        ],
+        "scrollContainers": [],
+        "screenshot": "F5-quiz\\zoom200-quiz-attempt.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F5-quiz\\portrait-quiz-attempt.png"
+      }
+    },
+    "flagControl": [
+      "<div class=\"questionflag editable\" id=\"yui_3_18_1_1_1792041281481_120\"><input type=\"hidden\" name=\"q1:1_:flagged\" value=\"0\" id=\"yui_3_18_1_1_1792041281481_21\"><input type=\"hidden\" value=\"qaid=1&amp;qubaid=1&amp;qid=1&amp;slot=1&amp;checksum=01b16b432969d727271ce46f60fbd868&amp;sesskey=y1IJagdvDB&amp;newstate=\" class=\"questionflagpostdata\" id=\"yui_3_18_1_1_1792041281481_22\">\n<input type=\"hidden\" class=\"questionflagvalue\" id=\"q1:1_:flaggedcheckbox\" name=\"q1:1_:flagged\" value=\"0\"><a tabindex=\"0\" class=\"aabtn\" role=\"button\" aria-pressed=\"false\" aria-label=\"Flagged\" title=\"Flag this question for future reference\"><img class=\"questionflagimage\" src=\"http://localhost:8085/theme/image.php/boost/core/",
+      "<input type=\"hidden\" value=\"qaid=1&amp;qubaid=1&amp;qid=1&amp;slot=1&amp;checksum=01b16b432969d727271ce46f60fbd868&amp;sesskey=y1IJagdvDB&amp;newstate=\" class=\"questionflagpostdata\" id=\"yui_3_18_1_1_1792041281481_22\">"
+    ],
+    "tabsToFirstRadio": 15,
+    "radioAfterArrow": {
+      "checked": true,
+      "label": "b.\nShe shows Nash that the people he sees are not real"
+    },
+    "tabsToSelect": 3,
+    "selectChange": {
+      "urlBefore": "http://localhost:8085/mod/quiz/attempt.php?attempt=1&cmid=5",
+      "urlAfter": "http://localhost:8085/mod/quiz/attempt.php?attempt=1&cmid=5",
+      "value": "1"
+    },
+    "flagBefore": {
+      "tag": "A",
+      "ariaLabel": "Flagged",
+      "ariaPressed": "false",
+      "title": "Flag this question for future reference",
+      "text": "Flag question",
+      "alt": null
+    },
+    "flagAfter": {
+      "tag": "A",
+      "ariaLabel": "Flagged",
+      "ariaPressed": "true",
+      "title": "",
+      "text": "Remove flag",
+      "alt": null
+    },
+    "summaryUrl": "http://localhost:8085/mod/quiz/summary.php?attempt=1&cmid=5",
+    "summary": {
+      "url": "http://localhost:8085/mod/quiz/summary.php?attempt=1&cmid=5",
+      "title": "Factual recall test: Attempt summary | SampleU",
+      "screenshot": "F5-quiz\\desktop-quiz-summary.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "empty-table-header",
+            "impact": "minor",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "Table header text should not be empty",
+            "targets": [
+              "th[colspan=\"3\"]"
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Factual recall test: Attempt summary | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Factual recall test"
+          },
+          {
+            "level": "2",
+            "text": "Factual recall test"
+          },
+          {
+            "level": "3",
+            "text": "Summary of attempt"
+          }
+        ],
+        "controls": [],
+        "images": {
+          "total": 13,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#quiz-timer.quiz-timer-inner.py-1.px-2",
+            "role": "timer",
+            "live": null,
+            "text": "Time left"
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad0614b992ed6ad0614b476d05.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad0614b992ed6ad0614b476d05.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad0614b992ed6ad0614b476d05.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad0614b992ed6ad0614b476d05.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad0614b992ed6ad0614b476d05.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "quiz-summary",
+        "url": "http://localhost:8085/mod/quiz/summary.php?attempt=1&cmid=5",
+        "stops": 24,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"Psychology in Cinema\"",
+          "6: button \"Close course index\"",
+          "7: button \"Collapse all\"",
+          "8: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "9: button \"Open block drawer\"",
+          "10: a \"Psych Cine\"",
+          "11: a \"General\"",
+          "12: a \"Factual recall test\"",
+          "13: a \"Back\"",
+          "14: a \"1\"",
+          "15: a \"2\"",
+          "16: a \"3\"",
+          "17: a \"4\"",
+          "18: a \"5\"",
+          "19: a \"6\"",
+          "20: button \"Return to attempt\"",
+          "21: button \"Submit all and finish\"",
+          "22: button \"Show footer\"",
+          "24: a \"Skip to main content\""
+        ]
+      }
+    },
+    "confirmDialog": {
+      "present": true,
+      "role": "dialog",
+      "ariaModal": "true",
+      "labelledby": null,
+      "text": "",
+      "focusInside": false,
+      "active": "Submit all your answers and finish?\nOnce"
+    },
+    "dialogTabCycle": [
+      {
+        "inside": true,
+        "text": "Close"
+      },
+      {
+        "inside": true,
+        "text": "Cancel"
+      },
+      {
+        "inside": true,
+        "text": "Submit all and finish"
+      },
+      {
+        "inside": true,
+        "text": "Submit all your answers and fi"
+      },
+      {
+        "inside": true,
+        "text": "Close"
+      },
+      {
+        "inside": true,
+        "text": "Cancel"
+      }
+    ],
+    "afterEscape": {
+      "dialogOpen": 0,
+      "active": {
+        "tag": "button",
+        "id": "single_button6ad0614b476d07",
+        "role": null,
+        "text": "Submit all and finish"
+      }
+    },
+    "reviewUrl": "http://localhost:8085/mod/quiz/review.php?attempt=1&cmid=5",
+    "review": {
+      "url": "http://localhost:8085/mod/quiz/review.php?attempt=1&cmid=5",
+      "title": "Factual recall test: Attempt review | SampleU",
+      "screenshot": "F5-quiz\\desktop-quiz-review.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "Heading levels should only increase by one",
+            "targets": [
+              "#question-1-1 > .info > .no"
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Factual recall test: Attempt review | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Factual recall test"
+          },
+          {
+            "level": "3",
+            "text": "Question 1"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "4",
+            "text": "Feedback"
+          },
+          {
+            "level": "3",
+            "text": "Question 2"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "4",
+            "text": "Feedback"
+          },
+          {
+            "level": "3",
+            "text": "Question 3"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "4",
+            "text": "Feedback"
+          },
+          {
+            "level": "3",
+            "text": "Question 4"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "4",
+            "text": "Feedback"
+          },
+          {
+            "level": "3",
+            "text": "Question 5"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "4",
+            "text": "Feedback"
+          },
+          {
+            "level": "3",
+            "text": "Question 6"
+          },
+          {
+            "level": "4",
+            "text": "Question text"
+          },
+          {
+            "level": "4",
+            "text": "Feedback"
+          }
+        ],
+        "controls": [
+          {
+            "el": "input#q1:1_answer0",
+            "type": "radio",
+            "name": "a. She reminds Nash that he is getting older",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:1_answer1",
+            "type": "radio",
+            "name": "b. She shows Nash that the people he sees are not real",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:1_answer2",
+            "type": "radio",
+            "name": "c. She inspires his later discoveries",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:1_answer3",
+            "type": "radio",
+            "name": "d. She is his daughter",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "select#menuq1:2_sub0.select.form-select.form-select",
+            "type": "select-one",
+            "name": "Answer 1 Question 2",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": "Match each film to its director. Spider"
+          },
+          {
+            "el": "select#menuq1:2_sub1.select.form-select.form-select",
+            "type": "select-one",
+            "name": "Answer 2 Question 2",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": "A Beautiful Mind"
+          },
+          {
+            "el": "select#menuq1:2_sub2.select.form-select.form-select",
+            "type": "select-one",
+            "name": "Answer 3 Question 2",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": "Fight Club"
+          },
+          {
+            "el": "input#q1:3_answer0",
+            "type": "radio",
+            "name": "a. The square cube law",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:3_answer1",
+            "type": "radio",
+            "name": "b. Governing dynamics",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:3_answer2",
+            "type": "radio",
+            "name": "c. The pigeonhole principle",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:3_answer3",
+            "type": "radio",
+            "name": "d. Equinumerosity",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer0",
+            "type": "radio",
+            "name": "a. She does not return his affection",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer1",
+            "type": "radio",
+            "name": "b. He fears she will send him back to the asylum",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer2",
+            "type": "radio",
+            "name": "c. She stole from him",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:4_answer3",
+            "type": "radio",
+            "name": "d. He sees her as his father's mistress",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer0",
+            "type": "radio",
+            "name": "a. A hospital",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer1",
+            "type": "radio",
+            "name": "b. A liposuction clinic",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer2",
+            "type": "radio",
+            "name": "c. A farm",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:5_answer3",
+            "type": "radio",
+            "name": "d. A factory",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer0",
+            "type": "radio",
+            "name": "a. David Cronenberg",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer1",
+            "type": "radio",
+            "name": "b. Ron Howard",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer2",
+            "type": "radio",
+            "name": "c. David Fincher",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#q1:6_answer3",
+            "type": "radio",
+            "name": "d. Christopher Nolan",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          }
+        ],
+        "images": {
+          "total": 21,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-circle-check",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Correct",
+              "role": "img",
+              "title": "Correct"
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-circle-check",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Correct",
+              "role": "img",
+              "title": "Correct"
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.questionflagimage",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div.alert.alert-success.alert-block",
+            "role": "alert",
+            "live": null,
+            "text": "Attempt submitted. Dismiss this notification"
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad06160b706e6ad061604a0776.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad06160b706e6ad061604a0776.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad06160b706e6ad061604a0776.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad06160b706e6ad061604a0776.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad06160b706e6ad061604a0776.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          },
+          {
+            "el": "a.aabtn",
+            "visible": "Flag question",
+            "name": "Flagged"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "select#menuq1:2_sub0",
+          "type": "select-one",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(230,242,245)",
+          "ratio": 2.64
+        },
+        {
+          "el": "select#menuq1:2_sub1",
+          "type": "select-one",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(230,242,245)",
+          "ratio": 2.64
+        },
+        {
+          "el": "select#menuq1:2_sub2",
+          "type": "select-one",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(230,242,245)",
+          "ratio": 2.64
+        },
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "quiz-review",
+        "url": "http://localhost:8085/mod/quiz/review.php?attempt=1&cmid=5",
+        "stops": 22,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"Psychology in Cinema\"",
+          "6: button \"Close course index\"",
+          "7: button \"Collapse all\"",
+          "8: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "9: button \"Open block drawer\"",
+          "10: a \"Psych Cine\"",
+          "11: a \"General\"",
+          "12: button \"Dismiss this notification\"",
+          "13: a[button] \"Flagged\"",
+          "14: a[button] \"Flagged\"",
+          "15: a[button] \"Flagged\"",
+          "16: a[button] \"Flagged\"",
+          "17: a[button] \"Flagged\"",
+          "18: a[button] \"Flagged\"",
+          "19: a \"Finish review\"",
+          "20: button \"Show footer\"",
+          "22: a \"Skip to main content\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F5-quiz\\reflow320-quiz-review.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F5-quiz\\zoom200-quiz-review.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F5-quiz\\portrait-quiz-review.png"
+      },
+      "textSpacing": {
+        "clippedTextCandidates": [
+          "h4.accesshide \"Question text\"",
+          "h4.accesshide \"Feedback\"",
+          "h4.accesshide \"Question text\"",
+          "h4.accesshide \"Feedback\"",
+          "h4.accesshide \"Question text\"",
+          "h4.accesshide \"Feedback\"",
+          "h4.accesshide \"Question text\"",
+          "h4.accesshide \"Feedback\"",
+          "h4.accesshide \"Question text\"",
+          "h4.accesshide \"Feedback\"",
+          "h4.accesshide \"Question text\"",
+          "h4.accesshide \"Feedback\""
+        ],
+        "screenshot": "F5-quiz\\textspacing-quiz-review.png"
+      }
+    }
+  }
+}

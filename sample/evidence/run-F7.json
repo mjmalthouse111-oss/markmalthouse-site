@@ -1,0 +1,702 @@
+{
+  "flow": "F7",
+  "started": "2026-10-15T05:17:16.240Z",
+  "seconds": 64,
+  "result": {
+    "user": {
+      "url": "http://localhost:8085/grade/report/user/index.php?id=2",
+      "title": "User report | Psychology in Cinema | SampleU",
+      "screenshot": "F7-grades\\desktop-grades-user.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "landmark-unique",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+            "targets": [
+              "#courseindex"
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 5,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle",
+              "div[role=\"combobox\"]",
+              "#action-menu-toggle-1",
+              "#action-menu-toggle-2"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "User report | Psychology in Cinema | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Course menu"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          },
+          {
+            "el": "nav.tertiary-navigation-selector",
+            "role": "nav",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Psychology in Cinema"
+          },
+          {
+            "level": "2",
+            "text": "Barbara Gardner"
+          }
+        ],
+        "controls": [
+          {
+            "el": "div.btn.dropdown-toggle",
+            "type": "combobox",
+            "name": "Gradebook navigation menu",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          }
+        ],
+        "images": {
+          "total": 19,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-50",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Collapse",
+              "role": "img",
+              "title": "Collapse"
+            },
+            {
+              "el": "img.icon.itemicon",
+              "alt": "Assignment",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-ellipsis",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.itemicon",
+              "alt": "Quiz",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-ellipsis",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-pen-to-square",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Manual item",
+              "role": "img",
+              "title": "Manual item"
+            },
+            {
+              "el": "img.icon.icon.itemicon",
+              "alt": "Natural",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Natural"
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad061efc587d6ad061efa99d14.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad061efc587d6ad061efa99d14.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad061efc587d6ad061efa99d14.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad061efc587d6ad061efa99d14.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad061efc587d6ad061efa99d14.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "grades-user",
+        "url": "http://localhost:8085/grade/report/user/index.php?id=2",
+        "stops": 21,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"Psychology in Cinema\"",
+          "6: button \"Close course index\"",
+          "7: button \"Collapse all\"",
+          "8: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "9: a[menuitem] \"Grades\"",
+          "10: div[combobox] \"User report\"",
+          "11: a \"Barbara Gardner\"",
+          "12: a[button] \"\"",
+          "13: a \"Reflective journal\"",
+          "14: a[button] \"Actions\"",
+          "15: a \"Factual recall test\"",
+          "16: a[button] \"Actions\"",
+          "17: span \"Seminar participation\"",
+          "18: span \"Course total\"",
+          "19: button \"Show footer\"",
+          "21: a \"Skip to main content\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (824px content in 284px box)"
+        ],
+        "screenshot": "F7-grades\\reflow320-grades-user.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (824px content in 604px box)"
+        ],
+        "screenshot": "F7-grades\\zoom200-grades-user.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (824px content in 606px box)"
+        ],
+        "screenshot": "F7-grades\\portrait-grades-user.png"
+      },
+      "textSpacing": {
+        "clippedTextCandidates": [],
+        "screenshot": "F7-grades\\textspacing-grades-user.png"
+      }
+    },
+    "overview": {
+      "url": "http://localhost:8085/grade/report/overview/index.php",
+      "title": "Grades - Barbara Gardner | SampleU",
+      "screenshot": "F7-grades\\desktop-grades-overview.png",
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "nodes": 1,
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "targets": [
+              ".table-responsive > h2"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Grades - Barbara Gardner | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Barbara Gardner"
+          },
+          {
+            "level": "2",
+            "text": "Courses I am taking"
+          }
+        ],
+        "controls": [],
+        "images": {
+          "total": 6,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "span.userinitials.size-100",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad06207d67146ad06207b4ece4.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad06207d67146ad06207b4ece4.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad06207d67146ad06207b4ece4.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad06207d67146ad06207b4ece4.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad06207d67146ad06207b4ece4.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "grades-overview",
+        "url": "http://localhost:8085/grade/report/overview/index.php",
+        "stops": 11,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"BG\"",
+          "6: a[button] \"Message\"",
+          "7: a \"Film Studies Foundations\"",
+          "8: a \"Psychology in Cinema\"",
+          "9: button \"Show footer\"",
+          "11: a \"Skip to main content\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F7-grades\\reflow320-grades-overview.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F7-grades\\zoom200-grades-overview.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F7-grades\\portrait-grades-overview.png"
+      },
+      "textSpacing": {
+        "clippedTextCandidates": [],
+        "screenshot": "F7-grades\\textspacing-grades-overview.png"
+      }
+    },
+    "tableSemantics": [
+      {
+        "summary": null,
+        "th": 12,
+        "thScope": 12,
+        "td": 25,
+        "tdHeaders": 24
+      }
+    ],
+    "selectChange": "no native select in page navigation",
+    "tertiaryNav": [
+      {
+        "tag": "DIV",
+        "role": "combobox",
+        "label": null,
+        "text": "User report",
+        "expanded": "false"
+      }
+    ]
+  }
+}

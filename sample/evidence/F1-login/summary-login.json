@@ -1,0 +1,173 @@
+{
+  "url": "http://localhost:8085/login/index.php",
+  "title": "Log in to the site | SampleU",
+  "screenshot": "F1-login\\desktop-login.png",
+  "axe": {
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "wcag2aa",
+          "wcag143"
+        ],
+        "nodes": 9,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "targets": [
+          ".login-layout-left-content > h1",
+          ".text-start",
+          ".login-layout-left-content > p",
+          ".login-layout-stat:nth-child(1) > strong",
+          ".login-layout-stat:nth-child(1) > span",
+          ".login-layout-stat:nth-child(2) > strong"
+        ]
+      }
+    ]
+  },
+  "markup": {
+    "title": "Log in to the site | SampleU",
+    "lang": "en",
+    "landmarks": [
+      {
+        "el": "aside.login-layout-left.col-lg-6.d-none",
+        "role": "aside",
+        "name": ""
+      },
+      {
+        "el": "div",
+        "role": "main",
+        "name": ""
+      }
+    ],
+    "headings": [
+      {
+        "level": "1",
+        "text": "Welcome to Moodle"
+      },
+      {
+        "level": "1",
+        "text": "Welcome back"
+      }
+    ],
+    "controls": [
+      {
+        "el": "input#username.form-control",
+        "type": "text",
+        "name": "Username or email",
+        "autocomplete": "username",
+        "required": false,
+        "invalid": null,
+        "describedby": null
+      },
+      {
+        "el": "input#password.form-control",
+        "type": "password",
+        "name": "Password",
+        "autocomplete": "current-password",
+        "required": false,
+        "invalid": null,
+        "describedby": null
+      }
+    ],
+    "images": {
+      "total": 4,
+      "sample": [
+        {
+          "el": "i.icon.fa.fa-envelope",
+          "alt": null,
+          "ariaHidden": true,
+          "ariaLabel": null,
+          "role": null,
+          "title": null
+        },
+        {
+          "el": "i.icon.fa.fa-lock",
+          "alt": null,
+          "ariaHidden": true,
+          "ariaLabel": null,
+          "role": null,
+          "title": null
+        },
+        {
+          "el": "i.icon.fa-regular.fa-eye",
+          "alt": null,
+          "ariaHidden": true,
+          "ariaLabel": null,
+          "role": null,
+          "title": null
+        },
+        {
+          "el": "i.icon.fa.fa-question",
+          "alt": null,
+          "ariaHidden": true,
+          "ariaLabel": null,
+          "role": null,
+          "title": null
+        }
+      ]
+    },
+    "live": [
+      {
+        "el": "div.toast-wrapper.mx-auto.py-0",
+        "role": "status",
+        "live": "polite",
+        "text": ""
+      }
+    ],
+    "labelInName": [],
+    "dupIds": [],
+    "iframes": []
+  },
+  "controlContrast": [],
+  "keyboard": {
+    "state": "login",
+    "url": "http://localhost:8085/login/index.php",
+    "stops": 9,
+    "noVisibleIndicator": [],
+    "offscreen": [],
+    "consecutiveRepeats": 0,
+    "sequence": [
+      "0: a \"Skip to main content\"",
+      "1: input \"\"",
+      "2: input \"\"",
+      "3: button \"Toggle sensitive\"",
+      "4: a \"Forgot password?\"",
+      "5: button \"Log in\"",
+      "6: button \"Cookies notice\"",
+      "7: button \"Show footer\"",
+      "9: a \"Skip to main content\""
+    ]
+  },
+  "reflow320": {
+    "viewport": 320,
+    "documentWidth": 320,
+    "pageScrollsHorizontally": false,
+    "offenders": [],
+    "scrollContainers": [],
+    "screenshot": "F1-login\\reflow320-login.png"
+  },
+  "zoom200": {
+    "viewport": 640,
+    "documentWidth": 640,
+    "pageScrollsHorizontally": false,
+    "offenders": [],
+    "scrollContainers": [],
+    "screenshot": "F1-login\\zoom200-login.png"
+  },
+  "portrait": {
+    "viewport": 768,
+    "documentWidth": 768,
+    "pageScrollsHorizontally": false,
+    "offenders": [],
+    "scrollContainers": [],
+    "screenshot": "F1-login\\portrait-login.png"
+  },
+  "hover": {
+    "found": false
+  },
+  "textSpacing": {
+    "clippedTextCandidates": [],
+    "screenshot": "F1-login\\textspacing-login.png"
+  }
+}

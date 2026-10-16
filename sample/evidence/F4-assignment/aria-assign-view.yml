@@ -1,0 +1,106 @@
+http://localhost:8085/mod/assign/view.php?id=4
+- status
+- link "Skip to main content":
+  - /url: "#maincontent"
+- navigation "Site navigation":
+  - link "SampleU":
+    - /url: http://localhost:8085/my/
+  - menubar:
+    - menuitem "Dashboard"
+  - button "Show notification window with no new notifications"
+  - button "Toggle messaging drawer"
+  - button "User menu":
+    - img "Barbara Gardner": BG
+    - text: 
+- link "Psychology in Cinema":
+  - /url: http://localhost:8085/course/view.php?id=2
+- button "Close course index"
+- separator
+- button "Collapse all" [expanded]
+- navigation:
+  - tree:
+    - treeitem "General" [expanded] [selected]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse0"
+      - link "General":
+        - /url: http://localhost:8085/course/section.php?id=1
+      - group "General":
+        - group:
+          - treeitem "Message from your tutor":
+            - link "Message from your tutor":
+              - /url: http://localhost:8085/mod/resource/view.php?id=1
+          - treeitem "Message from your tutor:tutor-message.wav":
+            - link "Message from your tutor:tutor-message.wav":
+              - /url: http://localhost:8085/course/section.php?id=1#module-2
+          - treeitem "Factual recall test":
+            - link "Factual recall test":
+              - /url: http://localhost:8085/mod/quiz/view.php?id=5
+    - treeitem "Background information" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse1"
+      - link "Background information":
+        - /url: http://localhost:8085/course/section.php?id=2
+      - group "Background information":
+        - group
+    - treeitem "Analysis" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse2"
+      - link "Analysis":
+        - /url: http://localhost:8085/course/section.php?id=3
+      - group "Analysis":
+        - group:
+          - treeitem "Course discussion":
+            - link "Course discussion":
+              - /url: http://localhost:8085/mod/forum/view.php?id=3
+    - treeitem "Reflection and Feedback" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse3"
+      - link "Reflection and Feedback":
+        - /url: http://localhost:8085/course/section.php?id=4
+      - group "Reflection and Feedback":
+        - group:
+          - treeitem "Reflective journal":
+            - link "Reflective journal":
+              - /url: http://localhost:8085/mod/assign/view.php?id=4
+    - treeitem "New section" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse4"
+      - link "New section":
+        - /url: http://localhost:8085/course/section.php?id=5
+      - group "New section":
+        - group
+- banner:
+  - navigation "Breadcrumb":
+    - list:
+      - listitem:
+        - link "Psych Cine":
+          - /url: http://localhost:8085/course/view.php?id=2
+      - listitem:
+        - text: /
+        - link "Reflection and Feedback":
+          - /url: http://localhost:8085/course/section.php?id=4
+      - listitem: / Reflective journal
+  - heading "Reflective journal" [level=1]
+  - text: "Opened: Friday, 25 September 2026, 12:00 AM Due: Thursday, 31 December 2026, 12:00 AM"
+- text: Please take the time to look back on your studies and reflect on what you did well and where you could have contributed more.
+- main:
+  - button "Add submission"
+  - heading "Submission status" [level=3]
+  - table "Submission status":
+    - caption: Submission status
+    - rowgroup:
+      - row "Submission status No submissions have been made yet":
+        - rowheader "Submission status"
+        - cell "No submissions have been made yet"
+      - row "Grading status Not graded":
+        - rowheader "Grading status"
+        - cell "Not graded"
+      - row "Time remaining 76 days 18 hours remaining":
+        - rowheader "Time remaining"
+        - cell "76 days 18 hours remaining"
+  - link "Previous":
+    - /url: http://localhost:8085/r.php/course/cms/4/previous
+  - link "Next":
+    - /url: http://localhost:8085/r.php/course/cms/4/next
+- contentinfo:
+  - button "Show footer"

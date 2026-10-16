@@ -1,0 +1,42 @@
+[
+  {
+    "el": "input#editingswitch6ad0602d471c35",
+    "type": "checkbox",
+    "borderWidth": "0px",
+    "borderColor": "rgb(0, 0, 0)",
+    "adjacentBg": "rgb(248,249,250)",
+    "ratio": 19.92
+  },
+  {
+    "el": "select#calendar-course-filter-1",
+    "type": "select-one",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(255,255,255)",
+    "ratio": 3.02
+  },
+  {
+    "el": "input#searchinput-6ad0602d5df556ad0602d471c33",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(255,255,255)",
+    "ratio": 3.02
+  },
+  {
+    "el": "input#searchinput-_r_2_",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(255,255,255)",
+    "ratio": 3.02
+  },
+  {
+    "el": "input#",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(235,238,240)",
+    "ratio": 2.59
+  }
+]

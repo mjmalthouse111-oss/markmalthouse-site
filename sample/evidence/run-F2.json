@@ -1,0 +1,387 @@
+{
+  "flow": "F2",
+  "started": "2026-10-15T05:09:45.979Z",
+  "seconds": 48,
+  "result": {
+    "page": {
+      "url": "http://localhost:8085/my/",
+      "title": "Dashboard | SampleU",
+      "screenshot": "F2-dashboard\\desktop-dashboard.png",
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 4,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle",
+              "button[aria-controls=\"menudayfilter\"]",
+              "button[aria-controls=\"menusortby\"]"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Dashboard | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          },
+          {
+            "el": "section#block-region-content.block-region",
+            "role": "section",
+            "name": "Main content blocks"
+          },
+          {
+            "el": "section#inst9.block_myoverview.block.card",
+            "role": "region",
+            "name": "Course overview"
+          },
+          {
+            "el": "div.d-flex.align-items-center.my-2",
+            "role": "search",
+            "name": "Course overview controls"
+          },
+          {
+            "el": "section#inst10.block_timeline.block.card",
+            "role": "region",
+            "name": "Timeline"
+          },
+          {
+            "el": "div.input-group.searchbar.w-100",
+            "role": "search",
+            "name": "Search by activity type or name"
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Dashboard"
+          },
+          {
+            "level": "2",
+            "text": "Main content blocks"
+          },
+          {
+            "level": "3",
+            "text": "Course overview"
+          },
+          {
+            "level": "3",
+            "text": "Timeline"
+          }
+        ],
+        "controls": [
+          {
+            "el": "input#editingswitch6ad0602d471c35.mds-switch-input",
+            "type": "checkbox",
+            "name": "Edit mode",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#searchinput-6ad0602d5df556ad0602d471c33.form-control.withclear.rounded",
+            "type": "text",
+            "name": "Search courses",
+            "autocomplete": "off",
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#searchinput-_r_2_.form-control.withclear.rounded",
+            "type": "text",
+            "name": "Search by activity type or name",
+            "autocomplete": "off",
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          }
+        ],
+        "images": {
+          "total": 8,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-ellipsis-v",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Actions for course Film Studies Foundations"
+            },
+            {
+              "el": "i.icon.fa.fa-ellipsis-v",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Actions for course Psychology in Cinema"
+            },
+            {
+              "el": "img.timeline-empty-icon",
+              "alt": "",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div.visually-hidden.calendar-announcements",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div#page-container-2.paged-content-page-container",
+            "role": null,
+            "live": "polite",
+            "text": "Film Studies Foundations Course name Film Studies Foundations Film Studies Foundations Course category Category 1 Action"
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad0602d7e76d6ad0602d471c38.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad0602d7e76d6ad0602d471c38.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad0602d7e76d6ad0602d471c38.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad0602d7e76d6ad0602d471c38.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad0602d7e76d6ad0602d471c38.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          },
+          {
+            "el": "button#groupingdropdown.btn.btn-outline-secondary.dropdown-toggle",
+            "visible": "All",
+            "name": "Grouping drop-down menu"
+          },
+          {
+            "el": "button#sortingdropdown.btn.btn-outline-secondary.dropdown-toggle",
+            "visible": "Sort by course name",
+            "name": "Sorting drop-down menu"
+          },
+          {
+            "el": "button#displaydropdown.btn.btn-outline-secondary.dropdown-toggle",
+            "visible": "Card",
+            "name": "Display drop-down menu"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "dashboard",
+        "url": "http://localhost:8085/my/",
+        "stops": 23,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: a[menuitem] \"Dashboard\"",
+          "3: input[switch] \"on\"",
+          "4: div[button] \"Show notification window with no new notifications\"",
+          "5: a[button] \"Toggle messaging drawer\"",
+          "6: a[button] \"User menu\"",
+          "7: button \"Open block drawer\"",
+          "8: a \"Skip Course overview\"",
+          "9: button \"Grouping drop-down menu\"",
+          "10: input \"\"",
+          "11: button \"Sorting drop-down menu\"",
+          "12: button \"Display drop-down menu\"",
+          "13: a \"Course name Film Studies Foundations Film Studies Foundations\"",
+          "14: button \"Actions for course Film Studies Foundations\"",
+          "15: a \"Course name Psychology in Cinema Psychology in Cinema\"",
+          "16: button \"Actions for course Psychology in Cinema\"",
+          "17: a \"Skip Timeline\"",
+          "18: button \"Next 30 days: filter timeline by date\"",
+          "19: button \"Sort by dates: sort timeline items\"",
+          "20: input \"\"",
+          "21: button \"Show footer\"",
+          "23: a \"Skip to main content\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F2-dashboard\\reflow320-dashboard.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F2-dashboard\\zoom200-dashboard.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F2-dashboard\\portrait-dashboard.png"
+      },
+      "hover": {
+        "found": false
+      },
+      "textSpacing": {
+        "clippedTextCandidates": [
+          "a.visually-hidden-focusable \"Skip Course overview\"",
+          "a.visually-hidden-focusable \"Skip Timeline\""
+        ],
+        "screenshot": "F2-dashboard\\textspacing-dashboard.png"
+      }
+    },
+    "singleKeyEffect": {
+      "urlAfter": "http://localhost:8085/my/",
+      "bodyLengthBefore": 201593,
+      "bodyLengthAfter": 201593,
+      "active": {
+        "tag": "body",
+        "id": "page-my-index",
+        "role": null,
+        "text": "Skip to main content SampleU Dashboard Edit mode BG Barbara Open block drawer Da"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Image details Alternative text How would you describe this image to someone who cannot see it? 0 / 750 Decorative image Image size Original Custom moodlelogo.png Cancel Save",
+  "altField": [
+    {
+      "id": "_tiny_image_altentry",
+      "label": "How would you describe this image to someone who cannot see it?",
+      "type": "textarea"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "before": {
+    "html": "<button class=\"toggle-sensitive-btn btn btn-secondary\" type=\"button\" aria-label=\"Toggle sensitive\">\n        <i class=\"icon fa-regular fa-eye fa-fw \" aria-hidden=\"true\"></i>\n    </button>",
+    "pressed": null,
+    "pwType": "password"
+  },
+  "after": {
+    "html": "<button class=\"toggle-sensitive-btn btn btn-secondary\" type=\"button\" aria-label=\"Toggle sensitive\" id=\"yui_3_18_1_1_1792041833214_12\"><i class=\"icon fa fa-eye-slash fa-fw \" aria-hidden=\"true\"></i></button>",
+    "pressed": null,
+    "pwType": "text"
+  }
+}

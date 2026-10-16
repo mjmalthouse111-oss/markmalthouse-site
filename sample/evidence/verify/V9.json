@@ -1,0 +1,23 @@
+[
+  {
+    "sel": "#groupingdropdown",
+    "found": true,
+    "expandedAfter": "false",
+    "urlChanged": false,
+    "openMenus": 0
+  },
+  {
+    "sel": "#user-menu-toggle",
+    "found": true,
+    "expandedAfter": null,
+    "urlChanged": false,
+    "openMenus": 0
+  },
+  {
+    "sel": "#sortingdropdown",
+    "found": true,
+    "expandedAfter": "false",
+    "urlChanged": false,
+    "openMenus": 0
+  }
+]

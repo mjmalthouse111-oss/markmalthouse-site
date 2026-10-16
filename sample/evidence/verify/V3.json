@@ -1,0 +1,19 @@
+{
+  "courseindex": {
+    "tooltipOnHover": [
+      "Close course index"
+    ],
+    "tooltipAfterEscape": 0,
+    "tooltipPersistsOnHoverOfTooltip": 0
+  },
+  "blockdrawer": "not found",
+  "media": [
+    {
+      "tag": "AUDIO",
+      "src": "5/pluginfile.php/16/mod_resource/content/0/tutor-message.wav",
+      "tracks": 0,
+      "autoplay": false
+    }
+  ],
+  "transcriptNearAudio": "Message from your tutor: Play Mute Loaded: 0% Remaining Time -0:33 1x Playback Rate"
+}

@@ -1,0 +1,143 @@
+http://localhost:8085/course/view.php?id=2
+- status
+- link "Skip to main content":
+  - /url: "#maincontent"
+- navigation "Site navigation":
+  - link "SampleU":
+    - /url: http://localhost:8085/my/
+  - menubar:
+    - menuitem "Dashboard"
+  - button "Show notification window with no new notifications"
+  - button "Toggle messaging drawer"
+  - button "User menu":
+    - img "Barbara Gardner": BG
+    - text: 
+- link "Psychology in Cinema":
+  - /url: http://localhost:8085/course/view.php?id=2
+- button "Close course index"
+- separator
+- button "Collapse all" [expanded]
+- navigation:
+  - tree:
+    - treeitem "General" [expanded] [selected]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse0"
+      - link "General":
+        - /url: http://localhost:8085/course/section.php?id=1
+      - group "General":
+        - group:
+          - treeitem "Message from your tutor":
+            - link "Message from your tutor":
+              - /url: http://localhost:8085/mod/resource/view.php?id=1
+          - treeitem "Message from your tutor:tutor-message.wav":
+            - link "Message from your tutor:tutor-message.wav":
+              - /url: "#module-2"
+          - treeitem "Factual recall test":
+            - link "Factual recall test":
+              - /url: http://localhost:8085/mod/quiz/view.php?id=5
+    - treeitem "Background information" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse1"
+      - link "Background information":
+        - /url: http://localhost:8085/course/section.php?id=2
+      - group "Background information":
+        - group
+    - treeitem "Analysis" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse2"
+      - link "Analysis":
+        - /url: http://localhost:8085/course/section.php?id=3
+      - group "Analysis":
+        - group:
+          - treeitem "Course discussion":
+            - link "Course discussion":
+              - /url: http://localhost:8085/mod/forum/view.php?id=3
+    - treeitem "Reflection and Feedback" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse3"
+      - link "Reflection and Feedback":
+        - /url: http://localhost:8085/course/section.php?id=4
+      - group "Reflection and Feedback":
+        - group:
+          - treeitem "Reflective journal":
+            - link "Reflective journal":
+              - /url: http://localhost:8085/mod/assign/view.php?id=4
+    - treeitem "New section" [expanded]:
+      - link "Collapse" [expanded]:
+        - /url: "#courseindexcollapse4"
+      - link "New section":
+        - /url: http://localhost:8085/course/section.php?id=5
+      - group "New section":
+        - group
+- banner:
+  - heading "Psychology in Cinema" [level=1]
+- navigation "Course menu":
+  - menubar:
+    - menuitem "Course"
+    - menuitem "Participants"
+    - menuitem "Grades"
+    - menuitem "Activities"
+    - menuitem "Competencies"
+- main:
+  - heading "Section outline" [level=2]
+  - button "Collapse all" [expanded]
+  - list:
+    - listitem:
+      - button "General" [expanded]: Collapse
+      - heading "General" [level=3]:
+        - link "General":
+          - /url: http://localhost:8085/course/section.php?id=1
+      - list:
+        - listitem:
+          - link "Message from your tutor File":
+            - /url: http://localhost:8085/mod/resource/view.php?id=1
+        - listitem:
+          - paragraph:
+            - link "Message from your tutor":
+              - /url: http://localhost:8085/mod/resource/view.php?id=1
+            - text: ":"
+          - paragraph
+          - region "Audio Player":
+            - button "Play"
+            - button "Mute"
+            - slider "Volume Level": 
+            - slider "Progress Bar": "Loaded: 0%"
+            - text: Remaining Time 0:33 1x
+            - button "Playback Rate"
+          - paragraph
+        - listitem:
+          - link "Factual recall test Quiz":
+            - /url: http://localhost:8085/mod/quiz/view.php?id=5
+    - listitem:
+      - button "Background information" [expanded]: Collapse
+      - heading "Background information" [level=3]:
+        - link "Background information":
+          - /url: http://localhost:8085/course/section.php?id=2
+      - list
+    - listitem:
+      - button "Analysis" [expanded]: Collapse
+      - heading "Analysis" [level=3]:
+        - link "Analysis":
+          - /url: http://localhost:8085/course/section.php?id=3
+      - list:
+        - listitem:
+          - link "Course discussion Forum":
+            - /url: http://localhost:8085/mod/forum/view.php?id=3
+    - listitem:
+      - button "Reflection and Feedback" [expanded]: Collapse
+      - heading "Reflection and Feedback" [level=3]:
+        - link "Reflection and Feedback":
+          - /url: http://localhost:8085/course/section.php?id=4
+      - list:
+        - listitem:
+          - link "Reflective journal Assignment":
+            - /url: http://localhost:8085/mod/assign/view.php?id=4
+          - text: "Opened: Friday, 25 September 2026, 12:00 AM Due: Thursday, 31 December 2026, 12:00 AM"
+    - listitem:
+      - button "New section" [expanded]: Collapse
+      - heading "New section" [level=3]:
+        - link "New section":
+          - /url: http://localhost:8085/course/section.php?id=5
+      - list
+- contentinfo:
+  - button "Show footer"

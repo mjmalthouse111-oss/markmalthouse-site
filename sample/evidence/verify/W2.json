@@ -1,0 +1,1068 @@
+{
+  "login": {
+    "undersized": 3,
+    "failing": [],
+    "sample": [
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip to main content",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "Forgot password?",
+        "w": 133,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "button.btn.btn-link",
+        "name": "Cookies notice",
+        "w": 98,
+        "h": 23,
+        "exception": "spacing",
+        "conflictWith": null
+      }
+    ]
+  },
+  "dashboard": {
+    "undersized": 5,
+    "failing": [],
+    "sample": [
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip to main content",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip Course overview",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.aalink.coursename",
+        "name": "Course name\nFilm Studies Foundations\nFil",
+        "w": 189,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.aalink.coursename",
+        "name": "Course name\nPsychology in Cinema\nPsychol",
+        "w": 164,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip Timeline",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      }
+    ]
+  },
+  "course": {
+    "undersized": 21,
+    "failing": [],
+    "sample": [
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip to main content",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection0-title.courseindex-link.text-truncate",
+        "name": "General",
+        "w": 55,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor",
+        "w": 164,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor:tutor-message.wa",
+        "w": 215,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Factual recall test",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection1-title.courseindex-link.text-truncate",
+        "name": "Background information",
+        "w": 172,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection2-title.courseindex-link.text-truncate",
+        "name": "Analysis",
+        "w": 58,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Course discussion",
+        "w": 118,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection3-title.courseindex-link.text-truncate",
+        "name": "Reflection and Feedback",
+        "w": 171,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Reflective journal",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection4-title.courseindex-link.text-truncate",
+        "name": "New section",
+        "w": 86,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a..aalink",
+        "name": "Message from your tutor \nFile",
+        "w": 195,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.autolink",
+        "name": "Message from your tutor",
+        "w": 188,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a..aalink",
+        "name": "Factual recall test\nQuiz",
+        "w": 134,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a..aalink",
+        "name": "Course discussion \nForum",
+        "w": 142,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a..aalink",
+        "name": "Reflective journal\nAssignment",
+        "w": 133,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      }
+    ]
+  },
+  "assign-edit": {
+    "undersized": 19,
+    "failing": [],
+    "sample": [
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip to main content",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection0-title.courseindex-link.text-truncate",
+        "name": "General",
+        "w": 55,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor",
+        "w": 164,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor:tutor-message.wa",
+        "w": 215,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Factual recall test",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection1-title.courseindex-link.text-truncate",
+        "name": "Background information",
+        "w": 172,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection2-title.courseindex-link.text-truncate",
+        "name": "Analysis",
+        "w": 58,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Course discussion",
+        "w": 118,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection3-title.courseindex-link.text-truncate",
+        "name": "Reflection and Feedback",
+        "w": 171,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Reflective journal",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection4-title.courseindex-link.text-truncate",
+        "name": "New section",
+        "w": 86,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "div.tox-statusbar__path-item",
+        "name": "p",
+        "w": 8,
+        "h": 19,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "button.tox-statusbar__wordcount",
+        "name": "14 words",
+        "w": 56,
+        "h": 19,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "Build with TinyMCE",
+        "w": 135,
+        "h": 19,
+        "exception": "spacing",
+        "conflictWith": null
+      }
+    ]
+  },
+  "quiz-attempt": {
+    "undersized": 36,
+    "failing": [],
+    "sample": [
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip to main content",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection0-title.courseindex-link.text-truncate",
+        "name": "General",
+        "w": 55,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor",
+        "w": 164,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor:tutor-message.wa",
+        "w": 215,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Factual recall test",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection1-title.courseindex-link.text-truncate",
+        "name": "Background information",
+        "w": 172,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection2-title.courseindex-link.text-truncate",
+        "name": "Analysis",
+        "w": 58,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Course discussion",
+        "w": 118,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection3-title.courseindex-link.text-truncate",
+        "name": "Reflection and Feedback",
+        "w": 171,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Reflective journal",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection4-title.courseindex-link.text-truncate",
+        "name": "New section",
+        "w": 86,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:1_answer0.",
+        "name": "0",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:1_answer1.",
+        "name": "1",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:1_answer2.",
+        "name": "2",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:1_answer3.",
+        "name": "3",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:3_answer0.",
+        "name": "0",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:3_answer1.",
+        "name": "1",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:3_answer2.",
+        "name": "2",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:3_answer3.",
+        "name": "3",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:4_answer0.",
+        "name": "0",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:4_answer1.",
+        "name": "1",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:4_answer2.",
+        "name": "2",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:4_answer3.",
+        "name": "3",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:5_answer0.",
+        "name": "0",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:5_answer1.",
+        "name": "1",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:5_answer2.",
+        "name": "2",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:5_answer3.",
+        "name": "3",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:6_answer0.",
+        "name": "0",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:6_answer1.",
+        "name": "1",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:6_answer2.",
+        "name": "2",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      },
+      {
+        "el": "input#q2:6_answer3.",
+        "name": "3",
+        "w": 14,
+        "h": 13,
+        "exception": "user agent control",
+        "conflictWith": null
+      }
+    ]
+  },
+  "forum": {
+    "undersized": 28,
+    "failing": [],
+    "sample": [
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip to main content",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection0-title.courseindex-link.text-truncate",
+        "name": "General",
+        "w": 55,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor",
+        "w": 164,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor:tutor-message.wa",
+        "w": 215,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Factual recall test",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection1-title.courseindex-link.text-truncate",
+        "name": "Background information",
+        "w": 172,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection2-title.courseindex-link.text-truncate",
+        "name": "Analysis",
+        "w": 58,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Course discussion",
+        "w": 118,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection3-title.courseindex-link.text-truncate",
+        "name": "Reflection and Feedback",
+        "w": 171,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Reflective journal",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection4-title.courseindex-link.text-truncate",
+        "name": "New section",
+        "w": 86,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.btn.btn-link",
+        "name": "Help",
+        "w": 22,
+        "h": 38,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "input#forum-subscription-toggle-1.form-check-input.pe-auto",
+        "name": "on",
+        "w": 32,
+        "h": 16,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "Sort by discussion name in descending or",
+        "w": 84,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "Sort by discussion starter name in desce",
+        "w": 82,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "Sort by last post creation date in ascen",
+        "w": 73,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "Sort by number of replies in descending ",
+        "w": 57,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "15 Oct 2026",
+        "w": 89,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "input#subscription-toggle-3.form-check-input",
+        "name": "on",
+        "w": 32,
+        "h": 16,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "15 Oct 2026",
+        "w": 89,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "input#subscription-toggle-2.form-check-input",
+        "name": "on",
+        "w": 32,
+        "h": 16,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.",
+        "name": "15 Oct 2026",
+        "w": 89,
+        "h": 22,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "input#subscription-toggle-1.form-check-input",
+        "name": "on",
+        "w": 32,
+        "h": 16,
+        "exception": "spacing",
+        "conflictWith": null
+      }
+    ]
+  },
+  "grades": {
+    "undersized": 16,
+    "failing": [],
+    "sample": [
+      {
+        "el": "a.visually-hidden-focusable",
+        "name": "Skip to main content",
+        "w": 1,
+        "h": 1,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection0-title.courseindex-link.text-truncate",
+        "name": "General",
+        "w": 55,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor",
+        "w": 164,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Message from your tutor:tutor-message.wa",
+        "w": 215,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Factual recall test",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection1-title.courseindex-link.text-truncate",
+        "name": "Background information",
+        "w": 172,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection2-title.courseindex-link.text-truncate",
+        "name": "Analysis",
+        "w": 58,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Course discussion",
+        "w": 118,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection3-title.courseindex-link.text-truncate",
+        "name": "Reflection and Feedback",
+        "w": 171,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-link.text-truncate",
+        "name": "Reflective journal",
+        "w": 114,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a.courseindex-chevron.icons-collapse-expand",
+        "name": "Collapse",
+        "w": 21,
+        "h": 10,
+        "exception": "spacing",
+        "conflictWith": null
+      },
+      {
+        "el": "a#courseindexsection4-title.courseindex-link.text-truncate",
+        "name": "New section",
+        "w": 86,
+        "h": 21,
+        "exception": "spacing",
+        "conflictWith": null
+      }
+    ]
+  }
+}

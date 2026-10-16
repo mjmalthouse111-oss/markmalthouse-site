@@ -1,0 +1,520 @@
+{
+  "title": "Course: Psychology in Cinema | SampleU",
+  "lang": "en",
+  "landmarks": [
+    {
+      "el": "nav.navbar.fixed-top.bg-body",
+      "role": "nav",
+      "name": "Site navigation"
+    },
+    {
+      "el": "nav#courseindex.courseindex",
+      "role": "nav",
+      "name": ""
+    },
+    {
+      "el": "header#page-header.header-maxwidth.d-print-none",
+      "role": "header",
+      "name": ""
+    },
+    {
+      "el": "nav",
+      "role": "nav",
+      "name": "Course menu"
+    },
+    {
+      "el": "div",
+      "role": "main",
+      "name": ""
+    },
+    {
+      "el": "div#id_videojs_6ad0605ed7625_1.video-js.vjs-paused.vjs-fluid",
+      "role": "region",
+      "name": "Audio Player"
+    }
+  ],
+  "headings": [
+    {
+      "level": "1",
+      "text": "Psychology in Cinema"
+    },
+    {
+      "level": "2",
+      "text": "Section outline"
+    },
+    {
+      "level": "3",
+      "text": "General"
+    },
+    {
+      "level": "3",
+      "text": "Background information"
+    },
+    {
+      "level": "3",
+      "text": "Analysis"
+    },
+    {
+      "level": "3",
+      "text": "Reflection and Feedback"
+    },
+    {
+      "level": "3",
+      "text": "New section"
+    }
+  ],
+  "controls": [
+    {
+      "el": "div.vjs-progress-holder.vjs-slider.vjs-slider-horizontal",
+      "type": "slider",
+      "name": "Progress Bar",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    }
+  ],
+  "images": {
+    "total": 21,
+    "sample": [
+      {
+        "el": "i.icon.fa-regular.fa-bell",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa-regular.fa-message",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "span.userinitials.size-35",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": "Barbara Gardner",
+        "role": "img",
+        "title": "Barbara Gardner"
+      },
+      {
+        "el": "img.icon",
+        "alt": "",
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.activityicon",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.activityicon",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.activityicon",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.activityicon",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-chevron-down",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-question",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      }
+    ]
+  },
+  "live": [
+    {
+      "el": "div.toast-wrapper.mx-auto.py-0",
+      "role": "status",
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.visually-hidden",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "div.all-notifications",
+      "role": "log",
+      "live": null,
+      "text": ""
+    },
+    {
+      "el": "div.vjs-text-track-display",
+      "role": null,
+      "live": "off",
+      "text": ""
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Play Video"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Play"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Skip Backward"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Skip Forward"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Mute"
+    },
+    {
+      "el": "div.vjs-volume-bar.vjs-slider-bar.vjs-slider",
+      "role": "slider",
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "div.vjs-live-display",
+      "role": null,
+      "live": "off",
+      "text": "Stream Type LIVE"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Seek to live, currently behind live"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Playback Rate"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ", selected"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Chapters"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Descriptions"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ", selected"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Captions"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ", opens captions settings dialog"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": ", selected"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Audio Track"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Picture-in-Picture"
+    },
+    {
+      "el": "div.vjs-error-display.vjs-modal-dialog.vjs-hidden",
+      "role": "dialog",
+      "live": "polite",
+      "text": "This is a modal window."
+    },
+    {
+      "el": "div.vjs-modal-dialog.vjs-hidden.vjs-text-track-settings",
+      "role": "dialog",
+      "live": "polite",
+      "text": "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanOpac"
+    },
+    {
+      "el": "span.vjs-control-text",
+      "role": null,
+      "live": "polite",
+      "text": "Close Modal Dialog"
+    },
+    {
+      "el": "div#contacts-tab-panel-6ad0605df07406ad0605dbdc5e4.tab-pane.fade.show",
+      "role": "tabpanel",
+      "live": "polite",
+      "text": "No contacts"
+    },
+    {
+      "el": "div#requests-tab-panel-6ad0605df07406ad0605dbdc5e4.tab-pane.fade.h-100",
+      "role": "tabpanel",
+      "live": "polite",
+      "text": "No contact requests"
+    },
+    {
+      "el": "div.content-message-container.hidden.h-100",
+      "role": "log",
+      "live": null,
+      "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+    },
+    {
+      "el": "div.p-3.bg-white",
+      "role": "alert",
+      "live": null,
+      "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+    },
+    {
+      "el": "div#view-overview-favourites-target-6ad0605df07406ad0605dbdc5e4.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No starred conversations"
+    },
+    {
+      "el": "div#view-overview-group-messages-target-6ad0605df07406ad0605dbdc5e4.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No group conversations"
+    },
+    {
+      "el": "div#view-overview-messages-target-6ad0605df07406ad0605dbdc5e4.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No private conversations"
+    },
+    {
+      "el": "div.emoji-auto-complete-container.w-100.hidden",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    }
+  ],
+  "labelInName": [
+    {
+      "el": "a#user-menu-toggle.btn.dropdown-toggle",
+      "visible": "BG Barbara",
+      "name": "User menu"
+    },
+    {
+      "el": "a#collapsesectionid1.btn.btn-icon.me-3",
+      "visible": "Collapse",
+      "name": "General"
+    },
+    {
+      "el": "a#collapsesectionid2.btn.btn-icon.me-3",
+      "visible": "Collapse",
+      "name": "Background information"
+    },
+    {
+      "el": "a#collapsesectionid3.btn.btn-icon.me-3",
+      "visible": "Collapse",
+      "name": "Analysis"
+    },
+    {
+      "el": "a#collapsesectionid4.btn.btn-icon.me-3",
+      "visible": "Collapse",
+      "name": "Reflection and Feedback"
+    },
+    {
+      "el": "a#collapsesectionid5.btn.btn-icon.me-3",
+      "visible": "Collapse",
+      "name": "New section"
+    }
+  ],
+  "dupIds": [],
+  "iframes": []
+}

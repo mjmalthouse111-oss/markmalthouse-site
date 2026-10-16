@@ -1,0 +1,595 @@
+{
+  "title": "Factual recall test | SampleU",
+  "lang": "en",
+  "landmarks": [
+    {
+      "el": "nav.navbar.fixed-top.bg-body",
+      "role": "nav",
+      "name": "Site navigation"
+    },
+    {
+      "el": "aside#block-region-side-pre.block-region",
+      "role": "aside",
+      "name": "Blocks"
+    },
+    {
+      "el": "section#mod_quiz_navblock.block.block_fake.card",
+      "role": "navigation",
+      "name": "Quiz navigation"
+    },
+    {
+      "el": "header#page-header.header-maxwidth.d-print-none",
+      "role": "header",
+      "name": ""
+    },
+    {
+      "el": "nav",
+      "role": "nav",
+      "name": "Breadcrumb"
+    },
+    {
+      "el": "div",
+      "role": "main",
+      "name": ""
+    }
+  ],
+  "headings": [
+    {
+      "level": "2",
+      "text": "Blocks"
+    },
+    {
+      "level": "3",
+      "text": "Quiz navigation"
+    },
+    {
+      "level": "1",
+      "text": "Factual recall test"
+    },
+    {
+      "level": "3",
+      "text": "Question 1"
+    },
+    {
+      "level": "4",
+      "text": "Question text"
+    },
+    {
+      "level": "3",
+      "text": "Question 2"
+    },
+    {
+      "level": "4",
+      "text": "Question text"
+    },
+    {
+      "level": "3",
+      "text": "Question 3"
+    },
+    {
+      "level": "4",
+      "text": "Question text"
+    },
+    {
+      "level": "3",
+      "text": "Question 4"
+    },
+    {
+      "level": "4",
+      "text": "Question text"
+    },
+    {
+      "level": "3",
+      "text": "Question 5"
+    },
+    {
+      "level": "4",
+      "text": "Question text"
+    },
+    {
+      "level": "3",
+      "text": "Question 6"
+    },
+    {
+      "level": "4",
+      "text": "Question text"
+    }
+  ],
+  "controls": [
+    {
+      "el": "input#q1:1_answer0",
+      "type": "radio",
+      "name": "a. She reminds Nash that he is getting older",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:1_answer1",
+      "type": "radio",
+      "name": "b. She shows Nash that the people he sees are not real",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:1_answer2",
+      "type": "radio",
+      "name": "c. She inspires his later discoveries",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:1_answer3",
+      "type": "radio",
+      "name": "d. She is his daughter",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:1_answer-1.visually-hidden",
+      "type": "radio",
+      "name": "Clear my choice",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "select#menuq1:2_sub0.select.form-select.form-select",
+      "type": "select-one",
+      "name": "Answer 1 Question 2",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": "Match each film to its director. Spider"
+    },
+    {
+      "el": "select#menuq1:2_sub1.select.form-select.form-select",
+      "type": "select-one",
+      "name": "Answer 2 Question 2",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": "A Beautiful Mind"
+    },
+    {
+      "el": "select#menuq1:2_sub2.select.form-select.form-select",
+      "type": "select-one",
+      "name": "Answer 3 Question 2",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": "Fight Club"
+    },
+    {
+      "el": "input#q1:3_answer0",
+      "type": "radio",
+      "name": "a. The square cube law",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:3_answer1",
+      "type": "radio",
+      "name": "b. Governing dynamics",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:3_answer2",
+      "type": "radio",
+      "name": "c. The pigeonhole principle",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:3_answer3",
+      "type": "radio",
+      "name": "d. Equinumerosity",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:3_answer-1.visually-hidden",
+      "type": "radio",
+      "name": "Clear my choice",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:4_answer0",
+      "type": "radio",
+      "name": "a. She does not return his affection",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:4_answer1",
+      "type": "radio",
+      "name": "b. He fears she will send him back to the asylum",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:4_answer2",
+      "type": "radio",
+      "name": "c. She stole from him",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:4_answer3",
+      "type": "radio",
+      "name": "d. He sees her as his father's mistress",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:4_answer-1.visually-hidden",
+      "type": "radio",
+      "name": "Clear my choice",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:5_answer0",
+      "type": "radio",
+      "name": "a. A hospital",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:5_answer1",
+      "type": "radio",
+      "name": "b. A liposuction clinic",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:5_answer2",
+      "type": "radio",
+      "name": "c. A farm",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:5_answer3",
+      "type": "radio",
+      "name": "d. A factory",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:5_answer-1.visually-hidden",
+      "type": "radio",
+      "name": "Clear my choice",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:6_answer0",
+      "type": "radio",
+      "name": "a. David Cronenberg",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:6_answer1",
+      "type": "radio",
+      "name": "b. Ron Howard",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:6_answer2",
+      "type": "radio",
+      "name": "c. David Fincher",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:6_answer3",
+      "type": "radio",
+      "name": "d. Christopher Nolan",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#q1:6_answer-1.visually-hidden",
+      "type": "radio",
+      "name": "Clear my choice",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    },
+    {
+      "el": "input#mod_quiz-next-nav.mod_quiz-next-nav.btn.btn-primary",
+      "type": "submit",
+      "name": "Finish attempt ...",
+      "autocomplete": null,
+      "required": false,
+      "invalid": null,
+      "describedby": null
+    }
+  ],
+  "images": {
+    "total": 13,
+    "sample": [
+      {
+        "el": "i.icon.fa-regular.fa-bell",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa-regular.fa-message",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "span.userinitials.size-35",
+        "alt": null,
+        "ariaHidden": false,
+        "ariaLabel": "Barbara Gardner",
+        "role": "img",
+        "title": "Barbara Gardner"
+      },
+      {
+        "el": "img.icon",
+        "alt": "",
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.icon",
+        "alt": "",
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.icon.activityicon",
+        "alt": "",
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.questionflagimage",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.questionflagimage",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.questionflagimage",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.questionflagimage",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.questionflagimage",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "img.questionflagimage",
+        "alt": "",
+        "ariaHidden": false,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      },
+      {
+        "el": "i.icon.fa.fa-question",
+        "alt": null,
+        "ariaHidden": true,
+        "ariaLabel": null,
+        "role": null,
+        "title": null
+      }
+    ]
+  },
+  "live": [
+    {
+      "el": "div.toast-wrapper.mx-auto.py-0",
+      "role": "status",
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "span.visually-hidden",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    },
+    {
+      "el": "div.all-notifications",
+      "role": "log",
+      "live": null,
+      "text": ""
+    },
+    {
+      "el": "div#quiz-timer.quiz-timer-inner.py-1.px-2",
+      "role": "timer",
+      "live": null,
+      "text": "Time left"
+    },
+    {
+      "el": "div#connection-error",
+      "role": "alert",
+      "live": null,
+      "text": "Network connection lost. (Autosave failed). Make a note of any responses entered on this page in the last few minutes, t"
+    },
+    {
+      "el": "div#connection-ok",
+      "role": "alert",
+      "live": null,
+      "text": "Network connection restored. You may continue safely."
+    },
+    {
+      "el": "div#contacts-tab-panel-6ad06104838896ad061041eefa7.tab-pane.fade.show",
+      "role": "tabpanel",
+      "live": "polite",
+      "text": "No contacts"
+    },
+    {
+      "el": "div#requests-tab-panel-6ad06104838896ad061041eefa7.tab-pane.fade.h-100",
+      "role": "tabpanel",
+      "live": "polite",
+      "text": "No contact requests"
+    },
+    {
+      "el": "div.content-message-container.hidden.h-100",
+      "role": "log",
+      "live": null,
+      "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+    },
+    {
+      "el": "div.p-3.bg-white",
+      "role": "alert",
+      "live": null,
+      "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+    },
+    {
+      "el": "div#view-overview-favourites-target-6ad06104838896ad061041eefa7.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No starred conversations"
+    },
+    {
+      "el": "div#view-overview-group-messages-target-6ad06104838896ad061041eefa7.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No group conversations"
+    },
+    {
+      "el": "div#view-overview-messages-target-6ad06104838896ad061041eefa7.collapse.border-bottom.lazy-load-list",
+      "role": null,
+      "live": "polite",
+      "text": "No private conversations"
+    },
+    {
+      "el": "div.emoji-auto-complete-container.w-100.hidden",
+      "role": null,
+      "live": "polite",
+      "text": ""
+    }
+  ],
+  "labelInName": [
+    {
+      "el": "a#user-menu-toggle.btn.dropdown-toggle",
+      "visible": "BG Barbara",
+      "name": "User menu"
+    },
+    {
+      "el": "a.aabtn",
+      "visible": "Flag question",
+      "name": "Flagged"
+    },
+    {
+      "el": "a.aabtn",
+      "visible": "Flag question",
+      "name": "Flagged"
+    },
+    {
+      "el": "a.aabtn",
+      "visible": "Flag question",
+      "name": "Flagged"
+    },
+    {
+      "el": "a.aabtn",
+      "visible": "Flag question",
+      "name": "Flagged"
+    },
+    {
+      "el": "a.aabtn",
+      "visible": "Flag question",
+      "name": "Flagged"
+    },
+    {
+      "el": "a.aabtn",
+      "visible": "Flag question",
+      "name": "Flagged"
+    }
+  ],
+  "dupIds": [],
+  "iframes": []
+}

@@ -1,0 +1,10 @@
+{
+  "viewport": 768,
+  "documentWidth": 768,
+  "pageScrollsHorizontally": false,
+  "offenders": [],
+  "scrollContainers": [
+    "div.table-responsive (824px content in 606px box)"
+  ],
+  "screenshot": "F7-grades\\portrait-grades-user.png"
+}

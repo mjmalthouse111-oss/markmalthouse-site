@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample VPAT report | Mark Malthouse</title>
+<meta name="description" content="A full sample Accessibility Conformance Report (VPAT 2.5Rev INT) and fix list for a default Moodle LMS 5.3 install, with the evidence behind every finding.">
+<link rel="preload" href="../fonts/public-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../styles.css">
+<style>
+.s-hero{padding:48px 0 40px}
+.s-hero h1{max-width:18em}
+.notice{border-left:3px solid var(--part);background:var(--surface);padding:16px 20px;margin-top:28px;max-width:52em;color:var(--muted)}
+.notice b{color:var(--ink)}
+.docs{display:grid;gap:16px;margin-top:36px}
+@media (min-width:900px){.docs{grid-template-columns:1.3fr 1fr 1fr}}
+.doc{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:24px;display:flex;flex-direction:column;gap:12px}
+.doc.main{border-top:3px solid var(--accent)}
+.doc p{color:var(--muted)}
+
+.doc .links{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;margin-top:auto}
+.doc .btn{padding:10px 16px;font-size:.95rem}
+.results{margin-top:28px}
+.results table{border-collapse:collapse;width:100%;max-width:760px;background:var(--surface);border:1px solid var(--rule)}
+.results th,.results td{padding:12px 16px;border-top:1px solid var(--rule);text-align:right;font-variant-numeric:tabular-nums}
+.results thead th{border-top:0;font-size:.85rem;color:var(--muted);font-weight:600;vertical-align:bottom}
+@media (max-width:560px){.results th,.results td{padding:10px 6px;font-size:.85rem}.results thead th{font-size:.72rem}}
+.results th[scope=row],.results thead th:first-child{text-align:left}
+.results th[scope=row]{white-space:nowrap}
+.stats{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media (min-width:820px){.stats{grid-template-columns:repeat(4,1fr)}}
+.stats li{border-top:1px solid var(--rule);padding:12px 0 0;color:var(--muted);font-size:.92rem}
+.stats b{display:block;font-weight:700;font-size:1.6rem;line-height:1.15;color:var(--ink)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../"><b>Mark Malthouse</b><span>Accessibility reports</span></a>
+    <nav aria-label="Site">
+      <ul>
+        <li><a href="./" aria-current="page">Sample</a></li>
+        <li><a href="../#report">The report</a></li>
+        <li><a href="../#price">Pricing</a></li>
+        <li><a href="../#faq">Questions</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="mailto:mark@markmalthouse.com?subject=Accessibility%20report%20for%20our%20product">Email me</a>
+  </div>
+</header>
+
+<main id="main">
+  <div class="s-hero">
+    <div class="wrap">
+      <p class="kicker">Sample VPAT 2.5Rev INT</p>
+      <h1>Sample report: Moodle LMS 5.3</h1>
+      <p class="lead">A full report and fix list, written the same way as a client report, with the evidence behind every finding.</p>
+      <div class="notice"><p><b>Sample report.</b> Independent sample evaluation by Mark Malthouse, independent accessibility evaluator, of a default Moodle LMS 5.3 install tested on 15 October 2026. Not produced for, reviewed by, or affiliated with Moodle. A technical assessment, not legal advice and not a determination of legal conformance.</p></div>
+    </div>
+  </div>
+
+  <section aria-labelledby="docs-h">
+    <div class="wrap">
+      <h2 id="docs-h">The documents</h2>
+      <div class="docs">
+        <div class="doc main">
+          <h3>Accessibility Conformance Report</h3>
+          <p>VPAT 2.5: WCAG 2.2 A and AA, Section 508 and EN&nbsp;301&nbsp;549. For each rule: the result, what I found and how I tested it. 29&nbsp;pages.</p>
+          <div class="links">
+            <a class="btn" href="report.html">Read online</a>
+            <a class="textlink" href="report.pdf">PDF, 29 pages</a>
+          </div>
+        </div>
+        <div class="doc">
+          <h3>Ranked fix list</h3>
+          <p>Every problem found, worst first, with proof and a suggested fix. 8&nbsp;pages.</p>
+          <div class="links">
+            <a class="btn" href="fix-list.html">Read online</a>
+            <a class="textlink" href="fix-list.pdf">PDF, 8 pages</a>
+          </div>
+        </div>
+        <div class="doc">
+          <h3>Evidence files</h3>
+          <p>Scan results, screenshots, keyboard logs and screen reader output. The report links to each file. ZIP, 15&nbsp;MB.</p>
+          <div class="links">
+            <a class="textlink" href="evidence.zip">Download the evidence</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="res-h">
+    <div class="wrap">
+      <h2 id="res-h">Results at a glance</h2>
+      <p class="lead">WCAG 2.2 rules, counted from the report. Every rule was checked.</p>
+      <div class="results">
+        <table>
+          <caption class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">WCAG 2.2 results by conformance level</caption>
+          <thead><tr><th scope="col">Level</th><th scope="col">Supports</th><th scope="col">Partially Supports</th><th scope="col">Does Not Support</th><th scope="col">Not Applicable</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Level A</th><td>24</td><td>4</td><td>0</td><td>4</td></tr>
+            <tr><th scope="row">Level AA</th><td>18</td><td>4</td><td>0</td><td>2</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul class="stats">
+        <li><b>7</b>user flows tested</li>
+        <li><b>13</b>page states</li>
+        <li><b>251</b>keyboard Tab stops checked</li>
+        <li><b>9</b>findings in the fix list</li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="next-h">
+    <div class="wrap">
+      <div class="band">
+        <div>
+          <h2 id="next-h">Want one for your product?</h2>
+          <p>A one-time setup, then a small monthly plan that keeps it current. Report in 10 business days.</p>
+        </div>
+        <p><a class="btn" href="mailto:mark@markmalthouse.com?subject=Accessibility%20report%20for%20our%20product">Email me</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Mark Malthouse, accessibility reports. Calgary, Alberta, Canada. Email: mark@markmalthouse.com</p>
+    <p>No cookies, analytics or tracking on this page. Fonts are served from this site.</p>
+  </div>
+</footer>
+</body>
+</html>

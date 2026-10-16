@@ -1,0 +1,60 @@
+http://localhost:8085/my/
+- status
+- link "Skip to main content":
+  - /url: "#maincontent"
+- navigation "Site navigation":
+  - link "SampleU":
+    - /url: http://localhost:8085/my/
+  - menubar:
+    - menuitem "Dashboard"
+  - switch "Edit mode"
+  - text: Edit mode
+  - button "Show notification window with no new notifications"
+  - button "Toggle messaging drawer"
+  - button "User menu":
+    - img "Barbara Gardner": BG
+    - text: 
+- button "Open block drawer"
+- banner:
+  - heading "Dashboard" [level=1]
+- main:
+  - region "Main content blocks":
+    - heading "Main content blocks" [level=2]
+    - link "Skip Course overview":
+      - /url: "#sb-3"
+    - region "Course overview":
+      - heading "Course overview" [level=3]
+      - search "Course overview controls":
+        - button "Grouping drop-down menu": All 
+        - text: Search courses
+        - textbox "Search courses":
+          - /placeholder: Search
+        - button "Sorting drop-down menu": Sort by course name 
+        - button "Display drop-down menu": Card 
+      - list:
+        - listitem:
+          - link "Film Studies Foundations":
+            - /url: http://localhost:8085/course/view.php?id=3
+          - link "Course name Film Studies Foundations":
+            - /url: http://localhost:8085/course/view.php?id=3
+          - text: Course category Category 1
+          - button "Actions for course Film Studies Foundations"
+        - listitem:
+          - link "Psychology in Cinema":
+            - /url: http://localhost:8085/course/view.php?id=2
+          - link "Course name Psychology in Cinema":
+            - /url: http://localhost:8085/course/view.php?id=2
+          - text: Course category Category 1
+          - button "Actions for course Psychology in Cinema"
+    - link "Skip Timeline":
+      - /url: "#sb-4"
+    - region "Timeline":
+      - heading "Timeline" [level=3]
+      - 'button "Next 30 days: filter timeline by date"': Next 30 days 
+      - 'button "Sort by dates: sort timeline items"': Sort by dates 
+      - search "Search by activity type or name":
+        - text: Search by activity type or name
+        - textbox "Search by activity type or name"
+      - paragraph: No activities require action
+- contentinfo:
+  - button "Show footer"

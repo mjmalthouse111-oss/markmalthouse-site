@@ -1,0 +1,11 @@
+{
+  "viewport": 320,
+  "documentWidth": 364,
+  "pageScrollsHorizontally": true,
+  "offenders": [
+    "div.date-item right=364",
+    "div.date-item right=364"
+  ],
+  "scrollContainers": [],
+  "screenshot": "F4-assignment\\reflow320-assign-view.png"
+}

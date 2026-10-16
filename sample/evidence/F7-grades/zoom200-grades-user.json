@@ -1,0 +1,10 @@
+{
+  "viewport": 640,
+  "documentWidth": 640,
+  "pageScrollsHorizontally": false,
+  "offenders": [],
+  "scrollContainers": [
+    "div.table-responsive (824px content in 604px box)"
+  ],
+  "screenshot": "F7-grades\\zoom200-grades-user.png"
+}

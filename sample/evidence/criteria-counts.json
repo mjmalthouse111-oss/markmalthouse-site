@@ -1,0 +1,21 @@
+{
+  "levelA": {
+    "Supports": 24,
+    "Partially Supports": 4,
+    "Does Not Support": 0,
+    "Not Applicable": 4,
+    "Not Evaluated": 0,
+    "Pending": 0
+  },
+  "levelAA": {
+    "Supports": 18,
+    "Partially Supports": 4,
+    "Does Not Support": 0,
+    "Not Applicable": 2,
+    "Not Evaluated": 0,
+    "Pending": 0
+  },
+  "uniqueTabStops": 251,
+  "states": 13,
+  "pendingItems": 0
+}

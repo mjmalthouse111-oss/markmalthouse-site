@@ -1,0 +1,10 @@
+{
+  "viewport": 768,
+  "documentWidth": 768,
+  "pageScrollsHorizontally": false,
+  "offenders": [],
+  "scrollContainers": [
+    "div.table-responsive (718px content in 626px box)"
+  ],
+  "screenshot": "F6-forum\\portrait-forum-view.png"
+}

@@ -1,0 +1,63 @@
+{
+  "moodle-com-accessibility.html": {
+    "title": "Moodle Accessibility | WCAG 2.2 AA Compliant LMS - Moodle",
+    "lang": "en-GB",
+    "h1": [
+      "Moodle accessibility"
+    ],
+    "headings": 10,
+    "landmarks": 8,
+    "skipLink": true,
+    "imgsNoAlt": 0,
+    "violations": [
+      "target-size [serious] x71"
+    ]
+  },
+  "moodle-org-course.html": {
+    "title": "All courses | Moodle.org",
+    "lang": "en",
+    "h1": [
+      "Communities"
+    ],
+    "headings": 5,
+    "landmarks": 6,
+    "skipLink": true,
+    "imgsNoAlt": 3,
+    "violations": [
+      "image-alt [critical] x3",
+      "link-name [serious] x1",
+      "list [serious] x2",
+      "listitem [serious] x1",
+      "target-size [serious] x102"
+    ]
+  },
+  "moodle-support-home.html": {
+    "title": "Home | Support : Moodle Services knowledge base",
+    "lang": "en",
+    "h1": [
+      "Hi, how can we help you?"
+    ],
+    "headings": 7,
+    "landmarks": 4,
+    "skipLink": true,
+    "imgsNoAlt": 0,
+    "violations": [
+      "target-size [serious] x5"
+    ]
+  },
+  "support-accessibility-statement.html": {
+    "title": "Accessibility Statement for Moodle Knowledge Base : Moodle Services knowledge base",
+    "lang": "en",
+    "h1": [
+      "Accessibility Statement for Moodle Knowledge Base"
+    ],
+    "headings": 9,
+    "landmarks": 5,
+    "skipLink": true,
+    "imgsNoAlt": 0,
+    "violations": [
+      "frame-title [serious] x1",
+      "target-size [serious] x23"
+    ]
+  }
+}

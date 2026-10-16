@@ -1,0 +1,10 @@
+{
+  "viewport": 768,
+  "documentWidth": 788,
+  "pageScrollsHorizontally": true,
+  "offenders": [
+    "div.date-item right=788"
+  ],
+  "scrollContainers": [],
+  "screenshot": "F4-assignment\\portrait-assign-view.png"
+}

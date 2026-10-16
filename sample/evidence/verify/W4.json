@@ -1,0 +1,45 @@
+{
+  "config": {
+    "sessiontimeout": "300",
+    "warning": "240"
+  },
+  "secondsUntilWarning": 60,
+  "modal": {
+    "role": "dialog",
+    "modal": "true",
+    "labelledby": "8-modal-title",
+    "text": "No recent activity Your session is about to time out. Do you want to extend your current session? Cancel Extend session",
+    "focusInside": true,
+    "active": "No recent activity\nYour session is about",
+    "live": []
+  },
+  "tabInDialog": [
+    {
+      "tag": "button",
+      "id": "",
+      "cls": "btn-close",
+      "text": "Close"
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "cls": "btn btn-secondary",
+      "text": "Cancel"
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "cls": "btn btn-primary",
+      "text": "Extend session"
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "cls": "modal-dialog modal-dialog-scrollable",
+      "text": "No recent activity Your session is about to time out. Do you want to extend your"
+    }
+  ],
+  "extendButton": 1,
+  "dialogAfterExtend": 0,
+  "stillLoggedInAfterExtend": true
+}

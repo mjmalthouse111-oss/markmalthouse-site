@@ -1,0 +1,1389 @@
+{
+  "flow": "F6",
+  "started": "2026-10-15T05:15:36.064Z",
+  "seconds": 100,
+  "result": {
+    "view": {
+      "url": "http://localhost:8085/mod/forum/view.php?id=3",
+      "title": "Course discussion | SampleU",
+      "screenshot": "F6-forum\\desktop-forum-view.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 2,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+              ".activity-header"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 4,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle",
+              "a[aria-controls=\"forum-action-menu-2-menu\"]",
+              "a[aria-controls=\"forum-action-menu-1-menu\"]"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Course discussion | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Course discussion"
+          }
+        ],
+        "controls": [
+          {
+            "el": "input#searchinput-6ad0618c98c216ad0618c361865.form-control",
+            "type": "text",
+            "name": "Search forums",
+            "autocomplete": "off",
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#forum-subscription-toggle-1.form-check-input.pe-auto",
+            "type": "checkbox",
+            "name": "Subscribe to forum",
+            "autocomplete": "off",
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#subscription-toggle-2.form-check-input",
+            "type": "checkbox",
+            "name": "Subscribe to this discussion",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#subscription-toggle-1.form-check-input",
+            "type": "checkbox",
+            "name": "Subscribe to this discussion",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          }
+        ],
+        "images": {
+          "total": 25,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-circle-question",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Help with Search",
+              "role": "img",
+              "title": "Help with Search"
+            },
+            {
+              "el": "i.icon.fa.fa-magnifying-glass",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-down-long",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Descending",
+              "role": "img",
+              "title": "Descending"
+            },
+            {
+              "el": "i.icon.fa-regular.fa-star",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Star this discussion",
+              "role": "img",
+              "title": "Star this discussion"
+            },
+            {
+              "el": "img.rounded-circle.userpicture",
+              "alt": "Picture of Jeffrey Sanders",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Picture of Jeffrey Sanders"
+            },
+            {
+              "el": "img.rounded-circle.userpicture",
+              "alt": "Picture of Jeffrey Sanders",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Picture of Jeffrey Sanders"
+            },
+            {
+              "el": "i.icon.fa.fa-ellipsis-vertical",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-star",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Star this discussion",
+              "role": "img",
+              "title": "Star this discussion"
+            },
+            {
+              "el": "img.rounded-circle.userpicture",
+              "alt": "Picture of Jeffrey Sanders",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Picture of Jeffrey Sanders"
+            },
+            {
+              "el": "img.rounded-circle.userpicture",
+              "alt": "Picture of Jeffrey Sanders",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Picture of Jeffrey Sanders"
+            },
+            {
+              "el": "i.icon.fa.fa-ellipsis-vertical",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-left",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-right",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad0618c544826ad0618c361864.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad0618c544826ad0618c361864.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad0618c544826ad0618c361864.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad0618c544826ad0618c361864.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad0618c544826ad0618c361864.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          },
+          {
+            "el": "a",
+            "visible": "Started by",
+            "name": "Sort by discussion starter name in descending order"
+          }
+        ],
+        "dupIds": [],
+        "iframes": [
+          {
+            "title": "",
+            "id": "id_message_ifr"
+          }
+        ]
+      },
+      "controlContrast": [
+        {
+          "el": "input#searchinput-6ad0618c98c216ad0618c361865",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#forum-subscription-toggle-1",
+          "type": "checkbox",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#subscription-toggle-2",
+          "type": "checkbox",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#subscription-toggle-1",
+          "type": "checkbox",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "forum-view",
+        "url": "http://localhost:8085/mod/forum/view.php?id=3",
+        "stops": 32,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"Psychology in Cinema\"",
+          "6: button \"Close course index\"",
+          "7: button \"Collapse all\"",
+          "8: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "9: a \"Psych Cine\"",
+          "10: a \"Analysis\"",
+          "11: a[button] \"Help\"",
+          "12: input \"Search forums\"",
+          "13: button \"Search forums\"",
+          "14: a \"Add discussion topic\"",
+          "15: input \"on\"",
+          "16: a \"Sort by discussion name in descending order\"",
+          "17: a \"Sort by discussion starter name in descending order\"",
+          "18: a \"Sort by last post creation date in ascending order\"",
+          "19: a \"Sort by number of replies in descending order\"",
+          "20: a \"Screening times\"",
+          "21: a \"15 Oct 2026\"",
+          "22: input \"on\"",
+          "23: a[button] \"Toggle the discussion menu\"",
+          "24: a \"Week 1: first impressions of Spider\"",
+          "25: a \"15 Oct 2026\"",
+          "26: input \"on\"",
+          "27: a[button] \"Toggle the discussion menu\"",
+          "28: a \"Previous\"",
+          "29: a \"Next\"",
+          "30: button \"Show footer\"",
+          "32: a \"Skip to main content\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (718px content in 304px box)"
+        ],
+        "screenshot": "F6-forum\\reflow320-forum-view.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (718px content in 624px box)"
+        ],
+        "screenshot": "F6-forum\\zoom200-forum-view.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (718px content in 626px box)"
+        ],
+        "screenshot": "F6-forum\\portrait-forum-view.png"
+      },
+      "hover": {
+        "found": false
+      },
+      "textSpacing": {
+        "clippedTextCandidates": [
+          "span.accesshide \"Status\"",
+          "span.accesshide \"Actions\""
+        ],
+        "screenshot": "F6-forum\\textspacing-forum-view.png"
+      }
+    },
+    "tabsToAdd": 15,
+    "afterOpenForm": {
+      "tag": "a",
+      "id": "yui_3_18_1_1_1792041394471_55",
+      "role": null,
+      "text": "Add discussion topic"
+    },
+    "form": {
+      "url": "http://localhost:8085/mod/forum/view.php?id=3",
+      "title": "Course discussion | SampleU",
+      "screenshot": "F6-forum\\desktop-forum-form.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "help": "Elements must only use permitted ARIA attributes",
+            "targets": [
+              "#id_message_ifr #tinymce"
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 2,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+              ".activity-header"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 4,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle",
+              "a[aria-controls=\"forum-action-menu-2-menu\"]",
+              "a[aria-controls=\"forum-action-menu-1-menu\"]"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Course discussion | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div#yui_3_18_1_1_1792041394471_59",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Course discussion"
+          }
+        ],
+        "controls": [
+          {
+            "el": "input#searchinput-6ad061b2716216ad061b240ce15.form-control",
+            "type": "text",
+            "name": "Search forums",
+            "autocomplete": "off",
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#forum-subscription-toggle-1.form-check-input.pe-auto",
+            "type": "checkbox",
+            "name": "Subscribe to forum",
+            "autocomplete": "off",
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#id_subject.form-control",
+            "type": "text",
+            "name": "Subject",
+            "autocomplete": null,
+            "required": true,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#id_submitbutton.btn.btn-primary",
+            "type": "submit",
+            "name": "Post to forum",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#id_advancedadddiscussion.btn.btn-link",
+            "type": "submit",
+            "name": "Advanced",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#subscription-toggle-2.form-check-input",
+            "type": "checkbox",
+            "name": "Subscribe to this discussion",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#subscription-toggle-1.form-check-input",
+            "type": "checkbox",
+            "name": "Subscribe to this discussion",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          }
+        ],
+        "images": {
+          "total": 45,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-circle-question",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Help with Search",
+              "role": "img",
+              "title": "Help with Search"
+            },
+            {
+              "el": "i.icon.fa.fa-magnifying-glass",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-circle-exclamation",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-circle-exclamation",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-circle-exclamation",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Required field"
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-down-long",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Descending",
+              "role": "img",
+              "title": "Descending"
+            },
+            {
+              "el": "i.icon.fa-regular.fa-star",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Star this discussion",
+              "role": "img",
+              "title": "Star this discussion"
+            },
+            {
+              "el": "img.rounded-circle.userpicture",
+              "alt": "Picture of Jeffrey Sanders",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Picture of Jeffrey Sanders"
+            },
+            {
+              "el": "img.rounded-circle.userpicture",
+              "alt": "Picture of Jeffrey Sanders",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Picture of Jeffrey Sanders"
+            },
+            {
+              "el": "i.icon.fa.fa-ellipsis-vertical",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-star",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Star this discussion",
+              "role": "img",
+              "title": "Star this discussion"
+            },
+            {
+              "el": "img.rounded-circle.userpicture",
+              "alt": "Picture of Jeffrey Sanders",
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": "Picture of Jeffrey Sanders"
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad061b2635356ad061b240ce14.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad061b2635356ad061b240ce14.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad061b2635356ad061b240ce14.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad061b2635356ad061b240ce14.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad061b2635356ad061b240ce14.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          },
+          {
+            "el": "a",
+            "visible": "Started by",
+            "name": "Sort by discussion starter name in descending order"
+          }
+        ],
+        "dupIds": [],
+        "iframes": [
+          {
+            "title": "",
+            "id": "id_message_ifr"
+          }
+        ]
+      },
+      "controlContrast": [
+        {
+          "el": "input#searchinput-6ad061b2716216ad061b240ce15",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#forum-subscription-toggle-1",
+          "type": "checkbox",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#id_subject",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#subscription-toggle-2",
+          "type": "checkbox",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#subscription-toggle-1",
+          "type": "checkbox",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(248,249,250)",
+          "ratio": 2.86
+        },
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "forum-form",
+        "url": "http://localhost:8085/mod/forum/view.php?id=3",
+        "stops": 37,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: input \"on\"",
+          "1: input \"\"",
+          "2: iframe \"\"",
+          "3: input \"Post to forum\"",
+          "4: button \"Cancel\"",
+          "5: input \"Advanced\"",
+          "6: a \"Sort by discussion name in descending order\"",
+          "7: a \"Sort by discussion starter name in descending order\"",
+          "8: a \"Sort by last post creation date in ascending order\"",
+          "9: a \"Sort by number of replies in descending order\"",
+          "10: a \"Screening times\"",
+          "11: a \"15 Oct 2026\"",
+          "12: input \"on\"",
+          "13: a[button] \"Toggle the discussion menu\"",
+          "14: a \"Week 1: first impressions of Spider\"",
+          "15: a \"15 Oct 2026\"",
+          "16: input \"on\"",
+          "17: a[button] \"Toggle the discussion menu\"",
+          "18: a \"Previous\"",
+          "19: a \"Next\"",
+          "20: button \"Show footer\"",
+          "22: a \"Skip to main content\"",
+          "23: a \"SampleU\"",
+          "24: div[button] \"Show notification window with no new notifications\"",
+          "25: a[button] \"Toggle messaging drawer\"",
+          "26: a[button] \"User menu\"",
+          "27: a \"Psychology in Cinema\"",
+          "28: button \"Close course index\"",
+          "29: button \"Collapse all\"",
+          "30: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "31: a \"Psych Cine\"",
+          "32: a \"Analysis\"",
+          "33: a[button] \"Help\"",
+          "34: input \"Search forums\"",
+          "35: button \"Search forums\"",
+          "36: a \"Add discussion topic\"",
+          "37: input \"on\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.tox-menubar (366px content in 258px box)",
+          "div.table-responsive (718px content in 304px box)"
+        ],
+        "screenshot": "F6-forum\\reflow320-forum-form.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (718px content in 624px box)"
+        ],
+        "screenshot": "F6-forum\\zoom200-forum-form.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [
+          "div.table-responsive (718px content in 626px box)"
+        ],
+        "screenshot": "F6-forum\\portrait-forum-form.png"
+      }
+    },
+    "validation": {
+      "errors": [
+        {
+          "id": "id_error_subject",
+          "role": null,
+          "live": null,
+          "text": "Required"
+        },
+        {
+          "id": "id_error_message",
+          "role": null,
+          "live": null,
+          "text": "Required"
+        }
+      ],
+      "subjectInvalid": "true",
+      "subjectDescribedBy": "id_error_subject",
+      "active": "id_subject",
+      "url": "http://localhost:8085/mod/forum/view.php?id=3"
+    },
+    "validationAxe": {
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "help": "Elements must only use permitted ARIA attributes",
+          "targets": [
+            "#id_message_ifr #tinymce"
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "nodes": 2,
+          "help": "All page content should be contained by landmarks",
+          "targets": [
+            "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+            ".activity-header"
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "help": "ARIA attributes must conform to valid values",
+          "targets": [
+            "div[data-region=\"popover-region-toggle\"]",
+            "#user-menu-toggle",
+            "a[aria-controls=\"forum-action-menu-2-menu\"]",
+            "a[aria-controls=\"forum-action-menu-1-menu\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "targets": [
+            "#id_subject"
+          ]
+        }
+      ]
+    },
+    "tabFromSubjectLandsOn": {
+      "tag": "iframe",
+      "id": "id_message_ifr",
+      "role": null,
+      "text": ""
+    },
+    "afterPost": {
+      "url": "http://localhost:8085/mod/forum/view.php?f=1",
+      "active": {
+        "tag": "body",
+        "id": "page-mod-forum-view",
+        "role": null,
+        "text": "Skip to main content SampleU Dashboard BG Barbara Psychology in Cinema Collapse "
+      },
+      "notices": [
+        {
+          "role": "status",
+          "live": "polite",
+          "text": ""
+        },
+        {
+          "role": "alert",
+          "live": null,
+          "text": "Post added.\n\nYou have 30 mins to edit it if you want to make any changes.\n\nYou will be notified of new posts in 'Sample "
+        },
+        {
+          "role": "alert",
+          "live": null,
+          "text": "Delete for me and for everyone else\n                                    \n                                \n              "
+        }
+      ]
+    },
+    "afterPostAxe": {
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "nodes": 2,
+          "help": "All page content should be contained by landmarks",
+          "targets": [
+            "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+            ".activity-header"
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 5,
+          "help": "ARIA attributes must conform to valid values",
+          "targets": [
+            "div[data-region=\"popover-region-toggle\"]",
+            "#user-menu-toggle",
+            "a[aria-controls=\"forum-action-menu-3-menu\"]",
+            "a[aria-controls=\"forum-action-menu-2-menu\"]",
+            "a[aria-controls=\"forum-action-menu-1-menu\"]"
+          ]
+        }
+      ]
+    }
+  }
+}

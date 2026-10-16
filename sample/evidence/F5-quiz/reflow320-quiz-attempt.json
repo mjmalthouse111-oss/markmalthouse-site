@@ -1,0 +1,11 @@
+{
+  "viewport": 320,
+  "documentWidth": 324,
+  "pageScrollsHorizontally": true,
+  "offenders": [
+    "div#yui_3_18_1_1_1792041220695_203.row right=324",
+    "div#yui_3_18_1_1_1792041220695_202.navitem right=324"
+  ],
+  "scrollContainers": [],
+  "screenshot": "F5-quiz\\reflow320-quiz-attempt.png"
+}

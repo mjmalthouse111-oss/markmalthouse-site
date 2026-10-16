@@ -1,0 +1,50 @@
+[
+  {
+    "el": "input#searchinput-6ad061b2716216ad061b240ce15",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(248,249,250)",
+    "ratio": 2.86
+  },
+  {
+    "el": "input#forum-subscription-toggle-1",
+    "type": "checkbox",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(248,249,250)",
+    "ratio": 2.86
+  },
+  {
+    "el": "input#id_subject",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(248,249,250)",
+    "ratio": 2.86
+  },
+  {
+    "el": "input#subscription-toggle-2",
+    "type": "checkbox",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(248,249,250)",
+    "ratio": 2.86
+  },
+  {
+    "el": "input#subscription-toggle-1",
+    "type": "checkbox",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(248,249,250)",
+    "ratio": 2.86
+  },
+  {
+    "el": "input#",
+    "type": "text",
+    "borderWidth": "1px",
+    "borderColor": "rgb(143, 149, 158)",
+    "adjacentBg": "rgb(235,238,240)",
+    "ratio": 2.59
+  }
+]

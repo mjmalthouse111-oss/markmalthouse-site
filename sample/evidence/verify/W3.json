@@ -1,0 +1,18 @@
+{
+  "username": {
+    "autocomplete": "username",
+    "pasteBlocked": false,
+    "onpaste": null
+  },
+  "password": {
+    "autocomplete": "current-password",
+    "pasteBlocked": false,
+    "onpaste": null
+  },
+  "captcha": false,
+  "otherAuthSteps": [
+    "username",
+    "password"
+  ],
+  "keyboardPasteValueLength": 15
+}

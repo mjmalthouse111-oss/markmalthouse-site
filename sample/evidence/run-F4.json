@@ -1,0 +1,886 @@
+{
+  "flow": "F4",
+  "started": "2026-10-15T05:11:31.449Z",
+  "seconds": 94,
+  "result": {
+    "view": {
+      "url": "http://localhost:8085/mod/assign/view.php?id=4",
+      "title": "Psych Cine: Reflective journal | SampleU",
+      "screenshot": "F4-assignment\\desktop-assign-view.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 1,
+            "help": "Heading levels should only increase by one",
+            "targets": [
+              ".submissionstatustable > h3"
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 2,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+              ".activity-header"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Psych Cine: Reflective journal | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Reflective journal"
+          },
+          {
+            "level": "3",
+            "text": "Submission status"
+          }
+        ],
+        "controls": [],
+        "images": {
+          "total": 14,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-left",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-arrow-right",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad060974a1716ad06097257c84.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad060974a1716ad06097257c84.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad060974a1716ad06097257c84.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad060974a1716ad06097257c84.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad060974a1716ad06097257c84.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          }
+        ],
+        "dupIds": [],
+        "iframes": []
+      },
+      "controlContrast": [
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "assign-view",
+        "url": "http://localhost:8085/mod/assign/view.php?id=4",
+        "stops": 16,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"Psychology in Cinema\"",
+          "6: button \"Close course index\"",
+          "7: button \"Collapse all\"",
+          "8: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "9: a \"Psych Cine\"",
+          "10: a \"Reflection and Feedback\"",
+          "11: button \"Add submission\"",
+          "12: a \"Previous\"",
+          "13: a \"Next\"",
+          "14: button \"Show footer\"",
+          "16: a \"Skip to main content\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 364,
+        "pageScrollsHorizontally": true,
+        "offenders": [
+          "div.date-item right=364",
+          "div.date-item right=364"
+        ],
+        "scrollContainers": [],
+        "screenshot": "F4-assignment\\reflow320-assign-view.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F4-assignment\\zoom200-assign-view.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 788,
+        "pageScrollsHorizontally": true,
+        "offenders": [
+          "div.date-item right=788"
+        ],
+        "scrollContainers": [],
+        "screenshot": "F4-assignment\\portrait-assign-view.png"
+      }
+    },
+    "tabsToSubmitButton": 12,
+    "edit": {
+      "url": "http://localhost:8085/mod/assign/view.php?id=4&action=editsubmission",
+      "title": "Psych Cine: Reflective journal - Edit submission | SampleU",
+      "screenshot": "F4-assignment\\desktop-assign-edit.png",
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "Elements must only use permitted ARIA attributes",
+            "targets": [
+              "#id_onlinetext_editor_ifr #tinymce",
+              ".tox-throbber__busy-spinner"
+            ]
+          },
+          {
+            "id": "aria-required-attr",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "help": "Required ARIA attributes must be provided",
+            "targets": [
+              ".tox-statusbar__resize-handle"
+            ]
+          },
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "help": "Buttons must have discernible text",
+            "targets": [
+              ".tox-statusbar__wordcount"
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "best-practice"
+            ],
+            "nodes": 2,
+            "help": "All page content should be contained by landmarks",
+            "targets": [
+              "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+              ".activity-header"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-required-children",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag131"
+            ],
+            "nodes": 1,
+            "help": "Certain ARIA roles must contain particular children",
+            "targets": [
+              ".tox-menubar"
+            ]
+          },
+          {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "tags": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "help": "ARIA attributes must conform to valid values",
+            "targets": [
+              "div[data-region=\"popover-region-toggle\"]",
+              "#user-menu-toggle"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "nodes": 1,
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "targets": [
+              "a[rel=\"noopener\"]"
+            ]
+          }
+        ]
+      },
+      "markup": {
+        "title": "Psych Cine: Reflective journal - Edit submission | SampleU",
+        "lang": "en",
+        "landmarks": [
+          {
+            "el": "nav.navbar.fixed-top.bg-body",
+            "role": "nav",
+            "name": "Site navigation"
+          },
+          {
+            "el": "nav#courseindex.courseindex",
+            "role": "nav",
+            "name": ""
+          },
+          {
+            "el": "header#page-header.header-maxwidth.d-print-none",
+            "role": "header",
+            "name": ""
+          },
+          {
+            "el": "nav",
+            "role": "nav",
+            "name": "Breadcrumb"
+          },
+          {
+            "el": "div",
+            "role": "main",
+            "name": ""
+          }
+        ],
+        "headings": [
+          {
+            "level": "1",
+            "text": "Reflective journal"
+          },
+          {
+            "level": "3",
+            "text": "Add submission"
+          }
+        ],
+        "controls": [
+          {
+            "el": "input#id_submitbutton.btn.btn-primary",
+            "type": "submit",
+            "name": "Save changes",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          },
+          {
+            "el": "input#id_cancel.btn.btn-secondary",
+            "type": "submit",
+            "name": "Cancel",
+            "autocomplete": null,
+            "required": false,
+            "invalid": null,
+            "describedby": null
+          }
+        ],
+        "images": {
+          "total": 15,
+          "sample": [
+            {
+              "el": "i.icon.fa-regular.fa-bell",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa-regular.fa-message",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "span.userinitials.size-35",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": "Barbara Gardner",
+              "role": "img",
+              "title": "Barbara Gardner"
+            },
+            {
+              "el": "img.icon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-down-left-and-up-right-to-center",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "img.icon.activityicon",
+              "alt": "",
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-chevron-down",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "svg",
+              "alt": null,
+              "ariaHidden": false,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            },
+            {
+              "el": "i.icon.fa.fa-question",
+              "alt": null,
+              "ariaHidden": true,
+              "ariaLabel": null,
+              "role": null,
+              "title": null
+            }
+          ]
+        },
+        "live": [
+          {
+            "el": "div.toast-wrapper.mx-auto.py-0",
+            "role": "status",
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "span.visually-hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          },
+          {
+            "el": "div.all-notifications",
+            "role": "log",
+            "live": null,
+            "text": ""
+          },
+          {
+            "el": "div#contacts-tab-panel-6ad060b189f4e6ad060b16aa9b4.tab-pane.fade.show",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contacts"
+          },
+          {
+            "el": "div#requests-tab-panel-6ad060b189f4e6ad060b16aa9b4.tab-pane.fade.h-100",
+            "role": "tabpanel",
+            "live": "polite",
+            "text": "No contact requests"
+          },
+          {
+            "el": "div.content-message-container.hidden.h-100",
+            "role": "log",
+            "live": null,
+            "text": "Contact request sent Personal space Save draft messages, links, notes etc. to access later. Cannot send messages You do "
+          },
+          {
+            "el": "div.p-3.bg-white",
+            "role": "alert",
+            "live": null,
+            "text": "Delete for me and for everyone else Block Unblock Remove Add Delete Delete Send contact request Accept and add to contac"
+          },
+          {
+            "el": "div#view-overview-favourites-target-6ad060b189f4e6ad060b16aa9b4.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No starred conversations"
+          },
+          {
+            "el": "div#view-overview-group-messages-target-6ad060b189f4e6ad060b16aa9b4.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No group conversations"
+          },
+          {
+            "el": "div#view-overview-messages-target-6ad060b189f4e6ad060b16aa9b4.collapse.border-bottom.lazy-load-list",
+            "role": null,
+            "live": "polite",
+            "text": "No private conversations"
+          },
+          {
+            "el": "div.emoji-auto-complete-container.w-100.hidden",
+            "role": null,
+            "live": "polite",
+            "text": ""
+          }
+        ],
+        "labelInName": [
+          {
+            "el": "a#user-menu-toggle.btn.dropdown-toggle",
+            "visible": "BG Barbara",
+            "name": "User menu"
+          }
+        ],
+        "dupIds": [],
+        "iframes": [
+          {
+            "title": "",
+            "id": "id_onlinetext_editor_ifr"
+          }
+        ]
+      },
+      "controlContrast": [
+        {
+          "el": "input#",
+          "type": "text",
+          "borderWidth": "1px",
+          "borderColor": "rgb(143, 149, 158)",
+          "adjacentBg": "rgb(235,238,240)",
+          "ratio": 2.59
+        }
+      ],
+      "keyboard": {
+        "state": "assign-edit",
+        "url": "http://localhost:8085/mod/assign/view.php?id=4&action=editsubmission",
+        "stops": 18,
+        "noVisibleIndicator": [],
+        "offscreen": [],
+        "consecutiveRepeats": 0,
+        "sequence": [
+          "0: a \"Skip to main content\"",
+          "1: a \"SampleU\"",
+          "2: div[button] \"Show notification window with no new notifications\"",
+          "3: a[button] \"Toggle messaging drawer\"",
+          "4: a[button] \"User menu\"",
+          "5: a \"Psychology in Cinema\"",
+          "6: button \"Close course index\"",
+          "7: button \"Collapse all\"",
+          "8: div[treeitem] \"Collapse General Message from your tutor Message from your tutor:tutor\"",
+          "9: a \"Psych Cine\"",
+          "10: a \"Reflection and Feedback\"",
+          "11: a \"Reflective journal\"",
+          "12: a[button] \"Add submission\"",
+          "13: iframe \"\"",
+          "14: input \"Save changes\"",
+          "15: input \"Cancel\"",
+          "16: button \"Show footer\"",
+          "18: a \"Skip to main content\""
+        ]
+      },
+      "reflow320": {
+        "viewport": 320,
+        "documentWidth": 364,
+        "pageScrollsHorizontally": true,
+        "offenders": [
+          "div.date-item right=364",
+          "div.date-item right=364"
+        ],
+        "scrollContainers": [
+          "div.tox-menubar (366px content in 258px box)"
+        ],
+        "screenshot": "F4-assignment\\reflow320-assign-edit.png"
+      },
+      "zoom200": {
+        "viewport": 640,
+        "documentWidth": 640,
+        "pageScrollsHorizontally": false,
+        "offenders": [],
+        "scrollContainers": [],
+        "screenshot": "F4-assignment\\zoom200-assign-edit.png"
+      },
+      "portrait": {
+        "viewport": 768,
+        "documentWidth": 788,
+        "pageScrollsHorizontally": true,
+        "offenders": [
+          "div.date-item right=788"
+        ],
+        "scrollContainers": [],
+        "screenshot": "F4-assignment\\portrait-assign-edit.png"
+      }
+    },
+    "tabsToEditor": 14,
+    "editorIframe": {
+      "title": "",
+      "ariaLabel": null
+    },
+    "editorBody": {
+      "role": null,
+      "ariaLabel": "Online text. Rich text area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help.",
+      "labelledby": null
+    },
+    "altF10": {
+      "tag": "BUTTON",
+      "label": "Undo"
+    },
+    "afterTabOutOfEditor": {
+      "tag": "button",
+      "id": "",
+      "role": null,
+      "text": "Image"
+    },
+    "afterSave": {
+      "url": "http://localhost:8085/mod/assign/view.php?id=4&action=view",
+      "active": {
+        "tag": "body",
+        "id": "page-mod-assign-view",
+        "role": null,
+        "text": "Skip to main content SampleU Dashboard BG Barbara Psychology in Cinema Collapse "
+      },
+      "notices": [
+        {
+          "role": "status",
+          "live": "polite",
+          "text": ""
+        },
+        {
+          "role": "alert",
+          "live": null,
+          "text": "Delete for me and for everyone else\n                                    \n                                \n              "
+        }
+      ]
+    },
+    "afterSaveAxe": {
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "nodes": 1,
+          "help": "Heading levels should only increase by one",
+          "targets": [
+            ".submissionstatustable > h3"
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "best-practice"
+          ],
+          "nodes": 2,
+          "help": "All page content should be contained by landmarks",
+          "targets": [
+            "#theme_boost-drawers-courseindex > .drawerheader > .drawerheadertop > .drawerheading",
+            ".activity-header"
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "help": "ARIA attributes must conform to valid values",
+          "targets": [
+            "div[data-region=\"popover-region-toggle\"]",
+            "#user-menu-toggle"
+          ]
+        }
+      ]
+    }
+  }
+}

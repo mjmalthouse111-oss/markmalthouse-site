@@ -1,0 +1,1050 @@
+{
+  "file": "support-accessibility-statement.html",
+  "facts": {
+    "title": "Accessibility Statement for Moodle Knowledge Base : Moodle Services knowledge base",
+    "lang": "en",
+    "h1": [
+      "Accessibility Statement for Moodle Knowledge Base"
+    ],
+    "headings": 9,
+    "landmarks": 5,
+    "skipLink": true,
+    "imgsNoAlt": 0
+  },
+  "violations": [
+    {
+      "id": "frame-title",
+      "impact": "serious",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.i",
+        "TTv5",
+        "TT12.d",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-2.1.1"
+      ],
+      "description": "Ensure <iframe> and <frame> elements have an accessible name",
+      "help": "Frames must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<iframe src=\"/support/recaptcha#6LdvejUUAAAAAEn6wjOFcPVRyQr4KtAJ03ltA1SQ\" class=\"recaptcha-frame\" id=\"recaptcha-frame\" height=\"100px\" width=\"320px\">\n        </iframe>",
+          "target": [
+            "#recaptcha-frame"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ]
+    },
+    {
+      "id": "target-size",
+      "impact": "serious",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag22aa",
+        "wcag258"
+      ],
+      "description": "Ensure touch targets have sufficient size and space",
+      "help": "All touch targets must be 24px large, or leave sufficient space",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 132.9,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (132.9px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"navbar-brand d-flex align-items-center\" href=\"http://www.Moodle.com\">",
+                  "target": [
+                    ".navbar-brand"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"#fw-main-content\" class=\"visually-hidden visually-hidden-focusable p-8 my-12 btn btn-outline-primary\">Skip to main content</a>",
+          "target": [
+            ".visually-hidden-focusable"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (132.9px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 39.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions\" class=\"nav-link\">\n                  <span class=\"d-md-none icon-solutions\"></span> Knowledge base\n                </a>",
+                  "target": [
+                    ".nav-link[href$=\"solutions\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/home\" class=\"nav-link\">\n                  <span class=\"d-md-none icon-home\"></span> Home\n                </a>",
+          "target": [
+            ".nav-link[href$=\"home\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 39.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions\">Knowledge base</a>",
+                  "target": [
+                    ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(2) > a[href$=\"solutions\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/home\">Home</a>",
+          "target": [
+            ".breadcrumb-item:nth-child(1) > a[href$=\"home\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 106.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (106.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.8,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions/80000360659\">MoodleCloud Plans</a>",
+                  "target": [
+                    ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(3) > a[href=\"/support/solutions/80000360659\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/solutions\">Knowledge base</a>",
+          "target": [
+            ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(2) > a[href$=\"solutions\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (106.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 127.6,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (127.6px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.8,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions\">Knowledge base</a>",
+                  "target": [
+                    ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(2) > a[href$=\"solutions\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/support/solutions/folders/80000599739\">Support &amp; Troubleshooting</a>",
+                  "target": [
+                    ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(4) > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/solutions/80000360659\">MoodleCloud Plans</a>",
+          "target": [
+            ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(3) > a[href=\"/support/solutions/80000360659\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (127.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 176,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (176px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions/80000360659\">MoodleCloud Plans</a>",
+                  "target": [
+                    ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(3) > a[href=\"/support/solutions/80000360659\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/solutions/folders/80000599739\">Support &amp; Troubleshooting</a>",
+          "target": [
+            ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(4) > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (176px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 12,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (12px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions/folders/80000599739\">Support &amp; Troubleshooting</a>",
+                  "target": [
+                    ".breadcrumb-center-item.d-lg-inline-block.breadcrumb-item:nth-child(4) > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#\" class=\"dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-label=\"Translation missing: en.portal_translations.more_links\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                  ...\n                </a>",
+          "target": [
+            ".dropdown-toggle"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (12px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 106.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (106.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.8,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions/80000360659\">MoodleCloud Plans</a>",
+                  "target": [
+                    "li:nth-child(2) > a[href=\"/support/solutions/80000360659\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/solutions\">Knowledge base</a>",
+          "target": [
+            "li:nth-child(1) > a[href$=\"solutions\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (106.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 127.6,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (127.6px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 17.8,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions\">Knowledge base</a>",
+                  "target": [
+                    "li:nth-child(1) > a[href$=\"solutions\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/support/solutions/folders/80000599739\">Support &amp; Troubleshooting</a>",
+                  "target": [
+                    ".dropdown-menu > li:nth-child(3) > a"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/solutions/80000360659\">MoodleCloud Plans</a>",
+          "target": [
+            "li:nth-child(2) > a[href=\"/support/solutions/80000360659\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (127.6px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17.8px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 176,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (176px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/support/solutions/80000360659\">MoodleCloud Plans</a>",
+                  "target": [
+                    "li:nth-child(2) > a[href=\"/support/solutions/80000360659\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/support/solutions/folders/80000599739\">Support &amp; Troubleshooting</a>",
+          "target": [
+            ".dropdown-menu > li:nth-child(3) > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (176px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 177,
+                "height": 21
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (177px by 21px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 21,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button id=\"solutions\" class=\"fw-search-tab fw-active-search-tab\" data-tab=\"solutions\" role=\"tab\" aria-selected=\"true\" aria-controls=\"fw-search-tabpanel\">\n            Articles\n          </button>",
+                  "target": [
+                    "#solutions"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<input type=\"text\" class=\"form-control\" id=\"searchInput\" name=\"term\" value=\"\" placeholder=\"Find some solutions here...\" aria-describedby=\"srSearchUpdateMessage\" autocomplete=\"off\" aria-label=\"Find some solutions here...\">",
+          "target": [
+            "#searchInput"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (177px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 30.8,
+                "height": 21
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (30.8px by 21px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 21,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<input type=\"text\" class=\"form-control\" id=\"searchInput\" name=\"term\" value=\"\" placeholder=\"Find some solutions here...\" aria-describedby=\"srSearchUpdateMessage\" autocomplete=\"off\" aria-label=\"Find some solutions here...\">",
+                  "target": [
+                    "#searchInput"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button id=\"all\" class=\"fw-search-tab \" data-tab=\"all\" role=\"tab\" aria-selected=\"false\" aria-controls=\"fw-search-tabpanel\">\n          All\n        </button>",
+          "target": [
+            "#all"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (30.8px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 59.7,
+                "height": 21
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (59.7px by 21px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 21,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<input type=\"text\" class=\"form-control\" id=\"searchInput\" name=\"term\" value=\"\" placeholder=\"Find some solutions here...\" aria-describedby=\"srSearchUpdateMessage\" autocomplete=\"off\" aria-label=\"Find some solutions here...\">",
+                  "target": [
+                    "#searchInput"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button id=\"solutions\" class=\"fw-search-tab fw-active-search-tab\" data-tab=\"solutions\" role=\"tab\" aria-selected=\"true\" aria-controls=\"fw-search-tabpanel\">\n            Articles\n          </button>",
+          "target": [
+            "#solutions"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (59.7px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 205.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (205.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12.2,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000831982-moodlecloud-support-services\" class=\"fw-article\">MoodleCloud Support Services</a>",
+                  "target": [
+                    ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(2) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.2px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80000861721-contact-the-moodlecloud-team\" class=\"fw-article\">Contact the MoodleCloud Team</a>",
+          "target": [
+            ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(1) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (205.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.2px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 201.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (201.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 12.2,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000861721-contact-the-moodlecloud-team\" class=\"fw-article\">Contact the MoodleCloud Team</a>",
+                  "target": [
+                    ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(1) > .fw-article"
+                  ]
+                },
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000836285-change-or-reset-your-moodlecloud-password\" class=\"fw-article\">Change or reset your MoodleCloud password</a>",
+                  "target": [
+                    ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(3) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.2px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80000831982-moodlecloud-support-services\" class=\"fw-article\">MoodleCloud Support Services</a>",
+          "target": [
+            ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(2) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (201.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12.2px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 291.1,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (291.1px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000831982-moodlecloud-support-services\" class=\"fw-article\">MoodleCloud Support Services</a>",
+                  "target": [
+                    ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(2) > .fw-article"
+                  ]
+                },
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80001178479-accessibility-statement-for-moodle-knowledge-base\" class=\"fw-article\">Accessibility Statement for Moodle Knowledge Base</a>",
+                  "target": [
+                    ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(4) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80000836285-change-or-reset-your-moodlecloud-password\" class=\"fw-article\">Change or reset your MoodleCloud password</a>",
+          "target": [
+            ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(3) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (291.1px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 340.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (340.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000836285-change-or-reset-your-moodlecloud-password\" class=\"fw-article\">Change or reset your MoodleCloud password</a>",
+                  "target": [
+                    ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(3) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80001178479-accessibility-statement-for-moodle-knowledge-base\" class=\"fw-article\">Accessibility Statement for Moodle Knowledge Base</a>",
+          "target": [
+            ".mb-20:nth-child(2) > .fw-no-bullet > li:nth-child(4) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (340.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 201.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (201.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000831976-bigbluebutton-and-gdpr-requirements-in-moodlecloud\" class=\"fw-article\">BigBlueButton and GDPR requirements in MoodleCloud</a>",
+                  "target": [
+                    ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(2) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80000831982-moodlecloud-support-services\" class=\"fw-article\">MoodleCloud Support Services</a>",
+          "target": [
+            ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(1) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (201.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 367.5,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (367.5px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000831982-moodlecloud-support-services\" class=\"fw-article\">MoodleCloud Support Services</a>",
+                  "target": [
+                    ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(1) > .fw-article"
+                  ]
+                },
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000861721-contact-the-moodlecloud-team\" class=\"fw-article\">Contact the MoodleCloud Team</a>",
+                  "target": [
+                    ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(3) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80000831976-bigbluebutton-and-gdpr-requirements-in-moodlecloud\" class=\"fw-article\">BigBlueButton and GDPR requirements in MoodleCloud</a>",
+          "target": [
+            ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(2) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (367.5px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 205.2,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (205.2px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000831976-bigbluebutton-and-gdpr-requirements-in-moodlecloud\" class=\"fw-article\">BigBlueButton and GDPR requirements in MoodleCloud</a>",
+                  "target": [
+                    ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(2) > .fw-article"
+                  ]
+                },
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000832046-bigbluebutton-video-conferencing-on-moodlecloud\" class=\"fw-article\">BigBlueButton video conferencing on MoodleCloud</a>",
+                  "target": [
+                    ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(4) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80000861721-contact-the-moodlecloud-team\" class=\"fw-article\">Contact the MoodleCloud Team</a>",
+          "target": [
+            ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(3) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (205.2px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 336.8,
+                "height": 17
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (336.8px by 17px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 19,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a id=\"\" href=\"/support/solutions/articles/80000861721-contact-the-moodlecloud-team\" class=\"fw-article\">Contact the MoodleCloud Team</a>",
+                  "target": [
+                    ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(3) > .fw-article"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"\" href=\"/support/solutions/articles/80000832046-bigbluebutton-video-conferencing-on-moodlecloud\" class=\"fw-article\">BigBlueButton video conferencing on MoodleCloud</a>",
+          "target": [
+            ".mb-20:nth-child(3) > .fw-no-bullet > li:nth-child(4) > .fw-article"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (336.8px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 16,
+                "height": 6
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (16px by 6px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 16,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button class=\"fw-next btn btn-light py-8\" aria-label=\"Next image\"><span class=\"icon-next\"></span></button>",
+                  "target": [
+                    ".fw-next"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button class=\"fw-prev btn btn-light py-8\" aria-label=\"Previous image\"><span class=\"icon-prev\"></span></button>",
+          "target": [
+            ".fw-prev"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (16px by 6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+        },
+        {
+          "any": [
+            {
+              "id": "target-size",
+              "data": {
+                "minSize": 24,
+                "width": 16,
+                "height": 6
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Target has insufficient size (16px by 6px, should be at least 24px by 24px)"
+            },
+            {
+              "id": "target-offset",
+              "data": {
+                "closestOffset": 16,
+                "minOffset": 24
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button class=\"fw-prev btn btn-light py-8\" aria-label=\"Previous image\"><span class=\"icon-prev\"></span></button>",
+                  "target": [
+                    ".fw-prev"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button class=\"fw-next btn btn-light py-8\" aria-label=\"Next image\"><span class=\"icon-next\"></span></button>",
+          "target": [
+            ".fw-next"
+          ],
+          "failureSummary": "Fix any of the following:\n  Target has insufficient size (16px by 6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+        }
+      ]
+    }
+  ]
+}
